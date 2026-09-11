@@ -1,0 +1,195 @@
+{
+  "cerebras": {
+    "https://inference-docs.cerebras.ai/support/pricing": {
+      "checked": "2026-09-11",
+      "hash": "6cf73d64752ee0439ee4f253461366d09d68e7377fc39cafe0b74381f1cdb26c",
+      "keywords": [
+        "$10",
+        "$5",
+        "credit",
+        "developer",
+        "free",
+        "free tier",
+        "signup",
+        "trial"
+      ],
+      "status": 200
+    }
+  },
+  "cloudflare-ai-gateway": {
+    "https://developers.cloudflare.com/ai-gateway/": {
+      "checked": "2026-09-11",
+      "hash": "115a0c47c9e038ac590715ac1a19f76ad0591395fb54d24b6cb5390882c732ed",
+      "keywords": [
+        "developer",
+        "token"
+      ],
+      "status": 200
+    }
+  },
+  "deepinfra": {
+    "https://deepinfra.com": {
+      "checked": "2026-09-11",
+      "hash": "54ad6af3b261dfdbb681861bb0d9b7c87372afd41c469ebb29a73cf9b82206c7",
+      "keywords": [
+        "$10",
+        "developer",
+        "token"
+      ],
+      "status": 200
+    }
+  },
+  "fireworks": {
+    "https://fireworks.ai/pricing": {
+      "checked": "2026-09-11",
+      "hash": "25b8133c36ae643b6db54ef6d4788e5170c63c3761d2bb73ec51e4d34c87eaa0",
+      "keywords": [
+        "$10",
+        "$20",
+        "$5",
+        "credit",
+        "developer",
+        "free",
+        "token"
+      ],
+      "status": 200
+    }
+  },
+  "google-ai-studio": {
+    "https://ai.google.dev/gemini-api/docs/pricing": {
+      "checked": "2026-09-11",
+      "hash": "9ca58a4c0f5f2c0b8991cddde1c59fbab3c563daa7815df6f1579fc18be87369",
+      "keywords": [
+        "$10",
+        "$20",
+        "$5",
+        "developer",
+        "free",
+        "free tier",
+        "token"
+      ],
+      "status": 200
+    },
+    "https://ai.google.dev/gemini-api/docs/rate-limits": {
+      "checked": "2026-09-11",
+      "hash": "38bed7dba2350b034ae67b6c8beb0ff2db7c8fa89143d30ec9a6530703c16f70",
+      "keywords": [
+        "$10",
+        "$20",
+        "$5",
+        "developer",
+        "free",
+        "free tier",
+        "token",
+        "trial"
+      ],
+      "status": 200
+    }
+  },
+  "groq": {
+    "https://console.groq.com/docs/rate-limits": {
+      "checked": "2026-09-11",
+      "hash": "5d558141db4a805b153aeab0c655a02630da74bd8bcde54523ac46c04b9a2c71",
+      "keywords": [
+        "developer",
+        "free",
+        "token"
+      ],
+      "status": 200
+    }
+  },
+  "huggingface": {
+    "https://huggingface.co/docs/inference-providers/pricing": {
+      "checked": "2026-09-11",
+      "hash": "3b3d8d0393d12b64fe5e8f96a148688efbad31f8ba946059a492d7a0a3e1defd",
+      "keywords": [
+        "credit",
+        "free",
+        "sign up",
+        "token"
+      ],
+      "status": 200
+    }
+  },
+  "mistral": {
+    "https://mistral.ai/pricing": {
+      "checked": "2026-09-11",
+      "hash": "fb13b07f8fa02c73a85f96d20e9f902494931d5a7175c1b0da94b9b8060b0d7d",
+      "keywords": [
+        "$10",
+        "$5",
+        "credit",
+        "developer",
+        "free",
+        "student",
+        "token"
+      ],
+      "status": 200
+    }
+  },
+  "nvidia": {
+    "https://build.nvidia.com/": {
+      "checked": "2026-09-11",
+      "hash": "e47417ddcec0767ec7d793ce70490f36454b907f432eff34c489167ce2842161",
+      "keywords": [
+        "developer",
+        "free"
+      ],
+      "status": 200
+    }
+  },
+  "portkey": {
+    "https://portkey.ai": {
+      "checked": "2026-09-11",
+      "hash": "9b2306353a0c23e781949619273a5f8210d19cfd7988794e15618d907bf79bfe",
+      "keywords": [
+        "developer",
+        "free",
+        "token"
+      ],
+      "status": 200
+    }
+  },
+  "requesty": {
+    "https://requesty.ai": {
+      "checked": "2026-09-11",
+      "hash": "54bb508ff0ebb674bf10cd482324114a5347a940e90c5ce07fde133a0fcd0022",
+      "keywords": [
+        "$10",
+        "credit",
+        "developer",
+        "free",
+        "token"
+      ],
+      "status": 200
+    }
+  },
+  "siliconflow": {
+    "https://siliconflow.com": {
+      "checked": "2026-09-11",
+      "hash": "79670d67e9139e4abeeefc63a66ed447523b82ba8c587ac1c521b8469f07bfc8",
+      "keywords": [
+        "developer",
+        "free",
+        "token"
+      ],
+      "status": 200
+    }
+  },
+  "together": {
+    "https://www.together.ai/pricing": {
+      "checked": "2026-09-11",
+      "hash": "b51160d522b8a3fecbaaad3d2f5bbab07d5f8f1f053ea2e3e87c64a45520f485",
+      "keywords": [
+        "$10",
+        "$20",
+        "$5",
+        "developer",
+        "promo",
+        "promotion",
+        "token"
+      ],
+      "status": 200
+    }
+  }
+}

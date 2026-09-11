@@ -1,0 +1,340 @@
+- id: cerebras
+  name: Cerebras Inference
+  category: official
+  description: Wafer-scale fast inference. Free trial with $5 in free credits after
+    making an account, per the official pricing page.
+  official_url: https://cerebras.ai
+  pricing_url: https://inference-docs.cerebras.ai/support/pricing
+  docs_url: https://inference-docs.cerebras.ai
+  models_url: https://inference-docs.cerebras.ai/support/pricing
+  signup_url: https://cloud.cerebras.ai
+  api_base_url: https://api.cerebras.ai/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://inference-docs.cerebras.ai/support/pricing
+  collector: generic
+  watch_urls:
+  - https://inference-docs.cerebras.ai/support/pricing
+- id: cloudflare-ai-gateway
+  name: Cloudflare AI Gateway
+  category: candidate
+  description: Cloudflare's AI gateway (proxying, caching, analytics for AI APIs);
+    gateway tool rather than a credit source — candidate provider.
+  official_url: https://developers.cloudflare.com/ai-gateway/
+  pricing_url: https://developers.cloudflare.com/ai-gateway/pricing/
+  docs_url: https://developers.cloudflare.com/ai-gateway/
+  models_url: https://developers.cloudflare.com/ai-gateway/providers/
+  signup_url: https://dash.cloudflare.com
+  api_base_url: https://gateway.ai.cloudflare.com/v1
+  api_compatibility:
+  - openai
+  - anthropic
+  - gemini
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://developers.cloudflare.com/ai-gateway/
+  collector: generic
+  watch_urls:
+  - https://developers.cloudflare.com/ai-gateway/
+- id: deepinfra
+  name: DeepInfra
+  category: candidate
+  description: Inference platform for open models; candidate provider, no verified
+    free offer recorded.
+  official_url: https://deepinfra.com
+  pricing_url: https://deepinfra.com/pricing
+  docs_url: https://deepinfra.com/docs
+  models_url: https://deepinfra.com/models
+  signup_url: https://deepinfra.com
+  api_base_url: https://api.deepinfra.com/v1/openai
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://deepinfra.com
+  collector: generic
+  watch_urls:
+  - https://deepinfra.com
+- id: fireworks
+  name: Fireworks AI
+  category: candidate
+  description: Fast inference platform; official pricing page states "$1 in free credits"
+    to get started.
+  official_url: https://fireworks.ai
+  pricing_url: https://fireworks.ai/pricing
+  docs_url: https://docs.fireworks.ai
+  models_url: https://fireworks.ai/models
+  signup_url: https://fireworks.ai/login
+  api_base_url: https://api.fireworks.ai/inference/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://fireworks.ai/pricing
+  collector: generic
+  watch_urls:
+  - https://fireworks.ai/pricing
+- id: google-ai-studio
+  name: Google AI Studio (Gemini API)
+  category: official
+  description: Google's Gemini API with a free tier ("Free input & output tokens",
+    limited access to certain models; content may be used to improve products) plus
+    Google AI Studio access.
+  official_url: https://ai.google.dev
+  pricing_url: https://ai.google.dev/gemini-api/docs/pricing
+  docs_url: https://ai.google.dev/gemini-api/docs
+  models_url: https://ai.google.dev/gemini-api/docs/models
+  signup_url: https://aistudio.google.com
+  api_base_url: https://generativelanguage.googleapis.com/v1beta
+  api_compatibility:
+  - gemini
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://ai.google.dev/gemini-api/docs/pricing
+  collector: generic
+  watch_urls:
+  - https://ai.google.dev/gemini-api/docs/pricing
+  - https://ai.google.dev/gemini-api/docs/rate-limits
+- id: groq
+  name: Groq
+  category: official
+  description: 'Fast inference platform with a free plan; per-model free-plan limits
+    are published in the docs (e.g. openai/gpt-oss-120b: 30 RPM / 1K RPD).'
+  official_url: https://groq.com
+  pricing_url: https://console.groq.com/docs/rate-limits
+  docs_url: https://console.groq.com/docs
+  models_url: https://console.groq.com/docs/models
+  signup_url: https://console.groq.com
+  api_base_url: https://api.groq.com/openai/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://console.groq.com/docs/rate-limits
+  collector: generic
+  watch_urls:
+  - https://console.groq.com/docs/rate-limits
+- id: huggingface
+  name: Hugging Face Inference Providers
+  category: official
+  description: Serverless inference for 200+ models routed through partner providers.
+    Every user gets monthly free credits ($0.10 for free accounts, $2.00 for PRO),
+    applied automatically.
+  official_url: https://huggingface.co
+  pricing_url: https://huggingface.co/docs/inference-providers/pricing
+  docs_url: https://huggingface.co/docs/inference-providers/index
+  models_url: https://huggingface.co/models
+  signup_url: https://huggingface.co
+  api_base_url: https://router.huggingface.co/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://huggingface.co/docs/inference-providers/pricing
+  collector: generic
+  watch_urls:
+  - https://huggingface.co/docs/inference-providers/pricing
+- id: mistral
+  name: Mistral AI
+  category: official
+  description: Mistral's Free plan includes limited access to Vibe/Studio and $10/month
+    in API credits; verified students get Mistral Pro at $5.99/month.
+  official_url: https://mistral.ai
+  pricing_url: https://mistral.ai/pricing
+  docs_url: https://docs.mistral.ai
+  models_url: https://mistral.ai/models
+  signup_url: https://console.mistral.ai
+  api_base_url: https://api.mistral.ai/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://mistral.ai/pricing
+  collector: generic
+  watch_urls:
+  - https://mistral.ai/pricing
+- id: nvidia
+  name: NVIDIA Build (NIM APIs)
+  category: official
+  description: NVIDIA's build platform advertises free inference endpoints with leading
+    models via NIM APIs; no credit amounts are published on the page.
+  official_url: https://build.nvidia.com
+  pricing_url: https://build.nvidia.com
+  docs_url: https://docs.api.nvidia.com
+  models_url: https://build.nvidia.com/explore/discover
+  signup_url: https://build.nvidia.com
+  api_base_url: https://integrate.api.nvidia.com/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://build.nvidia.com/
+  collector: generic
+  watch_urls:
+  - https://build.nvidia.com/
+- id: openrouter
+  name: OpenRouter
+  category: router
+  description: Multi-provider LLM API router. Aggregates hundreds of models behind
+    an OpenAI-compatible API; models with ids ending in ":free" cost $0 per token.
+  official_url: https://openrouter.ai
+  pricing_url: https://openrouter.ai/models?max_price=0
+  docs_url: https://openrouter.ai/docs
+  models_url: https://openrouter.ai/models
+  signup_url: https://openrouter.ai
+  api_base_url: https://openrouter.ai/api/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://openrouter.ai/api/v1/models
+  - https://openrouter.ai/docs/api-reference/limits
+  collector: null
+  watch_urls: []
+- id: portkey
+  name: Portkey
+  category: candidate
+  description: AI gateway / observability platform ("Get started for free" for the
+    product); candidate provider.
+  official_url: https://portkey.ai
+  pricing_url: https://portkey.ai/pricing
+  docs_url: https://docs.portkey.ai
+  models_url: https://portkey.ai/models
+  signup_url: https://portkey.ai
+  api_base_url: https://api.portkey.ai/v1
+  api_compatibility:
+  - openai
+  - anthropic
+  - gemini
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://portkey.ai
+  collector: generic
+  watch_urls:
+  - https://portkey.ai
+- id: requesty
+  name: Requesty
+  category: candidate
+  description: AI gateway / LLM router for 600+ models ("Get started free" for the
+    gateway product); candidate provider.
+  official_url: https://requesty.ai
+  pricing_url: https://requesty.ai/pricing
+  docs_url: https://docs.requesty.ai
+  models_url: https://requesty.ai/models
+  signup_url: https://requesty.ai
+  api_base_url: https://api.requesty.ai/v1
+  api_compatibility:
+  - openai
+  - anthropic
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://requesty.ai
+  collector: generic
+  watch_urls:
+  - https://requesty.ai
+- id: siliconflow
+  name: SiliconFlow
+  category: candidate
+  description: Chinese AI infra platform (siliconflow.cn / siliconflow.com) offering
+    model APIs; candidate provider, no verified free offer recorded.
+  official_url: https://siliconflow.com
+  pricing_url: https://siliconflow.cn/pricing
+  docs_url: https://docs.siliconflow.cn
+  models_url: https://siliconflow.cn/models
+  signup_url: https://cloud.siliconflow.cn
+  api_base_url: https://api.siliconflow.com/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://siliconflow.com
+  collector: generic
+  watch_urls:
+  - https://siliconflow.com
+- id: together
+  name: Together AI
+  category: candidate
+  description: Cloud platform for open-model inference and GPU clusters; candidate
+    provider, no verified free offer recorded.
+  official_url: https://www.together.ai
+  pricing_url: https://www.together.ai/pricing
+  docs_url: https://docs.together.ai
+  models_url: https://www.together.ai/models
+  signup_url: https://api.together.ai
+  api_base_url: https://api.together.xyz/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://www.together.ai/pricing
+  collector: generic
+  watch_urls:
+  - https://www.together.ai/pricing
+- id: tokenrouter
+  name: TokenRouter
+  category: router
+  description: AI model router (tokenrouter.com) exposing OpenAI-, Anthropic- and
+    Gemini-compatible API formats; some model ids carry a "-free" suffix.
+  official_url: https://tokenrouter.com
+  pricing_url: https://tokenrouter.com
+  docs_url: https://tokenrouter.com/docs
+  models_url: https://tokenrouter.com/models
+  signup_url: https://tokenrouter.com
+  api_base_url: https://api.tokenrouter.com/v1
+  api_compatibility:
+  - openai
+  - anthropic
+  - gemini
+  requires_account: true
+  status: active
+  last_checked: '2026-09-11'
+  last_verified: '2026-09-11'
+  sources:
+  - https://tokenrouter.com/models
+  collector: null
+  watch_urls: []

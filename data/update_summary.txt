@@ -1,0 +1,28 @@
+date: 2026-09-11
+providers: 15
+offers: 10
+offers_by_status: {'active': 10}
+offers_by_confidence: {'official': 10}
+models: 573
+free_models: 20
+changes: 44
+change: + New offer: Cerebras Free Trial — $5 Credits (cerebras)
+change: + New offer: Fireworks AI — $1 Free Credits (fireworks)
+change: + New offer: Gemini API Free Tier (google-ai-studio)
+change: + New offer: Groq Free Plan (per-model limits) (groq)
+change: + New offer: Hugging Face Monthly Inference Credits (huggingface)
+change: + New offer: Mistral Free Plan — $10/mo API Credits (mistral)
+change: + New offer: Mistral Pro for Students — $5.99/mo (mistral)
+change: + New offer: NVIDIA NIM Free Inference (nvidia)
+change: + New offer: OpenRouter Free Models (19 models) (openrouter)
+change: + New offer: TokenRouter Free Models (1 model) (tokenrouter)
+change: + New free model: cohere/north-mini-code:free (openrouter)
+change: + New free model: dots-studio/dots-3-note-preview:free (openrouter)
+change: + New free model: google/gemma-4-26b-a4b-it:free (openrouter)
+change: + New free model: google/gemma-4-31b-it:free (openrouter)
+change: + New free model: inclusionai/ling-3.0-flash-fin:free (openrouter)
+change: + New free model: inclusionai/ling-3.0-flash-sante:free (openrouter)
+change: + New free model: inclusionai/ling-3.0-flash-vl:free (openrouter)
+change: + New free model: liquid/lfm-2.5-2.6b:free (openrouter)
+change: + New free model: nex-agi/nex-n2.5-mini:free (openrouter)
+change: + New free model: nex-agi/nex-n2.5-pro:free (openrouter)

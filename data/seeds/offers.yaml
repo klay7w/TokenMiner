@@ -1,0 +1,163 @@
+# Hand-verified seed offers (SPEC §8, full schema).
+# Every value below was read from the cited official page on 2026-09-11.
+# Numbers never appear here unless they were seen on source_url. Unverifiable
+# facts are left null. Collectors/validator refresh last_checked/last_verified.
+
+- id: google-ai-studio-free-tier
+  provider_id: google-ai-studio
+  title: "Gemini API Free Tier"
+  type: free_tier
+  description: >-
+    Free tier with free input & output tokens for a limited set of models
+    (e.g. Gemini 3.8 Flash standard tier is "Free of charge"). Content is
+    used to improve Google products. Per-model free-tier rate limits are
+    shown in AI Studio, not published on the pricing page.
+  value: null
+  currency: null
+  recurring: false
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://ai.google.dev/gemini-api/docs/pricing
+  source_url: https://ai.google.dev/gemini-api/docs/pricing
+  status: active
+  confidence: official
+  first_seen: "2026-09-11"
+  last_verified: "2026-09-11"
+
+- id: groq-free-plan
+  provider_id: groq
+  title: "Groq Free Plan (per-model limits)"
+  type: free_tier
+  description: >-
+    Free plan limits published in the docs rate-limits table, e.g.
+    openai/gpt-oss-120b: 30 RPM / 1,000 RPD / 8K TPM / 200K TPD;
+    whisper-large-v3: 20 RPM / 2,000 RPD (ASD 7.2K/28.8K audio seconds).
+  value: null
+  currency: null
+  recurring: false
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://console.groq.com/keys
+  source_url: https://console.groq.com/docs/rate-limits
+  status: active
+  confidence: official
+  first_seen: "2026-09-11"
+  last_verified: "2026-09-11"
+
+- id: cerebras-signup-credit
+  provider_id: cerebras
+  title: "Cerebras Free Trial — $5 Credits"
+  type: signup_credit
+  description: >-
+    "Get started with $5 in free credits after making an account" (official
+    pricing page, Free Trial tier). Includes access to all Cerebras-powered
+    models.
+  value: 5
+  currency: USD
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://cloud.cerebras.ai
+  source_url: https://inference-docs.cerebras.ai/support/pricing
+  status: active
+  confidence: official
+  first_seen: "2026-09-11"
+  last_verified: "2026-09-11"
+
+- id: mistral-free-plan-credits
+  provider_id: mistral
+  title: "Mistral Free Plan — $10/mo API Credits"
+  type: recurring_credit
+  description: >-
+    Mistral's Free plan ($0) provides limited access to Vibe/Studio and
+    includes "$10 /mo in API credits" (official pricing page).
+  value: 10
+  currency: USD
+  recurring: true
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://mistral.ai/pricing
+  source_url: https://mistral.ai/pricing
+  status: active
+  confidence: official
+  first_seen: "2026-09-11"
+  last_verified: "2026-09-11"
+
+- id: mistral-student-pro
+  provider_id: mistral
+  title: "Mistral Pro for Students — $5.99/mo"
+  type: student
+  description: >-
+    "Verified students can get Mistral Pro for $5.99 / month (normally
+    $14.99)" (official pricing FAQ). Education plan valid max 12 months for
+    verified students at accredited institutions who haven't used Vibe/Le
+    Chat before.
+  value: 5.99
+  currency: USD
+  recurring: true
+  new_users_only: true
+  requires_student_verification: true
+  requires_payment_method: true
+  claim_url: https://mistral.ai/pricing
+  source_url: https://mistral.ai/pricing
+  status: active
+  confidence: official
+  first_seen: "2026-09-11"
+  last_verified: "2026-09-11"
+
+- id: huggingface-monthly-credits
+  provider_id: huggingface
+  title: "Hugging Face Monthly Inference Credits"
+  type: recurring_credit
+  description: >-
+    "Every Hugging Face user receives monthly credits to experiment with
+    Inference Providers": Free users $0.10/month (subject to change), PRO
+    users $2.00/month. Credited every month and applied automatically.
+  value: 0.1
+  currency: USD
+  recurring: true
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://huggingface.co
+  source_url: https://huggingface.co/docs/inference-providers/pricing
+  status: active
+  confidence: official
+  first_seen: "2026-09-11"
+  last_verified: "2026-09-11"
+
+- id: nvidia-free-inference
+  provider_id: nvidia
+  title: "NVIDIA NIM Free Inference"
+  type: free_tier
+  description: >-
+    build.nvidia.com advertises "Free inference with leading models" via
+    inference endpoints; "Create and verify your account to unlock full
+    access". No credit amount is published on the page.
+  value: null
+  currency: null
+  recurring: false
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://build.nvidia.com
+  source_url: https://build.nvidia.com
+  status: active
+  confidence: official
+  first_seen: "2026-09-11"
+  last_verified: "2026-09-11"
+
+- id: fireworks-signup-credit
+  provider_id: fireworks
+  title: "Fireworks AI — $1 Free Credits"
+  type: signup_credit
+  description: "Get started with $1 in free credits (official pricing page)."
+  value: 1
+  currency: USD
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://fireworks.ai/pricing
+  source_url: https://fireworks.ai/pricing
+  status: active
+  confidence: official
+  first_seen: "2026-09-11"
+  last_verified: "2026-09-11"
