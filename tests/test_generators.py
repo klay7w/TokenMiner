@@ -167,12 +167,78 @@ def test_coding_reasoning_rankings_with_disclaimer():
     providers, offers, models, scores, changes = _data()
     md = generate_readme(providers, offers, models, scores, changes, TODAY)
     coding = md.split("# 💻 Best Free Models for Coding")[1].split("# 🧠")[0]
-    assert "🥇 Coder Free" in coding
+    # podium line: bold-linked model name, ctx, capability icons, provider name
+    assert (
+        "🥇 **[Coder Free](https://goodrouter.example/coder)**"
+        " · 256K ctx · 📝🛠️🧠 · GoodRouter"
+    ) in coding
     assert "Not a formal benchmark" in coding
+    assert "<details>" not in coding  # single candidate -> podium only
     reasoning = md.split("# 🧠 Best Free Models for Reasoning")[1].split("# 🕒")[0]
     assert "Not a formal benchmark" in reasoning
     # small-free has no reasoning flag -> absent from reasoning podium
     assert "small-free" not in reasoning
+    assert "<details>" not in reasoning
+
+
+def _add_tool_models(models: list[Model], provider_id: str, count: int) -> None:
+    for i in range(count):
+        models.append(Model(
+            provider_id=provider_id, model_id=f"tool-{i}", free=True,
+            context_length=100_000 - i * 10_000,
+            supports_tools=True,
+            model_url=f"https://openrouter.example/tool-{i}",
+            last_checked=TODAY,
+        ))
+
+
+def test_coding_ranking_details_block_when_more_than_three():
+    providers, offers, models, scores, changes = _data()
+    providers.append(Provider(
+        id="openrouter", name="OpenRouter", category="router", status="active",
+    ))
+    _add_tool_models(models, "openrouter", 5)
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    coding = md.split("# 💻 Best Free Models for Coding")[1].split("# 🧠")[0]
+    # podium stays sorted by context desc (Coder Free 256K first)
+    assert "🥇 **[Coder Free]" in coding
+    assert "🥈 **[tool-0](https://openrouter.example/tool-0)** · 100K ctx · 📝🛠️ · OpenRouter" in coding
+    assert "🥉 **[tool-1](https://openrouter.example/tool-1)** · 90K ctx · 📝🛠️ · OpenRouter" in coding
+    # remaining models collapse into a details block with the correct count
+    assert "<details>" in coding and "</details>" in coding
+    assert "<summary><b>More tool-calling free models (3)</b></summary>" in coding
+    assert "- [tool-2](https://openrouter.example/tool-2) — 80K" in coding
+    assert "- [tool-3](https://openrouter.example/tool-3) — 70K" in coding
+    assert "- [tool-4](https://openrouter.example/tool-4) — 60K" in coding
+    # blank lines required for markdown rendering inside <details>
+    body = coding.splitlines()
+    summary = body.index("<summary><b>More tool-calling free models (3)</b></summary>")
+    assert body[summary - 1] == "<details>"
+    assert body[summary + 1] == ""
+    assert body[summary + 2].startswith("- ")
+    assert body[-2] == "</details>" and body[-1] == ""
+
+
+def test_ranking_podium_only_when_three_or_fewer():
+    providers, offers, models, scores, changes = _data()
+    providers.append(Provider(
+        id="openrouter", name="OpenRouter", category="router", status="active",
+    ))
+    # two extra reasoning models -> reasoning podium of 3, no details block
+    for i in range(2):
+        models.append(Model(
+            provider_id="openrouter", model_id=f"think-{i}", free=True,
+            context_length=100_000 - i * 10_000,
+            supports_reasoning=True,
+            model_url=f"https://openrouter.example/think-{i}",
+            last_checked=TODAY,
+        ))
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    reasoning = md.split("# 🧠 Best Free Models for Reasoning")[1].split("# 🕒")[0]
+    assert "🥇 **[Coder Free](https://goodrouter.example/coder)** · 256K ctx · 📝🛠️🧠 · GoodRouter" in reasoning
+    assert "🥈 **[think-0](https://openrouter.example/think-0)** · 100K ctx · 📝🧠 · OpenRouter" in reasoning
+    assert "🥉 **[think-1](https://openrouter.example/think-1)** · 90K ctx · 📝🧠 · OpenRouter" in reasoning
+    assert "<details>" not in reasoning
 
 
 def test_recently_changed_section():

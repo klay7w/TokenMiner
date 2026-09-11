@@ -15,6 +15,7 @@ from ..scoring.scorer import ProviderScore
 from ..utils.time import to_iso
 from .format import (
     caps_icons,
+    caps_with_capabilities,
     ctx_short,
     credit_amount,
     deal_short,
@@ -40,6 +41,47 @@ def _best_free_model(models: list[Model]) -> Model | None:
             m.model_id,
         ),
     )[0]
+
+
+def _podium_and_details(
+    lines: list[str],
+    candidates: list[Model],
+    providers_by_id: dict[str, Provider],
+    details_label: str,
+) -> None:
+    """§22 ranking block: top-3 podium lines + collapsible list for the rest.
+
+    Podium lines are bold model links; remaining models collapse into one
+    <details> block (blank lines around the body are required so GitHub
+    renders markdown inside <details>). Three or fewer candidates render
+    podium-only, without a details block.
+    """
+    if not candidates:
+        lines.append("_No free models with confirmed support right now._")
+        return
+
+    def _link(m: Model) -> str:
+        name = esc(model_short(m))
+        return f"[{name}]({esc(m.model_url)})" if m.model_url else name
+
+    for medal, m in zip(("🥇", "🥈", "🥉"), candidates[:3]):
+        provider = providers_by_id.get(m.provider_id)
+        lines.append(
+            f"{medal} **{_link(m)}** · {ctx_short(m.context_length)} ctx · "
+            f"{caps_with_capabilities(m)} · "
+            f"{provider.name if provider else m.provider_id}"
+        )
+    rest = candidates[3:]
+    if not rest:
+        return
+    lines.append("")
+    lines.append("<details>")
+    lines.append(f"<summary><b>More {details_label} free models ({len(rest)})</b></summary>")
+    lines.append("")
+    for m in rest:
+        lines.append(f"- {_link(m)} — {ctx_short(m.context_length)}")
+    lines.append("")
+    lines.append("</details>")
 
 
 def _api_compat_label(compatibility: list[str]) -> str:
@@ -198,11 +240,13 @@ def generate_readme(
     lines.append("")
 
     # §22 Coding / Reasoning ---------------------------------------------
-    for heading, flag, blurb in (
+    for heading, flag, blurb, details_label in (
         ("💻 Best Free Models for Coding", "supports_tools",
-         "Free models that support tool calling — the practical proxy for coding agents."),
+         "Free models that support tool calling — the practical proxy for coding agents.",
+         "tool-calling"),
         ("🧠 Best Free Models for Reasoning", "supports_reasoning",
-         "Free models exposing a reasoning parameter — the practical proxy for reasoning."),
+         "Free models exposing a reasoning parameter — the practical proxy for reasoning.",
+         "reasoning"),
     ):
         lines.append(f"# {heading}")
         lines.append("")
@@ -212,20 +256,7 @@ def generate_readme(
             (m for m in all_free if getattr(m, flag)),
             key=lambda m: (-(m.context_length or 0), m.provider_id, m.model_id),
         )
-        if candidates:
-            medals = ("🥇", "🥈", "🥉")
-            for i, m in enumerate(candidates[:3]):
-                lines.append(
-                    f"{medals[i]} {esc(model_short(m))} — {ctx_short(m.context_length)} "
-                    f"context, {m.provider_id} ([↗]({esc(m.model_url)}))"
-                )
-            for m in candidates[3:10]:
-                lines.append(
-                    f"- {esc(model_short(m))} — {ctx_short(m.context_length)} context, "
-                    f"{m.provider_id}"
-                )
-        else:
-            lines.append("_No free models with confirmed support right now._")
+        _podium_and_details(lines, candidates, providers_by_id, details_label)
         lines.append("")
 
     # §23 Recently changed ------------------------------------------------
