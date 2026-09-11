@@ -86,16 +86,8 @@ Auto-updated **2026-09-11** · 15 providers · 10 offers · 20 free models track
 
 # 🕒 Recently Changed
 
-- + New offer: Cerebras Free Trial — $5 Credits (cerebras)
-- + New offer: Fireworks AI — $1 Free Credits (fireworks)
-- + New offer: Gemini API Free Tier (google-ai-studio)
-- + New offer: Groq Free Plan (per-model limits) (groq)
-- + New offer: Hugging Face Monthly Inference Credits (huggingface)
-- + New offer: Mistral Free Plan — $10/mo API Credits (mistral)
-- + New offer: Mistral Pro for Students — $5.99/mo (mistral)
-- + New offer: NVIDIA NIM Free Inference (nvidia)
-- + New offer: OpenRouter Free Models (19 models) (openrouter)
-- + New offer: TokenRouter Free Models (1 model) (tokenrouter)
+- ⚠ DeepInfra: watch page changed: https://deepinfra.com
+- ⚠ NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 
