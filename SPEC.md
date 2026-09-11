@@ -296,7 +296,7 @@ README generator 失败 / 测试失败 才退出非零。
 ## 32. HTTP 策略
 
 统一 HTTP Client：Timeout / Retry / Backoff / User-Agent / Rate Limit / Cache。
-UA：`TokenMiner/0.1 (+https://github.com/tokenminer/TokenMiner)`。
+UA：`TokenMiner/0.1 (+https://github.com/klay7w/TokenMiner)`。
 不要高频访问网站。
 
 ## 33. Verification（OfferValidator 至少检查）

@@ -16,7 +16,7 @@ from urllib.parse import urlsplit
 
 import httpx
 
-USER_AGENT = "TokenMiner/0.1 (+https://github.com/tokenminer/TokenMiner)"
+USER_AGENT = "TokenMiner/0.1 (+https://github.com/klay7w/TokenMiner)"
 DEFAULT_TIMEOUT = 20.0
 DEFAULT_RETRIES = 3
 POLITENESS_DELAY = 1.0  # seconds between requests to the same host
