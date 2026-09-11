@@ -209,8 +209,19 @@ def requirement_short(offer: Offer) -> str:
 
 
 def legend_line(capabilities: bool = False) -> str:
-    """Legend line rendered under iconized tables."""
-    parts = [" · ".join(f"{icon} {name}" for name, icon in MODALITY_ICONS)]
-    if capabilities:
-        parts.append(" · ".join(f"{icon} {name}" for name, icon in CAPABILITY_ICONS))
-    return "*" + " · ".join(parts) + "*"
+    """Legend line rendered under iconized tables.
+
+    The combined variant (capabilities=True) spells out the difference
+    between the two look-alike image icons: 🖼️ marks image I/O
+    (generation models) while 👁️ means image input (vision).
+    """
+    if not capabilities:
+        return "*" + " · ".join(f"{icon} {name}" for name, icon in MODALITY_ICONS) + "*"
+    # 👁️ sits right beside 🖼️ and must not repeat in the capability tail.
+    entries: list[str] = []
+    for name, icon in MODALITY_ICONS:
+        entries.append(f"{icon} image I/O" if name == "image" else f"{icon} {name}")
+        if name == "image":
+            entries.append("👁️ image input (vision)")
+    entries.extend(f"{icon} {name}" for name, icon in CAPABILITY_ICONS if name != "vision")
+    return "*" + " · ".join(entries) + "*"

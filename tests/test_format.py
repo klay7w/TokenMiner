@@ -116,8 +116,8 @@ def test_caps_with_capabilities():
 def test_legend_line():
     assert legend_line() == "*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding*"
     assert legend_line(capabilities=True) == (
-        "*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding"
-        " · 🛠️ tools · 👁️ vision · 🧠 reasoning*"
+        "*📝 text · 🖼️ image I/O · 👁️ image input (vision)"
+        " · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 🧠 reasoning*"
     )
 
 

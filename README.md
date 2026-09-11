@@ -87,7 +87,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 </details>
 
-*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 👁️ vision · 🧠 reasoning*
+*📝 text · 🖼️ image I/O · 👁️ image input (vision) · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 🧠 reasoning*
 
 # 🧠 Best Free Models for Reasoning
 
@@ -119,7 +119,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 </details>
 
-*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 👁️ vision · 🧠 reasoning*
+*📝 text · 🖼️ image I/O · 👁️ image input (vision) · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 🧠 reasoning*
 
 # 🕒 Recently Changed
 

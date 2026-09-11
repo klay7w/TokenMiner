@@ -37,7 +37,7 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 | Nemotron 3.5 Content Safety | 128K | 📝🖼️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
 | LiquidAI: LFM2.5-2.6B | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
 
-*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 👁️ vision · 🧠 reasoning*
+*📝 text · 🖼️ image I/O · 👁️ image input (vision) · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 🧠 reasoning*
 
 ## API
 

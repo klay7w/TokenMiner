@@ -17,8 +17,8 @@ ROOT = Path(__file__).resolve().parents[1]
 
 # Combined modality + capability legend closing both ranking sections.
 _RANKING_LEGEND = (
-    "*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding"
-    " · 🛠️ tools · 👁️ vision · 🧠 reasoning*"
+    "*📝 text · 🖼️ image I/O · 👁️ image input (vision)"
+    " · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 🧠 reasoning*"
 )
 
 # Width audit: GitHub's content area is ~1012px (~110 chars). Table rows are
@@ -357,7 +357,8 @@ def test_provider_page_fixed_sections():
     assert "| Model | Ctx | Caps | Link |" in page
     assert "Coder Free" in page
     assert "🛠️" in page and "🧠" in page  # capability icons
-    assert "🛠️ tools · 👁️ vision · 🧠 reasoning" in page  # legend
+    assert "🖼️ image I/O · 👁️ image input (vision)" in page  # legend
+    assert "🛠️ tools · 🧠 reasoning" in page
     assert "https://goodrouter.example/free" in page
     assert "256K" in page
     assert "2026-09-11" in page  # last verified dates (SPEC §24)

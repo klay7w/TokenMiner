@@ -19,7 +19,7 @@ AI model router (tokenrouter.com) exposing OpenAI-, Anthropic- and Gemini-compat
 |---|---|---|---|
 | glm-5.3-free | — | 📝 | [↗](https://tokenrouter.com/models/z-ai/glm-5.3-free/) |
 
-*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 👁️ vision · 🧠 reasoning*
+*📝 text · 🖼️ image I/O · 👁️ image input (vision) · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 🧠 reasoning*
 
 ## API
 
