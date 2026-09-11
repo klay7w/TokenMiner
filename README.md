@@ -87,6 +87,8 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 </details>
 
+*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 👁️ vision · 🧠 reasoning*
+
 # 🧠 Best Free Models for Reasoning
 
 > ℹ️ Free models exposing a reasoning parameter — the practical proxy for reasoning. **Not a formal benchmark.**
@@ -116,6 +118,8 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 - [LiquidAI: LFM2.5-2.6B](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) — 66K
 
 </details>
+
+*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 👁️ vision · 🧠 reasoning*
 
 # 🕒 Recently Changed
 

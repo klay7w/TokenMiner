@@ -56,6 +56,11 @@ def _podium_and_details(
     renders markdown inside <details>). Three or fewer candidates render
     podium-only, without a details block.
 
+    Every section that shows a podium closes with one italic legend line
+    explaining the modality + capability icons (shared legend_line with
+    capabilities=True); a blank line before it keeps it outside the
+    <details> HTML block when one is present.
+
     Podium lines stay one tight markdown paragraph, so every line except
     the last ends with a GFM hard break (trailing "\") — otherwise GitHub
     collapses the soft breaks and renders all medals on one visual line.
@@ -80,16 +85,20 @@ def _podium_and_details(
             line += "\\"  # GFM hard break: medal stays on its own line
         lines.append(line)
     rest = candidates[3:]
-    if not rest:
-        return
+    if rest:
+        lines.append("")
+        lines.append("<details>")
+        lines.append(f"<summary><b>More {details_label} free models ({len(rest)})</b></summary>")
+        lines.append("")
+        for m in rest:
+            lines.append(f"- {_link(m)} — {ctx_short(m.context_length)}")
+        lines.append("")
+        lines.append("</details>")
+    # Podium lines run modality + capability icons together; close the
+    # section with one shared combined legend (empty candidates return
+    # above, so the legend only appears when a podium was rendered).
     lines.append("")
-    lines.append("<details>")
-    lines.append(f"<summary><b>More {details_label} free models ({len(rest)})</b></summary>")
-    lines.append("")
-    for m in rest:
-        lines.append(f"- {_link(m)} — {ctx_short(m.context_length)}")
-    lines.append("")
-    lines.append("</details>")
+    lines.append(legend_line(capabilities=True))
 
 
 def _api_compat_label(compatibility: list[str]) -> str:

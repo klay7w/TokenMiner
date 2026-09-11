@@ -15,6 +15,12 @@ TODAY = date(2026, 9, 11)
 
 ROOT = Path(__file__).resolve().parents[1]
 
+# Combined modality + capability legend closing both ranking sections.
+_RANKING_LEGEND = (
+    "*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding"
+    " · 🛠️ tools · 👁️ vision · 🧠 reasoning*"
+)
+
 # Width audit: GitHub's content area is ~1012px (~110 chars). Table rows are
 # measured after stripping rendered-invisible markup (link URLs, <img> tags).
 _MAX_TABLE_ROW_WIDTH = 110
@@ -179,6 +185,11 @@ def test_coding_reasoning_rankings_with_disclaimer():
     # small-free has no reasoning flag -> absent from reasoning podium
     assert "small-free" not in reasoning
     assert "<details>" not in reasoning
+    # podium-only sections still close with the combined icon legend
+    for section, label in ((coding, "coding"), (reasoning, "reasoning")):
+        body = section.splitlines()
+        assert sum(1 for ln in body if ln == _RANKING_LEGEND) == 1, label
+        assert body[-2] == _RANKING_LEGEND and body[-1] == "", label
 
 
 def _add_tool_models(models: list[Model], provider_id: str, count: int) -> None:
@@ -216,7 +227,23 @@ def test_coding_ranking_details_block_when_more_than_three():
     assert body[summary - 1] == "<details>"
     assert body[summary + 1] == ""
     assert body[summary + 2].startswith("- ")
-    assert body[-2] == "</details>" and body[-1] == ""
+    # legend comes after the details block (blank line keeps it outside it)
+    assert body[-4] == "</details>" and body[-3] == ""
+    assert body[-2] == _RANKING_LEGEND and body[-1] == ""
+
+
+def test_ranking_legend_absent_without_podium():
+    """No candidates -> placeholder only, no icon legend line."""
+    providers, offers, models, scores, changes = _data()
+    models = [m for m in models if not (m.supports_tools or m.supports_reasoning)]
+    scores = {p.id: score_provider(p, offers, models) for p in providers}
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    coding = md.split("# 💻 Best Free Models for Coding")[1].split("# 🧠")[0]
+    reasoning = md.split("# 🧠 Best Free Models for Reasoning")[1].split("# 🕒")[0]
+    for section, label in ((coding, "coding"), (reasoning, "reasoning")):
+        assert "_No free models with confirmed support right now._" in section, label
+        assert _RANKING_LEGEND not in section, label
+        assert "🛠️ tools" not in section, label
 
 
 def test_podium_lines_hard_broken_and_consecutive():
