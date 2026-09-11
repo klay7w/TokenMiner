@@ -1,4 +1,4 @@
-# Fireworks AI
+# <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="20" valign="middle"> Fireworks AI
 
 > Category: **candidate** · Status: **active**
 

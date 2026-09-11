@@ -1,4 +1,4 @@
-# Mistral AI
+# <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="20" valign="middle"> Mistral AI
 
 > Category: **official** · Status: **active**
 

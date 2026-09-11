@@ -1,4 +1,4 @@
-# TokenRouter
+# <img src="https://www.google.com/s2/favicons?domain=tokenrouter.com&sz=32" width="20" valign="middle"> TokenRouter
 
 > Category: **router** · Status: **active**
 
@@ -15,9 +15,11 @@ AI model router (tokenrouter.com) exposing OpenAI-, Anthropic- and Gemini-compat
 
 ## Free Models
 
-| Model | Type | Context | Tools | Vision | Reasoning | Link |
-|---|---|---|---|---|---|---|
-| `z-ai/glm-5.3-free` | text | — | — | — | — | [↗](https://tokenrouter.com/models/z-ai/glm-5.3-free/) |
+| Model | Ctx | Caps | Link |
+|---|---|---|---|
+| glm-5.3-free | — | 📝 | [↗](https://tokenrouter.com/models/z-ai/glm-5.3-free/) |
+
+*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 👁️ vision · 🧠 reasoning*
 
 ## API
 

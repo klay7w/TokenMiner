@@ -1,4 +1,4 @@
-# Google AI Studio (Gemini API)
+# <img src="https://www.google.com/s2/favicons?domain=ai.google.dev&sz=32" width="20" valign="middle"> Google AI Studio (Gemini API)
 
 > Category: **official** · Status: **active**
 

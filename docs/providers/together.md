@@ -1,4 +1,4 @@
-# Together AI
+# <img src="https://www.google.com/s2/favicons?domain=together.ai&sz=32" width="20" valign="middle"> Together AI
 
 > Category: **candidate** · Status: **uncertain**
 

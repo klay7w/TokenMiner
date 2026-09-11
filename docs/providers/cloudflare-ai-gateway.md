@@ -1,4 +1,4 @@
-# Cloudflare AI Gateway
+# <img src="https://www.google.com/s2/favicons?domain=developers.cloudflare.com&sz=32" width="20" valign="middle"> Cloudflare AI Gateway
 
 > Category: **candidate** · Status: **uncertain**
 

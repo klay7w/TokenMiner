@@ -1,4 +1,4 @@
-# OpenRouter
+# <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="20" valign="middle"> OpenRouter
 
 > Category: **router** · Status: **active**
 
@@ -15,27 +15,29 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 
 ## Free Models
 
-| Model | Type | Context | Tools | Vision | Reasoning | Link |
-|---|---|---|---|---|---|---|
-| `thinkingmachines/inkling-small:free` | text+image+audio | 1M | ✅ | ✅ | ✅ | [↗](https://openrouter.ai/thinkingmachines/inkling-small-20260730) |
-| `thinkingmachines/inkling:free` | text+image+audio | 1M | ✅ | ✅ | ✅ | [↗](https://openrouter.ai/thinkingmachines/inkling-20260715) |
-| `nvidia/nemotron-3-ultra-550b-a55b:free` | text | 1M | ✅ | ❌ | ✅ | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
-| `nvidia/nemotron-3.5-lightning:free` | text | 1M | ✅ | ❌ | ✅ | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
-| `dots-studio/dots-3-note-preview:free` | text+image | 512K | ✅ | ✅ | ✅ | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
-| `google/gemma-4-26b-a4b-it:free` | text+image+video | 262K | ✅ | ✅ | ✅ | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
-| `google/gemma-4-31b-it:free` | text+image+video | 262K | ✅ | ✅ | ✅ | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
-| `inclusionai/ling-3.0-flash-fin:free` | text | 262K | ✅ | ❌ | ✅ | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) |
-| `inclusionai/ling-3.0-flash-sante:free` | text | 262K | ✅ | ❌ | ✅ | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) |
-| `inclusionai/ling-3.0-flash-vl:free` | text+image+video | 262K | ✅ | ✅ | ✅ | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-vl-20260910) |
-| `nex-agi/nex-n2.5-mini:free` | text+image | 262K | ✅ | ✅ | ✅ | [↗](https://openrouter.ai/nex-agi/nex-n2.5-mini-20260908) |
-| `nex-agi/nex-n2.5-pro:free` | text+image | 262K | ✅ | ✅ | ✅ | [↗](https://openrouter.ai/nex-agi/nex-n2.5-pro-20260907) |
-| `nvidia/nemotron-3-super-120b-a12b:free` | text | 262K | ✅ | ❌ | ✅ | [↗](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) |
-| `poolside/laguna-s-2.1:free` | text | 262K | ✅ | ❌ | ✅ | [↗](https://openrouter.ai/poolside/laguna-s-2.1-20260720) |
-| `poolside/laguna-xs-2.1:free` | text | 262K | ✅ | ❌ | ✅ | [↗](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) |
-| `cohere/north-mini-code:free` | text | 256K | ✅ | ❌ | ✅ | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
-| `nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free` | text+audio+image+video | 256K | ✅ | ✅ | ✅ | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
-| `nvidia/nemotron-3.5-content-safety:free` | text+image | 128K | ❌ | ✅ | ✅ | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
-| `liquid/lfm-2.5-2.6b:free` | text | 66K | ✅ | ❌ | ✅ | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
+| Model | Ctx | Caps | Link |
+|---|---|---|---|
+| Thinking Machines: Inkling Small | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-small-20260730) |
+| Thinking Machines: Inkling | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-20260715) |
+| Nemotron 3 Ultra | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
+| Nemotron 3.5 Lightning | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
+| Dots Studio: Dots3-Note Preview | 512K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
+| Gemma 4 26B A4B | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
+| Gemma 4 31B | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
+| Ling 3.0 Flash Fin | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) |
+| Ling 3.0 Flash Sante | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) |
+| Ling 3.0 Flash VL | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-vl-20260910) |
+| Nex AGI: Nex-N2.5-Mini | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-mini-20260908) |
+| Nex AGI: Nex-N2.5-Pro | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-pro-20260907) |
+| Nemotron 3 Super | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) |
+| Laguna S 2.1 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-s-2.1-20260720) |
+| Laguna XS 2.1 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) |
+| North Mini Code | 256K | 📝🛠️🧠 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
+| Nemotron 3 Nano Omni | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
+| Nemotron 3.5 Content Safety | 128K | 📝🖼️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
+| LiquidAI: LFM2.5-2.6B | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
+
+*📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 👁️ vision · 🧠 reasoning*
 
 ## API
 

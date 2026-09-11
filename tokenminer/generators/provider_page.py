@@ -11,16 +11,14 @@ from __future__ import annotations
 from ..models import Model, Offer, Provider
 from ..scoring.scorer import ProviderScore
 from ..utils.time import to_iso
-
-
-def _ctx(n: int | None) -> str:
-    if not n:
-        return "—"
-    if n >= 1_000_000:
-        return f"{n / 1_000_000:.0f}M"
-    if n >= 1_000:
-        return f"{n / 1_000:.0f}K"
-    return str(n)
+from .format import (
+    caps_with_capabilities,
+    ctx_short,
+    esc,
+    favicon_img,
+    legend_line,
+    model_short,
+)
 
 
 def generate_provider_page(
@@ -38,7 +36,8 @@ def generate_provider_page(
     lines: list[str] = []
     add = lines.append
 
-    add(f"# {provider.name}")
+    logo = favicon_img(provider, 20)
+    add(f"# {logo + ' ' if logo else ''}{provider.name}")
     add("")
     add(f"> Category: **{provider.category}** · Status: **{provider.status}**")
     add("")
@@ -71,15 +70,15 @@ def generate_provider_page(
     add("## Free Models")
     add("")
     if free_models:
-        add("| Model | Type | Context | Tools | Vision | Reasoning | Link |")
-        add("|---|---|---|---|---|---|---|")
+        add("| Model | Ctx | Caps | Link |")
+        add("|---|---|---|---|")
         for m in free_models:
-            yn = lambda b: "✅" if b else ("—" if b is None else "❌")  # noqa: E731
             add(
-                f"| `{m.model_id}` | {'+'.join(m.model_type)} | {_ctx(m.context_length)} "
-                f"| {yn(m.supports_tools)} | {yn(m.supports_vision)} "
-                f"| {yn(m.supports_reasoning)} | [↗]({m.model_url}) |"
+                f"| {esc(model_short(m))} | {ctx_short(m.context_length)} "
+                f"| {caps_with_capabilities(m)} | [↗]({m.model_url}) |"
             )
+        add("")
+        add(legend_line(capabilities=True))
     else:
         add("_No free models tracked for this provider (yet)._")
     add("")
@@ -98,7 +97,7 @@ def generate_provider_page(
     add("")
     contexts = [m.context_length for m in free_models if m.context_length]
     if contexts:
-        add(f"- Largest free-model context: **{_ctx(max(contexts))}**")
+        add(f"- Largest free-model context: **{ctx_short(max(contexts))}**")
         add(f"- Free models with published context: {len(contexts)} of {len(free_models)}")
     else:
         add("_No official context numbers available (recorded as null, never guessed)._")

@@ -1,4 +1,4 @@
-# SiliconFlow
+# <img src="https://www.google.com/s2/favicons?domain=siliconflow.com&sz=32" width="20" valign="middle"> SiliconFlow
 
 > Category: **candidate** · Status: **uncertain**
 

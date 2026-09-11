@@ -1,4 +1,4 @@
-# Groq
+# <img src="https://www.google.com/s2/favicons?domain=groq.com&sz=32" width="20" valign="middle"> Groq
 
 > Category: **official** · Status: **active**
 

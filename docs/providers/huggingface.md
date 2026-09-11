@@ -1,4 +1,4 @@
-# Hugging Face Inference Providers
+# <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="20" valign="middle"> Hugging Face Inference Providers
 
 > Category: **official** · Status: **active**
 

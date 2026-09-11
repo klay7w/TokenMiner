@@ -1,4 +1,4 @@
-# Cerebras Inference
+# <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="20" valign="middle"> Cerebras Inference
 
 > Category: **official** · Status: **active**
 

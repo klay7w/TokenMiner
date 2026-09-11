@@ -248,7 +248,7 @@ Overall Free API。只有证据足够时才赋予。
 2. `# 🔥 Best Free AI Deals Right Now` 表格：Rank / Provider / Offer /
    Best Model / Context / Free Quota / Payment / Expire / Score / Get
    （Get → Claim URL；只展示 confidence=official/high 的优惠）。
-3. `# 🆓 Free Models`：Provider / Model / Type / Context / Rate Limit / API / Link。
+3. `# 🆓 Free Models`：Provider / Model / Ctx / Caps / Link。Rate Limit 与 API 不再单列，改为表下脚注（rate limits are rarely published → 见 provider pages；API compatibility 按 provider 列出）；Provider 图标使用 official_url 域名派生的外部 favicon（`https://www.google.com/s2/favicons?domain=<host>&sz=32`），Caps 为模态 emoji 图标（表下附图例）。
 4. `# 🎁 Free Credits`：Provider / Credits / Type / Requirement / Expire / Verified / Claim。
 5. `# 💻 Best Free Models for Coding`（🥇🥈🥉，声明非正式 Benchmark）。
 6. `# 🧠 Best Free Models for Reasoning`（同上）。

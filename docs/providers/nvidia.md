@@ -1,4 +1,4 @@
-# NVIDIA Build (NIM APIs)
+# <img src="https://www.google.com/s2/favicons?domain=build.nvidia.com&sz=32" width="20" valign="middle"> NVIDIA Build (NIM APIs)
 
 > Category: **official** · Status: **active**
 
