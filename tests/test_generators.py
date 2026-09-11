@@ -219,6 +219,57 @@ def test_coding_ranking_details_block_when_more_than_three():
     assert body[-2] == "</details>" and body[-1] == ""
 
 
+def test_podium_lines_hard_broken_and_consecutive():
+    """Podium lines are one tight paragraph hard-broken per medal (GFM "\\")."""
+
+    def _assert_podium(section: str, label: str) -> None:
+        body = section.splitlines()
+        podium = [i for i, ln in enumerate(body)
+                  if ln.startswith(("🥇", "🥈", "🥉"))]
+        assert podium, f"{label}: no podium lines"
+        # consecutive block: no blank lines between podium lines
+        assert podium == list(range(podium[0], podium[0] + len(podium))), podium
+        # every podium line except the last ends with a hard break
+        for i in podium[:-1]:
+            assert body[i].endswith("\\"), f"{label}: {body[i]!r} missing '\\'"
+        assert not body[podium[-1]].endswith("\\"), (
+            f"{label}: last podium line must not end with '\\': {body[podium[-1]]!r}"
+        )
+
+    # >3 candidates: 3-line podium followed by a <details> block
+    providers, offers, models, scores, changes = _data()
+    providers.append(Provider(
+        id="openrouter", name="OpenRouter", category="router", status="active",
+    ))
+    _add_tool_models(models, "openrouter", 5)
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    coding = md.split("# 💻 Best Free Models for Coding")[1].split("# 🧠")[0]
+    _assert_podium(coding, "coding podium (3 + details)")
+
+    # three candidates, podium only (no details block)
+    providers, offers, models, scores, changes = _data()
+    providers.append(Provider(
+        id="openrouter", name="OpenRouter", category="router", status="active",
+    ))
+    for i in range(2):
+        models.append(Model(
+            provider_id="openrouter", model_id=f"think-{i}", free=True,
+            context_length=100_000 - i * 10_000,
+            supports_reasoning=True,
+            model_url=f"https://openrouter.example/think-{i}",
+            last_checked=TODAY,
+        ))
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    reasoning = md.split("# 🧠 Best Free Models for Reasoning")[1].split("# 🕒")[0]
+    _assert_podium(reasoning, "reasoning podium (3, podium only)")
+
+    # single candidate: the one podium line is the last -> no hard break
+    providers, offers, models, scores, changes = _data()
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    reasoning = md.split("# 🧠 Best Free Models for Reasoning")[1].split("# 🕒")[0]
+    _assert_podium(reasoning, "reasoning podium (single candidate)")
+
+
 def test_ranking_podium_only_when_three_or_fewer():
     providers, offers, models, scores, changes = _data()
     providers.append(Provider(

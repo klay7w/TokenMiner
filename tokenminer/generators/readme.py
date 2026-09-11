@@ -55,6 +55,10 @@ def _podium_and_details(
     <details> block (blank lines around the body are required so GitHub
     renders markdown inside <details>). Three or fewer candidates render
     podium-only, without a details block.
+
+    Podium lines stay one tight markdown paragraph, so every line except
+    the last ends with a GFM hard break (trailing "\") — otherwise GitHub
+    collapses the soft breaks and renders all medals on one visual line.
     """
     if not candidates:
         lines.append("_No free models with confirmed support right now._")
@@ -64,13 +68,17 @@ def _podium_and_details(
         name = esc(model_short(m))
         return f"[{name}]({esc(m.model_url)})" if m.model_url else name
 
-    for medal, m in zip(("🥇", "🥈", "🥉"), candidates[:3]):
+    podium = candidates[:3]
+    for i, (medal, m) in enumerate(zip(("🥇", "🥈", "🥉"), podium)):
         provider = providers_by_id.get(m.provider_id)
-        lines.append(
+        line = (
             f"{medal} **{_link(m)}** · {ctx_short(m.context_length)} ctx · "
             f"{caps_with_capabilities(m)} · "
             f"{provider.name if provider else m.provider_id}"
         )
+        if i < len(podium) - 1:
+            line += "\\"  # GFM hard break: medal stays on its own line
+        lines.append(line)
     rest = candidates[3:]
     if not rest:
         return

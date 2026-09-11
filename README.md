@@ -62,8 +62,8 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 > ℹ️ Free models that support tool calling — the practical proxy for coding agents. **Not a formal benchmark.**
 
-🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter
-🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter
+🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter\
+🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter\
 🥉 **[Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604)** · 1M ctx · 📝🛠️🧠 · OpenRouter
 
 <details>
@@ -91,8 +91,8 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 > ℹ️ Free models exposing a reasoning parameter — the practical proxy for reasoning. **Not a formal benchmark.**
 
-🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter
-🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter
+🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter\
+🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter\
 🥉 **[Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604)** · 1M ctx · 📝🛠️🧠 · OpenRouter
 
 <details>
