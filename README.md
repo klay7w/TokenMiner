@@ -86,7 +86,6 @@ Auto-updated **2026-09-11** · 15 providers · 10 offers · 20 free models track
 
 # 🕒 Recently Changed
 
-- ⚠ DeepInfra: watch page changed: https://deepinfra.com
 - ⚠ NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
