@@ -86,8 +86,16 @@ Auto-updated **2026-09-11** · 15 providers · 10 offers · 20 free models track
 
 # 🕒 Recently Changed
 
-- ⚠ DeepInfra: watch page changed: https://deepinfra.com
-- ⚠ NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+- + New provider: Cerebras Inference (cerebras)
+- + New provider: Cloudflare AI Gateway (cloudflare-ai-gateway)
+- + New provider: DeepInfra (deepinfra)
+- + New provider: Fireworks AI (fireworks)
+- + New provider: Google AI Studio (Gemini API) (google-ai-studio)
+- + New provider: Groq (groq)
+- + New provider: Hugging Face Inference Providers (huggingface)
+- + New provider: Mistral AI (mistral)
+- + New provider: NVIDIA Build (NIM APIs) (nvidia)
+- + New provider: OpenRouter (openrouter)
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 
