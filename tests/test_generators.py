@@ -322,9 +322,18 @@ def test_ranking_podium_only_when_three_or_fewer():
 def test_recently_changed_section():
     providers, offers, models, scores, changes = _data()
     md = generate_readme(providers, offers, models, scores, changes, TODAY)
-    recent = md.split("# 🕒 Recently Changed")[1].split("# 📖")[0]
-    assert "+ New offer: Free Models Forever" in recent
-    assert "- Free model removed: dev/old-free" in recent
+    body = md.split("# 🕒 Recently Changed")[1].split("# 📖")[0]
+    lines = [l for l in body.splitlines() if l.strip()]
+    # Date-prefixed entry lines, no markdown bullet, no +/-/⚠ symbol.
+    # All entry lines except the last end with a GFM hard break ("\\"),
+    # so GitHub keeps each entry on its own line.
+    first = f"{TODAY.isoformat()}: New offer: Free Models Forever (goodrouter)\\"
+    second = f"{TODAY.isoformat()}: Free model removed: dev/old-free (goodrouter)"
+    tail = "Full history in [CHANGELOG.md](CHANGELOG.md)."
+    assert lines[:2] == [first, second]
+    assert lines[-1] == tail
+    for line in lines[:-2]:
+        assert not line.lstrip().startswith("-")  # no markdown bullet
 
 
 def test_pipe_characters_escaped_in_tables():

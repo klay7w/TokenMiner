@@ -106,6 +106,9 @@ def test_no_changes_means_empty():
 
 def test_change_render_format():
     _, changes = _run([], [_offer("a")])
+    # Canonical format: ``YYYY-MM-DD: text`` — no bullet, no symbol.
     rendered = changes[0].render()
-    assert rendered[11] in "+-⚠"
+    assert rendered == f"{changes[0].date}: {changes[0].text}"
     assert rendered.startswith(changes[0].date)
+    assert rendered[len(changes[0].date)] == ":"
+    assert changes[0].symbol not in rendered

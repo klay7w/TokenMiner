@@ -123,16 +123,16 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-- + New provider: Cerebras Inference (cerebras)
-- + New provider: Cloudflare AI Gateway (cloudflare-ai-gateway)
-- + New provider: DeepInfra (deepinfra)
-- + New provider: Fireworks AI (fireworks)
-- + New provider: Google AI Studio (Gemini API) (google-ai-studio)
-- + New provider: Groq (groq)
-- + New provider: Hugging Face Inference Providers (huggingface)
-- + New provider: Mistral AI (mistral)
-- + New provider: NVIDIA Build (NIM APIs) (nvidia)
-- + New provider: OpenRouter (openrouter)
+2026-09-11: New provider: Cerebras Inference (cerebras)\
+2026-09-11: New provider: Cloudflare AI Gateway (cloudflare-ai-gateway)\
+2026-09-11: New provider: DeepInfra (deepinfra)\
+2026-09-11: New provider: Fireworks AI (fireworks)\
+2026-09-11: New provider: Google AI Studio (Gemini API) (google-ai-studio)\
+2026-09-11: New provider: Groq (groq)\
+2026-09-11: New provider: Hugging Face Inference Providers (huggingface)\
+2026-09-11: New provider: Mistral AI (mistral)\
+2026-09-11: New provider: NVIDIA Build (NIM APIs) (nvidia)\
+2026-09-11: New provider: OpenRouter (openrouter)
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 

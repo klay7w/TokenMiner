@@ -36,14 +36,16 @@ def generate_changelog(history_dir: Path | None = None) -> str:
         if prev is None:
             date = path.stem
             entries.append((date, [
-                f"+ Baseline snapshot: {len(providers)} providers, "
+                f"Baseline snapshot: {len(providers)} providers, "
                 f"{len(offers)} offers, {len(models)} free models",
             ]))
         else:
             old_p, old_o, old_m = prev
             changes = diff_data(old_p, providers, old_o, offers, old_m, models)
             if changes:
-                entries.append((path.stem, [c.render() for c in changes]))
+                # Plain text only: the ``## {date}`` header already carries
+                # the date and +/-/⚠ symbols would duplicate the bullet.
+                entries.append((path.stem, [c.text for c in changes]))
         prev = (providers, offers, models)
 
     for date, items in reversed(entries):  # newest first

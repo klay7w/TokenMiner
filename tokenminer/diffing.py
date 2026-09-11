@@ -16,11 +16,12 @@ from .utils.time import today
 @dataclass
 class Change:
     date: str
-    symbol: str  # "+" | "-" | "⚠"
+    symbol: str  # "+" | "-" | "⚠" (metadata only — not rendered)
     text: str
 
     def render(self) -> str:
-        return f"{self.date} {self.symbol} {self.text}"
+        """Single canonical display format: ``YYYY-MM-DD: text``."""
+        return f"{self.date}: {self.text}"
 
 
 def diff_data(

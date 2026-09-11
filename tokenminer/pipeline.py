@@ -353,6 +353,6 @@ def _write_summary(
         f"changes: {len(changes)}",
     ]
     for change in changes[:20]:
-        lines.append(f"change: {change.symbol} {change.text}")
+        lines.append(f"change: {change.text}")
     SUMMARY_PATH.parent.mkdir(parents=True, exist_ok=True)
     SUMMARY_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")

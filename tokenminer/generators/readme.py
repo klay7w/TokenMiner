@@ -280,8 +280,17 @@ def generate_readme(
     lines.append("# 🕒 Recently Changed")
     lines.append("")
     if changes:
-        for change in changes[:10]:
-            lines.append(f"- {change.symbol} {change.text}")
+        # Each entry is one plain ``YYYY-MM-DD: text`` line — no markdown
+        # bullet, no +/-/⚠ symbol. Lines stay one tight markdown paragraph,
+        # so every line except the last ends with a GFM hard break
+        # (trailing "\\") — otherwise GitHub collapses the soft breaks and
+        # renders all entries as one visual line (same as the podium above).
+        recent = changes[:10]
+        for i, change in enumerate(recent):
+            line = change.render()
+            if i < len(recent) - 1:
+                line += "\\"  # GFM hard break: entry stays on its own line
+            lines.append(line)
         lines.append("")
         lines.append("Full history in [CHANGELOG.md](CHANGELOG.md).")
     else:
