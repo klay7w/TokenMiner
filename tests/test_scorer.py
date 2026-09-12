@@ -2,12 +2,14 @@
 
 from __future__ import annotations
 
-from datetime import date, timedelta
+from datetime import timedelta
 
 from tokenminer.models import Model, Offer, Provider
 from tokenminer.scoring.scorer import WEIGHTS, grade_for, score_provider
+from tokenminer.utils.time import today
 
-TODAY = date(2026, 9, 11)
+# Rule: no absolute dates in tests — TODAY is always the real current UTC date.
+TODAY = today()
 
 
 def _provider(**kw) -> Provider:

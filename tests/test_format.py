@@ -17,8 +17,10 @@ from tokenminer.generators.format import (
     requirement_short,
 )
 from tokenminer.models import Model, Offer, Provider
+from tokenminer.utils.time import today
 
-TODAY = date(2026, 9, 11)
+# Rule: no absolute dates in tests — TODAY is always the real current UTC date.
+TODAY = today()
 
 
 def _provider(**kwargs) -> Provider:

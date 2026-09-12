@@ -3,15 +3,16 @@
 from __future__ import annotations
 
 import re
-from datetime import date
 from pathlib import Path
 
 from tokenminer.diffing import Change
 from tokenminer.generators import generate_provider_page, generate_readme
 from tokenminer.models import Model, Offer, Provider
 from tokenminer.scoring import score_provider
+from tokenminer.utils.time import today
 
-TODAY = date(2026, 9, 11)
+# Rule: no absolute dates in tests — TODAY is always the real current UTC date.
+TODAY = today()
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -165,7 +166,7 @@ def test_free_credits_section():
     assert "| Provider | Amount | Requirement | Verified | Claim |" in credits
     assert "$5 once" in credits
     assert "New users" in credits
-    assert "2026-09-11" in credits  # verified date shown (SPEC §1 Q10)
+    assert TODAY.isoformat() in credits  # verified date shown (SPEC §1 Q10)
     assert "Claim](https://goodrouter.example/free)" in credits
 
 
@@ -370,7 +371,7 @@ def test_provider_page_fixed_sections():
     assert "🛠️ tools · 🧠 reasoning" in page
     assert "https://goodrouter.example/free" in page
     assert "256K" in page
-    assert "2026-09-11" in page  # last verified dates (SPEC §24)
+    assert TODAY.isoformat() in page  # last verified dates (SPEC §24)
 
 
 def test_provider_page_pros_cons_derived_from_data():

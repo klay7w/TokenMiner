@@ -3,10 +3,13 @@
 from __future__ import annotations
 
 import json
-from datetime import date
 
 from tokenminer import store
 from tokenminer.models import Model, Offer, Provider
+from tokenminer.utils.time import today
+
+# Rule: no absolute dates in tests — TODAY is always the real current UTC date.
+TODAY = today()
 
 
 def test_offers_sorted_by_provider_then_id(tmp_path):
@@ -43,14 +46,14 @@ def test_models_sorted_by_provider_then_model_id(tmp_path):
 def test_providers_yaml_roundtrip(tmp_path):
     path = tmp_path / "providers.yaml"
     providers = [
-        Provider(id="b", name="B", last_checked=date(2026, 9, 11)),
+        Provider(id="b", name="B", last_checked=TODAY),
         Provider(id="a", name="A", watch_urls=["https://x.example"]),
     ]
     store.save_providers(providers, path)
     loaded = store.load_providers(path)
     assert [p.id for p in loaded] == ["a", "b"]
     assert loaded[0].watch_urls == ["https://x.example"]
-    assert str(loaded[1].last_checked) == "2026-09-11"
+    assert str(loaded[1].last_checked) == TODAY.isoformat()
 
 
 def test_history_snapshot_contains_free_models_only(tmp_path):
@@ -61,8 +64,8 @@ def test_history_snapshot_contains_free_models_only(tmp_path):
         Model(provider_id="p", model_id="paid/m", free=False),
     ]
     path = store.save_history_snapshot(providers, offers, models,
-                                       date(2026, 9, 11), directory=tmp_path)
-    assert path.name == "2026-09-11.json"
+                                       TODAY, directory=tmp_path)
+    assert path.name == f"{TODAY.isoformat()}.json"
     raw = json.loads(path.read_text(encoding="utf-8"))
     assert [m["model_id"] for m in raw["free_models"]] == ["free/m"]
     assert len(raw["offers"]) == 1 and len(raw["providers"]) == 1
