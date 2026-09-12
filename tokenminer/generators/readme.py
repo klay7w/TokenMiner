@@ -62,8 +62,10 @@ def _podium_and_details(
     <details> HTML block when one is present.
 
     Podium lines stay one tight markdown paragraph, so every line except
-    the last ends with a GFM hard break (trailing "\") — otherwise GitHub
-    collapses the soft breaks and renders all medals on one visual line.
+    the last ends with a literal <br> tag — otherwise GitHub collapses
+    the soft breaks and renders all medals on one visual line. (A trailing
+    "\" hard break would be absorbed into an autolinked URL when the line
+    ends with one, so <br> is used everywhere regardless of line content.)
     """
     if not candidates:
         lines.append("_No free models with confirmed support right now._")
@@ -82,7 +84,7 @@ def _podium_and_details(
             f"{provider.name if provider else m.provider_id}"
         )
         if i < len(podium) - 1:
-            line += "\\"  # GFM hard break: medal stays on its own line
+            line += "<br>"  # literal hard break: medal stays on its own line
         lines.append(line)
     rest = candidates[3:]
     if rest:
@@ -282,14 +284,17 @@ def generate_readme(
     if changes:
         # Each entry is one plain ``YYYY-MM-DD: text`` line — no markdown
         # bullet, no +/-/⚠ symbol. Lines stay one tight markdown paragraph,
-        # so every line except the last ends with a GFM hard break
-        # (trailing "\\") — otherwise GitHub collapses the soft breaks and
-        # renders all entries as one visual line (same as the podium above).
+        # so every line except the last ends with a literal <br> tag —
+        # otherwise GitHub collapses the soft breaks and renders all entries
+        # as one visual line (same as the podium above). A trailing "\\"
+        # hard break is absorbed into an autolinked URL when the change text
+        # ends with one (href="...%5C"), so <br> is used instead: GFM's
+        # autolink terminates at the "<" and the line always breaks.
         recent = changes[:10]
         for i, change in enumerate(recent):
             line = change.render()
             if i < len(recent) - 1:
-                line += "\\"  # GFM hard break: entry stays on its own line
+                line += "<br>"  # literal hard break: entry stays on its own line
             lines.append(line)
         lines.append("")
         lines.append("Full history in [CHANGELOG.md](CHANGELOG.md).")

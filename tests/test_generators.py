@@ -248,7 +248,7 @@ def test_ranking_legend_absent_without_podium():
 
 
 def test_podium_lines_hard_broken_and_consecutive():
-    """Podium lines are one tight paragraph hard-broken per medal (GFM "\\")."""
+    """Podium lines are one tight paragraph hard-broken per medal ("<br>")."""
 
     def _assert_podium(section: str, label: str) -> None:
         body = section.splitlines()
@@ -259,10 +259,15 @@ def test_podium_lines_hard_broken_and_consecutive():
         assert podium == list(range(podium[0], podium[0] + len(podium))), podium
         # every podium line except the last ends with a hard break
         for i in podium[:-1]:
-            assert body[i].endswith("\\"), f"{label}: {body[i]!r} missing '\\'"
-        assert not body[podium[-1]].endswith("\\"), (
-            f"{label}: last podium line must not end with '\\': {body[podium[-1]]!r}"
+            assert body[i].endswith("<br>"), (
+                f"{label}: {body[i]!r} missing '<br>'"
+            )
+        assert not body[podium[-1]].endswith("<br>"), (
+            f"{label}: last podium line must not end with '<br>': {body[podium[-1]]!r}"
         )
+        # no line uses the old trailing-"\" hard break anywhere in the block
+        for ln in body:
+            assert not ln.endswith("\\"), f"{label}: {ln!r} ends with '\\'"
 
     # >3 candidates: 3-line podium followed by a <details> block
     providers, offers, models, scores, changes = _data()
@@ -326,13 +331,16 @@ def test_recently_changed_section():
     body = md.split("# 🕒 Recently Changed")[1].split("# 📖")[0]
     lines = [l for l in body.splitlines() if l.strip()]
     # Date-prefixed entry lines, no markdown bullet, no +/-/⚠ symbol.
-    # All entry lines except the last end with a GFM hard break ("\\"),
-    # so GitHub keeps each entry on its own line.
-    first = f"{TODAY.isoformat()}: New offer: Free Models Forever (goodrouter)\\"
+    # All entry lines except the last end with a literal <br> hard break,
+    # so GitHub keeps each entry on its own line. A trailing "\\" would be
+    # absorbed into an autolinked URL when the entry ends with one.
+    first = f"{TODAY.isoformat()}: New offer: Free Models Forever (goodrouter)<br>"
     second = f"{TODAY.isoformat()}: Free model removed: dev/old-free (goodrouter)"
     tail = "Full history in [CHANGELOG.md](CHANGELOG.md)."
     assert lines[:2] == [first, second]
     assert lines[-1] == tail
+    for line in lines:
+        assert not line.endswith("\\"), f"line must not end with '\\': {line!r}"
     for line in lines[:-2]:
         assert not line.lstrip().startswith("-")  # no markdown bullet
 
