@@ -5,5 +5,6 @@ offers_by_status: {'active': 10}
 offers_by_confidence: {'official': 10}
 models: 583
 free_models: 20
-changes: 1
+changes: 2
 change: DeepInfra: watch page changed: https://deepinfra.com
+change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
