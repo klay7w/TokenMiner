@@ -28,6 +28,12 @@ from .format import (
 
 SUBTITLE = "Mine free AI models, API credits, tokens and developer deals."
 
+# GFM hard break: two trailing spaces at the end of a line. Two spaces (not
+# "\" — a backslash is absorbed into a trailing autolink; not "<br>" —
+# GitHub renders "<br>" doubled) is the only form that always breaks the
+# line while keeping a URL-ending autolink intact.
+HARD_BREAK = "  "
+
 
 def _best_free_model(models: list[Model]) -> Model | None:
     if not models:
@@ -62,10 +68,10 @@ def _podium_and_details(
     <details> HTML block when one is present.
 
     Podium lines stay one tight markdown paragraph, so every line except
-    the last ends with a literal <br> tag — otherwise GitHub collapses
-    the soft breaks and renders all medals on one visual line. (A trailing
-    "\" hard break would be absorbed into an autolinked URL when the line
-    ends with one, so <br> is used everywhere regardless of line content.)
+    the last ends with a GFM hard break (two trailing spaces, HARD_BREAK) —
+    otherwise GitHub collapses the soft breaks and renders all medals on
+    one visual line. Two spaces survive URL-ending autolinks, unlike the
+    older backslash and <br> variants (see HARD_BREAK).
     """
     if not candidates:
         lines.append("_No free models with confirmed support right now._")
@@ -84,7 +90,7 @@ def _podium_and_details(
             f"{provider.name if provider else m.provider_id}"
         )
         if i < len(podium) - 1:
-            line += "<br>"  # literal hard break: medal stays on its own line
+            line += HARD_BREAK  # hard break: medal stays on its own line
         lines.append(line)
     rest = candidates[3:]
     if rest:
@@ -284,17 +290,17 @@ def generate_readme(
     if changes:
         # Each entry is one plain ``YYYY-MM-DD: text`` line — no markdown
         # bullet, no +/-/⚠ symbol. Lines stay one tight markdown paragraph,
-        # so every line except the last ends with a literal <br> tag —
-        # otherwise GitHub collapses the soft breaks and renders all entries
-        # as one visual line (same as the podium above). A trailing "\\"
-        # hard break is absorbed into an autolinked URL when the change text
-        # ends with one (href="...%5C"), so <br> is used instead: GFM's
-        # autolink terminates at the "<" and the line always breaks.
+        # so every line except the last ends with a GFM hard break (two
+        # trailing spaces, HARD_BREAK) — otherwise GitHub collapses the soft
+        # breaks and renders all entries as one visual line (same as the
+        # podium above). Two spaces survive URL-ending autolinks, unlike the
+        # older backslash form (absorbed into the link, href="...%5C") and
+        # "<br>" (renders doubled on GitHub).
         recent = changes[:10]
         for i, change in enumerate(recent):
             line = change.render()
             if i < len(recent) - 1:
-                line += "<br>"  # literal hard break: entry stays on its own line
+                line += HARD_BREAK  # hard break: entry stays on its own line
             lines.append(line)
         lines.append("")
         lines.append("Full history in [CHANGELOG.md](CHANGELOG.md).")

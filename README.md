@@ -62,8 +62,8 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 > ℹ️ Free models that support tool calling — the practical proxy for coding agents. **Not a formal benchmark.**
 
-🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter<br>
-🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter<br>
+🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter  
+🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter  
 🥉 **[Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604)** · 1M ctx · 📝🛠️🧠 · OpenRouter
 
 <details>
@@ -93,8 +93,8 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 > ℹ️ Free models exposing a reasoning parameter — the practical proxy for reasoning. **Not a formal benchmark.**
 
-🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter<br>
-🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter<br>
+🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter  
+🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter  
 🥉 **[Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604)** · 1M ctx · 📝🛠️🧠 · OpenRouter
 
 <details>
@@ -123,10 +123,10 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-09-12: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing<br>
-2026-09-12: DeepInfra: watch page changed: https://deepinfra.com<br>
-2026-09-12: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing<br>
-2026-09-12: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/<br>
+2026-09-12: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing  
+2026-09-12: DeepInfra: watch page changed: https://deepinfra.com  
+2026-09-12: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing  
+2026-09-12: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/  
 2026-09-12: Together AI: watch page changed: https://www.together.ai/pricing
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
