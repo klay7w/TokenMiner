@@ -123,13 +123,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-09-12: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing\
-2026-09-12: DeepInfra: watch page changed: https://deepinfra.com\
-2026-09-12: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing\
-2026-09-12: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/\
-2026-09-12: Together AI: watch page changed: https://www.together.ai/pricing
-
-Full history in [CHANGELOG.md](CHANGELOG.md).
+_No changes since last run._
 
 # 📖 Data & Verification
 
