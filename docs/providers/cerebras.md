@@ -77,5 +77,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-09-12
-- Offer `cerebras-signup-credit`: 2026-09-12
+- Provider: 2026-09-13
+- Offer `cerebras-signup-credit`: 2026-09-13

@@ -2,7 +2,7 @@
 
 > Mine free AI models, API credits, tokens and developer deals.
 
-Auto-updated **2026-09-12** · 15 providers · 10 offers · 20 free models tracked
+Auto-updated **2026-09-13** · 15 providers · 10 offers · 20 free models tracked
 
 # 🔥 Best Free AI Deals Right Now
 
@@ -52,11 +52,11 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 | Provider | Amount | Requirement | Verified | Claim |
 |---|---|---|---|---|
-| <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 once | New users | 2026-09-12 | [Claim](https://cloud.cerebras.ai) |
-| <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 once | New users | 2026-09-12 | [Claim](https://fireworks.ai/pricing) |
-| <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | Account | 2026-09-12 | [Claim](https://huggingface.co) |
-| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | Account | 2026-09-12 | [Claim](https://mistral.ai/pricing) |
-| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo ♻️ | New users · 🎓 Student · 💳 Card | 2026-09-12 | [Claim](https://mistral.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 once | New users | 2026-09-13 | [Claim](https://cloud.cerebras.ai) |
+| <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 once | New users | 2026-09-13 | [Claim](https://fireworks.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | Account | 2026-09-13 | [Claim](https://huggingface.co) |
+| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | Account | 2026-09-13 | [Claim](https://mistral.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo ♻️ | New users · 🎓 Student · 💳 Card | 2026-09-13 | [Claim](https://mistral.ai/pricing) |
 
 # 💻 Best Free Models for Coding
 
@@ -123,7 +123,9 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-09-12: DeepInfra: watch page changed: https://deepinfra.com
+2026-09-13: DeepInfra: watch page changed: https://deepinfra.com  
+2026-09-13: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/  
+2026-09-13: Together AI: watch page changed: https://www.together.ai/pricing
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 
