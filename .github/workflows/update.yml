@@ -2,7 +2,8 @@ name: TokenMiner Daily Update
 
 on:
   schedule:
-    - cron: "17 3 * * *"
+    # 00:00 UTC = 08:00 Beijing, daily
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
