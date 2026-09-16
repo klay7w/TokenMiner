@@ -8,8 +8,8 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 
 ## Current Free Offers
 
-- **OpenRouter Free Models (19 models)** — type `free_tier`, value —, status `active`, confidence `official`
-  - 19 models are free (ID ending in ':free', $0 per token). Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.
+- **OpenRouter Free Models (20 models)** — type `free_tier`, value —, status `active`, confidence `official`
+  - 20 models are free (ID ending in ':free', $0 per token). Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.
   - Claim: https://openrouter.ai/models?max_price=0
   - Source: https://openrouter.ai/api/v1/models
 
@@ -36,6 +36,7 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 | Nemotron 3 Nano Omni | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
 | Nemotron 3.5 Content Safety | 128K | 📝🖼️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
 | LiquidAI: LFM2.5-2.6B | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
+| Z.ai: GLM 5.2 | 33K | 📝🧠 | [↗](https://openrouter.ai/z-ai/glm-5.2-20260616) |
 
 *📝 text · 🖼️ image I/O · 👁️ image input (vision) · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 🧠 reasoning*
 
@@ -47,7 +48,7 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 ## Context Windows
 
 - Largest free-model context: **1M**
-- Free models with published context: 19 of 19
+- Free models with published context: 20 of 20
 
 ## Rate Limits
 
@@ -59,7 +60,7 @@ _No officially published rate-limit numbers recorded for free usage._
 
 ## Pros
 
-- 19 free model(s) available
+- 20 free model(s) available
 - long-context free models (≥200K)
 - free models with tool calling
 - free models with reasoning support
@@ -111,5 +112,5 @@ Risk tags: ♾️ Permanent Free Tier
 
 ## Last Verified
 
-- Provider: 2026-09-14
-- Offer `openrouter-free-models`: 2026-09-14
+- Provider: 2026-09-16
+- Offer `openrouter-free-models`: 2026-09-16
