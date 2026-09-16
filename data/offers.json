@@ -21,8 +21,8 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   },
   {
@@ -47,8 +47,8 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   },
   {
@@ -73,8 +73,8 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   },
   {
@@ -99,8 +99,8 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   },
   {
@@ -125,8 +125,8 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   },
   {
@@ -151,8 +151,8 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   },
   {
@@ -177,8 +177,8 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   },
   {
@@ -203,16 +203,16 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   },
   {
     "id": "openrouter-free-models",
     "provider_id": "openrouter",
-    "title": "OpenRouter Free Models (19 models)",
+    "title": "OpenRouter Free Models (20 models)",
     "type": "free_tier",
-    "description": "19 models are free (ID ending in ':free', $0 per token). Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.",
+    "description": "20 models are free (ID ending in ':free', $0 per token). Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.",
     "value": null,
     "currency": null,
     "free_tokens": null,
@@ -229,8 +229,8 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   },
   {
@@ -255,8 +255,8 @@
     "status": "active",
     "confidence": "official",
     "first_seen": "2026-09-11",
-    "last_checked": "2026-09-14",
-    "last_verified": "2026-09-14",
+    "last_checked": "2026-09-16",
+    "last_verified": "2026-09-16",
     "stale": false
   }
 ]

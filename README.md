@@ -2,19 +2,19 @@
 
 > Mine free AI models, API credits, tokens and developer deals.
 
-Auto-updated **2026-09-14** · 15 providers · 10 offers · 20 free models tracked
+Auto-updated **2026-09-16** · 15 providers · 10 offers · 20 free models tracked
 
 # 🔥 Best Free AI Deals Right Now
 
 | # | Provider | Deal | Best Model | Ctx | Score | Get |
 |---|---|---|---|---|---|---|
-| 1 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | 19 free models ♾️ | [Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730) | 1M | 89 A | [→](https://openrouter.ai/models?max_price=0) |
-| 2 | <img src="https://www.google.com/s2/favicons?domain=tokenrouter.com&sz=32" width="16" valign="middle"> [TokenRouter](docs/providers/tokenrouter.md) | 1 free model ♾️ | [glm-5.3-free](https://tokenrouter.com/models/z-ai/glm-5.3-free/) | — | 65 C | [→](https://tokenrouter.com/models) |
-| 3 | <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | — | — | 51 D | [→](https://huggingface.co) |
-| 4 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | — | — | 43 D | [→](https://mistral.ai/pricing) |
-| 5 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo 🎓 💳 | — | — | 43 D | [→](https://mistral.ai/pricing) |
-| 6 | <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 credit 🎁 | — | — | 35 D | [→](https://cloud.cerebras.ai) |
-| 7 | <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 credit 🎁 | — | — | 35 D | [→](https://fireworks.ai/pricing) |
+| 1 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | 20 free models ♾️ | [Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730) | 1M | 89 A | [→](https://openrouter.ai/models?max_price=0) |
+| 2 | <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | — | — | 51 D | [→](https://huggingface.co) |
+| 3 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | — | — | 43 D | [→](https://mistral.ai/pricing) |
+| 4 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo 🎓 💳 | — | — | 43 D | [→](https://mistral.ai/pricing) |
+| 5 | <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 credit 🎁 | — | — | 35 D | [→](https://cloud.cerebras.ai) |
+| 6 | <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 credit 🎁 | — | — | 35 D | [→](https://fireworks.ai/pricing) |
+| 7 | <img src="https://www.google.com/s2/favicons?domain=tokenrouter.com&sz=32" width="16" valign="middle"> [TokenRouter](docs/providers/tokenrouter.md) | Free tier ♾️ | — | — | 25 D | [→](https://tokenrouter.com/models) |
 | 8 | <img src="https://www.google.com/s2/favicons?domain=ai.google.dev&sz=32" width="16" valign="middle"> [Google AI Studio (Gemini API)](docs/providers/google-ai-studio.md) | Free tier ♾️ | — | — | 21 D | [→](https://ai.google.dev/gemini-api/docs/pricing) |
 | 9 | <img src="https://www.google.com/s2/favicons?domain=groq.com&sz=32" width="16" valign="middle"> [Groq](docs/providers/groq.md) | Free tier ♾️ | — | — | 19 D | [→](https://console.groq.com/keys) |
 | 10 | <img src="https://www.google.com/s2/favicons?domain=build.nvidia.com&sz=32" width="16" valign="middle"> [NVIDIA Build (NIM APIs)](docs/providers/nvidia.md) | Free tier ♾️ | — | — | 19 D | [→](https://build.nvidia.com) |
@@ -42,9 +42,9 @@ Auto-updated **2026-09-14** · 15 providers · 10 offers · 20 free models track
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Nemotron 3 Nano Omni | 256K | 📝🖼️🎬🔊 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Nemotron 3.5 Content Safety | 128K | 📝🖼️ | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | LiquidAI: LFM2.5-2.6B | 66K | 📝 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
-| <img src="https://www.google.com/s2/favicons?domain=tokenrouter.com&sz=32" width="16" valign="middle"> [TokenRouter](docs/providers/tokenrouter.md) | glm-5.3-free | — | 📝 | [↗](https://tokenrouter.com/models/z-ai/glm-5.3-free/) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Z.ai: GLM 5.2 | 33K | 📝 | [↗](https://openrouter.ai/z-ai/glm-5.2-20260616) |
 
-Rate limits are rarely published; see provider pages. API compatibility: OpenRouter — OpenAI-compatible; TokenRouter — openai/anthropic/gemini.
+Rate limits are rarely published; see provider pages. API compatibility: OpenRouter — OpenAI-compatible.
 
 *📝 text · 🖼️ image · 🎬 video · 🔊 audio · 🧩 embedding*
 
@@ -52,11 +52,11 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 | Provider | Amount | Requirement | Verified | Claim |
 |---|---|---|---|---|
-| <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 once | New users | 2026-09-14 | [Claim](https://cloud.cerebras.ai) |
-| <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 once | New users | 2026-09-14 | [Claim](https://fireworks.ai/pricing) |
-| <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | Account | 2026-09-14 | [Claim](https://huggingface.co) |
-| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | Account | 2026-09-14 | [Claim](https://mistral.ai/pricing) |
-| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo ♻️ | New users · 🎓 Student · 💳 Card | 2026-09-14 | [Claim](https://mistral.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 once | New users | 2026-09-16 | [Claim](https://cloud.cerebras.ai) |
+| <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 once | New users | 2026-09-16 | [Claim](https://fireworks.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | Account | 2026-09-16 | [Claim](https://huggingface.co) |
+| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | Account | 2026-09-16 | [Claim](https://mistral.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo ♻️ | New users · 🎓 Student · 💳 Card | 2026-09-16 | [Claim](https://mistral.ai/pricing) |
 
 # 💻 Best Free Models for Coding
 
@@ -98,7 +98,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 🥉 **[Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604)** · 1M ctx · 📝🛠️🧠 · OpenRouter
 
 <details>
-<summary><b>More reasoning free models (16)</b></summary>
+<summary><b>More reasoning free models (17)</b></summary>
 
 - [Nemotron 3.5 Lightning](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) — 1M
 - [Dots Studio: Dots3-Note Preview](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) — 512K
@@ -116,6 +116,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 - [Nemotron 3 Nano Omni](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) — 256K
 - [Nemotron 3.5 Content Safety](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) — 128K
 - [LiquidAI: LFM2.5-2.6B](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) — 66K
+- [Z.ai: GLM 5.2](https://openrouter.ai/z-ai/glm-5.2-20260616) — 33K
 
 </details>
 
@@ -123,8 +124,16 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-09-14: DeepInfra: watch page changed: https://deepinfra.com  
-2026-09-14: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+2026-09-16: New free model: z-ai/glm-5.2:free (openrouter)  
+2026-09-16: Free model removed: z-ai/glm-5.3-free (tokenrouter)  
+2026-09-16: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing  
+2026-09-16: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/  
+2026-09-16: DeepInfra: watch page changed: https://deepinfra.com  
+2026-09-16: Fireworks AI: watch page changed: https://fireworks.ai/pricing  
+2026-09-16: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing  
+2026-09-16: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/rate-limits  
+2026-09-16: Groq: watch page changed: https://console.groq.com/docs/rate-limits  
+2026-09-16: Mistral AI: watch page changed: https://mistral.ai/pricing
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 
