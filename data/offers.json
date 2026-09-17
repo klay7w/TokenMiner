@@ -210,9 +210,9 @@
   {
     "id": "openrouter-free-models",
     "provider_id": "openrouter",
-    "title": "OpenRouter Free Models (20 models)",
+    "title": "OpenRouter Free Models (24 models)",
     "type": "free_tier",
-    "description": "20 models are free (ID ending in ':free', $0 per token). Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.",
+    "description": "24 models are priced $0 per token, most carrying a ':free' id suffix. Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.",
     "value": null,
     "currency": null,
     "free_tokens": null,
