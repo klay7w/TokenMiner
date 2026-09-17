@@ -77,8 +77,9 @@ class HttpClient:
                 time.sleep(wait)
         self._last_request_at[host] = time.monotonic()
 
-    def fetch(self, url: str) -> FetchResult | None:
-        """GET ``url``; follow redirects; return FetchResult or None on failure."""
+    def fetch(self, url: str, headers: dict[str, str] | None = None) -> FetchResult | None:
+        """GET ``url`` (optional per-request headers merged with the client
+        UA); follow redirects; return FetchResult or None on failure."""
         if url in self._cache:
             return self._cache[url]
         result: FetchResult | None = None
@@ -86,7 +87,7 @@ class HttpClient:
         for attempt in range(1, self.retries + 1):
             self._be_polite(url)
             try:
-                resp = self._client.get(url)
+                resp = self._client.get(url, headers=headers)
                 result = FetchResult(url, str(resp.url), resp.status_code, resp.text)
                 break
             except httpx.HTTPError:
@@ -99,16 +100,20 @@ class HttpClient:
             self._cache[url] = result
         return result
 
-    def get_text(self, url: str) -> str | None:
+    def get_text(
+        self, url: str, headers: dict[str, str] | None = None
+    ) -> str | None:
         """Response body text (2xx only) or None."""
-        result = self.fetch(url)
+        result = self.fetch(url, headers=headers)
         if result is not None and result.ok:
             return result.text
         return None
 
-    def get_json(self, url: str) -> Any | None:
+    def get_json(
+        self, url: str, headers: dict[str, str] | None = None
+    ) -> Any | None:
         """Parsed JSON body (2xx only) or None."""
-        text = self.get_text(url)
+        text = self.get_text(url, headers=headers)
         if text is None:
             return None
         try:

@@ -12,10 +12,13 @@ from ..models import Model, Offer, Provider
 from ..scoring.scorer import ProviderScore
 from ..utils.time import to_iso
 from .format import (
+    RANK_LEGEND,
     caps_with_capabilities,
     ctx_short,
     esc,
     favicon_img,
+    free_model_sort_key,
+    free_rank_cell,
     legend_line,
     model_short,
 )
@@ -31,7 +34,7 @@ def generate_provider_page(
     provider_models = [m for m in models if m.provider_id == provider.id]
     free_models = sorted(
         (m for m in provider_models if m.free),
-        key=lambda m: (-(m.context_length or 0), m.model_id),
+        key=free_model_sort_key,  # tiered: arena -> usage -> context (SPEC §40)
     )
     lines: list[str] = []
     add = lines.append
@@ -70,13 +73,16 @@ def generate_provider_page(
     add("## Free Models")
     add("")
     if free_models:
-        add("| Model | Ctx | Caps | Link |")
-        add("|---|---|---|---|")
+        add("| Model | Rank | Ctx | Caps | Link |")
+        add("|---|---|---|---|---|")
         for m in free_models:
             add(
-                f"| {esc(model_short(m))} | {ctx_short(m.context_length)} "
+                f"| {esc(model_short(m))} | {free_rank_cell(m)} "
+                f"| {ctx_short(m.context_length)} "
                 f"| {caps_with_capabilities(m)} | [↗]({m.model_url}) |"
             )
+        add("")
+        add(RANK_LEGEND)
         add("")
         add(legend_line(capabilities=True))
     else:

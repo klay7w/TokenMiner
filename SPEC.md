@@ -77,6 +77,7 @@ TokenMiner/
 │   ├── providers.yaml   (seed registry, enriched by collectors)
 │   ├── offers.json      (auto-generated)
 │   ├── models.json      (auto-generated)
+│   ├── arena.json       (auto-generated, LMArena leaderboard artifact)
 │   ├── seeds/
 │   │   └── offers.yaml  (hand-verified seed offers)
 │   └── history/         (YYYY-MM-DD.json snapshots, only on change)
@@ -85,7 +86,7 @@ TokenMiner/
 │   ├── __init__.py
 │   ├── __main__.py
 │   ├── models/          (provider.py, offer.py, model.py — Pydantic schemas)
-│   ├── collectors/      (base.py, openrouter.py, tokenrouter.py, generic.py)
+│   ├── collectors/      (base.py, openrouter.py, tokenrouter.py, generic.py, lmarena.py)
 │   ├── validators/offer_validator.py
 │   ├── scoring/scorer.py
 │   ├── generators/      (readme.py, provider_page.py)
@@ -178,6 +179,8 @@ trial / promotion / student / developer_program / unknown。
   "output_price": null,
   "free": false,
   "free_variant": null,
+  "arena_rank": null,
+  "usage_rank": null,
   "rate_limit": null,
   "supports_tools": null,
   "supports_vision": null,
@@ -190,6 +193,9 @@ trial / promotion / student / developer_program / unknown。
 ```
 
 `context_length` 属于核心字段。没有官方可靠信息 → null，禁止通过模型名猜测。
+
+`arena_rank`（LMArena 文字榜名次，1 = 最强）与 `usage_rank`（OpenRouter
+周使用量名次）来自外部基准排名（见 §40），同样禁止猜测。
 
 ## 10. Source Policy
 
@@ -248,7 +254,7 @@ Overall Free API。只有证据足够时才赋予。
 2. `# 🔥 Best Free AI Deals Right Now` 表格：Rank / Provider / Offer /
    Best Model / Context / Free Quota / Payment / Expire / Score / Get
    （Get → Claim URL；只展示 confidence=official/high 的优惠）。
-3. `# 🆓 Free Models`：Provider / Model / Ctx / Caps / Link。Rate Limit 与 API 不再单列，改为表下脚注（rate limits are rarely published → 见 provider pages；API compatibility 按 provider 列出）；Provider 图标使用 official_url 域名派生的外部 favicon（`https://www.google.com/s2/favicons?domain=<host>&sz=32`），Caps 为模态 emoji 图标（表下附图例）。
+3. `# 🆓 Free Models`：Provider / Rank / Model / Ctx / Caps / Link。排序按 §40 分级基准（LMArena 名次 → 周使用量 → Context 降序）；Rank 列显示 `#N 🏆`（LMArena）/`#N 🔥`（周使用量）/`—`，表下图例注明来源。Rate Limit 与 API 不再单列，改为表下脚注（rate limits are rarely published → 见 provider pages；API compatibility 按 provider 列出）；Provider 图标使用 official_url 域名派生的外部 favicon（`https://www.google.com/s2/favicons?domain=<host>&sz=32`），Caps 为模态 emoji 图标（表下附图例）。
 4. `# 🎁 Free Credits`：Provider / Credits / Type / Requirement / Expire / Verified / Claim。
 5. `# 💻 Best Free Models for Coding`（🥇🥈🥉，声明非正式 Benchmark）。
 6. `# 🧠 Best Free Models for Reasoning`（同上）。
@@ -340,6 +346,18 @@ Best Free AI Deals Right Now。
 - [ ] GitHub Actions 每日运行
 - [ ] Provider 单点失败不中断整体任务
 - [ ] pytest 通过
+
+## 40. External Benchmark Ranking（外部基准排名）
+
+Free Models 表的排序不是能力评价，而是「外部公开基准 + 平台热度」的分级回退（`tokenminer/collectors/lmarena.py`、`tokenminer/generators/format.py:free_model_sort_key`）：
+
+1. **Tier 1 — LMArena 名次（🏆）**：抓取 https://llmarena.ai/leaderboard/text 的 RSC flight payload（必须发送 `RSC: 1` 请求头，否则返回 HTML 壳），以容错正则提取 `entries` 数组（`{rank, modelDisplayName}`），≥100 条才算解析成功。榜单持久化为 `data/arena.json`（`{source, fetched, models:[{name, organization, rank}]}`），作为名次的 provenance 工件。只展示名次，不展示 Elo 分数（完整 Elo 仅存在于 20 行的抽样图表里）。
+2. **Tier 2 — OpenRouter 周使用量名次（🔥）**：`GET /api/v1/models?order=top_weekly`，`data[]` 的顺序即名次。
+3. **Tier 3 — Context 降序 + id 升序**：无任何公开名次时兜底。
+
+**名字匹配规则**（两侧对称归一化，无模糊匹配库）：小写、空格转 `-`、去 `:free` 后缀、去 org 前缀；候选形态含裸尾部与 `<org>-<尾部>`（arena 会给部分开发者加前缀，如 `nvidia-nemotron-*`）；尾部仅允许剥离日期版本号（`-20YYMMDD` / `-20YY-MM-DD`）与固定变体标签白名单（it/instruct/chat/latest/preview/base/free/omni/thinking/reasoning/vl/vision/bf16/fp8/nvfp4）。**版本号不可剥离**（`glm-5.2` ≠ `glm-5`）。归一化后仅做精确匹配；若多个不同 arena 名归一化到同一形态（歧义，如 `x` 与 `x-latest`），该形态永不匹配。名次只匹配 OpenRouter 模型，不跨 provider 泄漏。
+
+**Fail-soft**：LMArena 抓取/解析失败 → 警告并沿用上一次 `arena.json`（无历史工件则写入空列表），绝不中断 pipeline；周使用量接口失败 → `usage_rank=null` 并警告。Provider 总分（§15–17）不受外部基准影响，保持纯「免费程度」评价。
 
 ## Philosophy
 

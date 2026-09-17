@@ -29,6 +29,35 @@ CAPABILITY_ICONS: tuple[tuple[str, str], ...] = (
 
 _FAVICON = "https://www.google.com/s2/favicons?domain={domain}&sz=32"
 
+# Shared rank legend (SPEC §40): one line under every rank-iconized table.
+RANK_LEGEND = (
+    "Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank"
+    " · 🔥 [OpenRouter](https://openrouter.ai) weekly usage rank"
+    " · — unranked"
+)
+
+
+def free_model_sort_key(m: Model) -> tuple:
+    """Tiered free-model ordering (SPEC §40): LMArena rank (1 = best),
+    then OpenRouter weekly usage rank, then context length desc, id asc."""
+    return (
+        m.arena_rank is None,
+        m.arena_rank if m.arena_rank is not None else 0,
+        m.usage_rank is None,
+        m.usage_rank if m.usage_rank is not None else 0,
+        -(m.context_length or 0),
+        m.model_id,
+    )
+
+
+def free_rank_cell(m: Model) -> str:
+    """Compact Rank cell: arena rank, else weekly usage rank, else —."""
+    if m.arena_rank is not None:
+        return f"#{m.arena_rank} 🏆"
+    if m.usage_rank is not None:
+        return f"#{m.usage_rank} 🔥"
+    return "—"
+
 
 def esc(text: object) -> str:
     """Escape a value for use inside a markdown table cell."""

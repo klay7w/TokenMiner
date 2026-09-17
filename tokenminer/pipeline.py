@@ -20,6 +20,7 @@ from .collectors import (
     OpenRouterCollector,
     TokenRouterCollector,
 )
+from .collectors.lmarena import apply_arena_ranks, refresh_arena
 from .diffing import Change, diff_data
 from .generators import generate_changelog, generate_provider_page, generate_readme
 from .models import Model, Offer, Provider
@@ -126,6 +127,20 @@ def run_update() -> int:
                 continue
             _apply_result(pid, result, providers_by_id, offers_by_id,
                           models_by_provider)
+
+        # external benchmark ranking (SPEC §40): LMArena leaderboard
+        # artifact first, then rank-matching on OpenRouter models
+        arena_rows, arena_warnings = refresh_arena(http)
+        for w in arena_warnings:
+            warn(w)
+        if arena_rows:
+            ranked, ambiguous_skips = apply_arena_ranks(
+                models_by_provider.get("openrouter", []), arena_rows
+            )
+            log(
+                f"arena: {ranked} model(s) ranked from LMArena"
+                + (f", {ambiguous_skips} ambiguous skipped" if ambiguous_skips else "")
+            )
 
         # generic collectors (tier 2/3 change detection)
         generic = GenericCollector(GENERIC_STATE_PATH)

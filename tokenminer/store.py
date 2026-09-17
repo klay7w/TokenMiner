@@ -27,6 +27,7 @@ SEED_OFFERS_PATH = DATA / "seeds" / "offers.yaml"
 HISTORY_DIR = DATA / "history"
 GENERIC_STATE_PATH = DATA / "generic_state.json"
 SUMMARY_PATH = DATA / "update_summary.txt"
+ARENA_PATH = DATA / "arena.json"
 
 
 # ---------------------------------------------------------------- providers
@@ -67,6 +68,26 @@ def save_models(models: list[Model], path: Path = MODELS_PATH) -> None:
     payload = [json.loads(m.model_dump_json()) for m in models]
     payload.sort(key=lambda m: (m["provider_id"], m["model_id"]))
     _write_json(path, payload)
+
+
+# ------------------------------------------------------------------ arena
+def load_arena(path: Path = ARENA_PATH) -> list[dict] | None:
+    """Rows from data/arena.json, or None when no artifact exists yet."""
+    if not path.exists():
+        return None
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    return raw.get("models") if isinstance(raw, dict) else []
+
+
+def save_arena(
+    rows: list[dict], source: str, fetched: str | None, path: Path = ARENA_PATH
+) -> None:
+    """Persist the LMArena artifact (SPEC §40). """
+    payload = {"source": source, "fetched": fetched, "models": rows}
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
 
 
 # ------------------------------------------------------------------ history

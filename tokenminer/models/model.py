@@ -28,6 +28,11 @@ class Model(BaseModel):
     output_price: float | None = None
     free: bool = False
     free_variant: str | None = None
+    # External ranking (SPEC §40): arena_rank = LMArena text-leaderboard
+    # rank (1 = best) matched by normalized name; usage_rank = position in
+    # OpenRouter's weekly-usage ordering. Both None when unknown — never guessed.
+    arena_rank: int | None = None
+    usage_rank: int | None = None
     rate_limit: str | None = None
     supports_tools: bool | None = None
     supports_vision: bool | None = None
