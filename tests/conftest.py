@@ -30,7 +30,7 @@ class FakeHttpClient:
         self.pages = pages or {}
         self.hits: list[str] = []
 
-    def fetch(self, url: str) -> FakeFetchResult | None:
+    def fetch(self, url: str, headers: dict | None = None) -> FakeFetchResult | None:
         self.hits.append(url)
         if url not in self.pages:
             return None
@@ -41,11 +41,11 @@ class FakeHttpClient:
             status, text = 200, page
         return FakeFetchResult(url, status, text)
 
-    def get_text(self, url: str) -> str | None:
+    def get_text(self, url: str, headers: dict | None = None) -> str | None:
         result = self.fetch(url)
         return result.text if result is not None and result.ok else None
 
-    def get_json(self, url: str):
+    def get_json(self, url: str, headers: dict | None = None):
         text = self.get_text(url)
         if text is None:
             return None

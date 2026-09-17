@@ -14,12 +14,15 @@ from ..models import Model, Offer, Provider
 from ..scoring.scorer import ProviderScore
 from ..utils.time import to_iso
 from .format import (
+    RANK_LEGEND,
     caps_icons,
     caps_with_capabilities,
     ctx_short,
     credit_amount,
     deal_short,
     esc,
+    free_model_sort_key,
+    free_rank_cell,
     legend_line,
     model_short,
     provider_cell,
@@ -215,20 +218,23 @@ def generate_readme(
     lines.append("")
     all_free = sorted(
         (m for lst in free_by_provider.values() for m in lst),
-        key=lambda m: (-(m.context_length or 0), m.provider_id, m.model_id),
+        key=free_model_sort_key,  # tiered: arena -> usage -> context (SPEC §40)
     )
     if all_free:
-        lines.append("| Provider | Model | Ctx | Caps | Link |")
-        lines.append("|---|---|---|---|---|")
+        lines.append("| Provider | Rank | Model | Ctx | Caps | Link |")
+        lines.append("|---|---|---|---|---|---|")
         for m in all_free:
             provider = providers_by_id.get(m.provider_id)
             lines.append(
                 f"| {provider_cell(provider, m.provider_id)} "
+                f"| {free_rank_cell(m)} "
                 f"| {esc(model_short(m))} "
                 f"| {ctx_short(m.context_length)} "
                 f"| {caps_icons(m)} "
                 f"| [↗]({esc(m.model_url)}) |"
             )
+        lines.append("")
+        lines.append(RANK_LEGEND)
         lines.append("")
         lines.append(_api_compat_footnote(all_free, providers_by_id))
         lines.append("")

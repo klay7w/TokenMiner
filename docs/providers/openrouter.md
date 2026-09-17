@@ -15,32 +15,34 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 
 ## Free Models
 
-| Model | Ctx | Caps | Link |
-|---|---|---|---|
-| Lyria 3 Clip Preview | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
-| Lyria 3 Pro Preview | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
-| Thinking Machines: Inkling Small | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-small-20260730) |
-| Thinking Machines: Inkling | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-20260715) |
-| Nemotron 3 Ultra | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
-| Nemotron 3.5 Lightning | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
-| Dots Studio: Dots3-Note Preview | 512K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
-| Gemma 4 26B A4B | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
-| Gemma 4 31B | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
-| Ling 3.0 Flash Fin | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) |
-| Ling 3.0 Flash Sante | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) |
-| Ling 3.0 Flash VL | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-vl-20260910) |
-| Nex AGI: Nex-N2.5-Mini | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-mini-20260908) |
-| Nex AGI: Nex-N2.5-Pro | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-pro-20260907) |
-| Nemotron 3 Super | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) |
-| Laguna S 2.1 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-s-2.1-20260720) |
-| Laguna XS 2.1 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) |
-| Union Alpha | 262K | 📝🖼️🛠️👁️ | [↗](https://openrouter.ai/stealth/union-alpha) |
-| North Mini Code | 256K | 📝🛠️🧠 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
-| Nemotron 3 Nano Omni | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
-| Free Models Router | 200K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/openrouter/free) |
-| Nemotron 3.5 Content Safety | 128K | 📝🖼️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
-| LiquidAI: LFM2.5-2.6B | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
-| Z.ai: GLM 5.2 | 33K | 📝🧠 | [↗](https://openrouter.ai/z-ai/glm-5.2-20260616) |
+| Model | Rank | Ctx | Caps | Link |
+|---|---|---|---|---|
+| Gemma 4 31B | #68 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
+| Thinking Machines: Inkling | #85 🏆 | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-20260715) |
+| Gemma 4 26B A4B | #88 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
+| Nemotron 3 Ultra | #109 🏆 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
+| Thinking Machines: Inkling Small | #141 🏆 | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-small-20260730) |
+| Nemotron 3 Super | #192 🏆 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) |
+| Union Alpha | #1 🔥 | 262K | 📝🖼️🛠️👁️ | [↗](https://openrouter.ai/stealth/union-alpha) |
+| Ling 3.0 Flash VL | #13 🔥 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-vl-20260910) |
+| Nex AGI: Nex-N2.5-Mini | #16 🔥 | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-mini-20260908) |
+| Nex AGI: Nex-N2.5-Pro | #17 🔥 | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-pro-20260907) |
+| Ling 3.0 Flash Sante | #22 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) |
+| Ling 3.0 Flash Fin | #33 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) |
+| Dots Studio: Dots3-Note Preview | #48 🔥 | 512K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
+| LiquidAI: LFM2.5-2.6B | #58 🔥 | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
+| Nemotron 3.5 Lightning | #60 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
+| Laguna S 2.1 | #76 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-s-2.1-20260720) |
+| Laguna XS 2.1 | #108 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) |
+| North Mini Code | #115 🔥 | 256K | 📝🛠️🧠 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
+| Z.ai: GLM 5.2 | #118 🔥 | 33K | 📝🧠 | [↗](https://openrouter.ai/z-ai/glm-5.2-20260616) |
+| Nemotron 3.5 Content Safety | #125 🔥 | 128K | 📝🖼️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
+| Nemotron 3 Nano Omni | #146 🔥 | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
+| Lyria 3 Pro Preview | #183 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
+| Lyria 3 Clip Preview | #184 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
+| Free Models Router | #227 🔥 | 200K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/openrouter/free) |
+
+Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRouter](https://openrouter.ai) weekly usage rank · — unranked
 
 *📝 text · 🖼️ image I/O · 👁️ image input (vision) · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 🧠 reasoning*
 

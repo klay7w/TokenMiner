@@ -13,6 +13,7 @@ from ..utils.time import today
 from .base import Collector, CollectorResult
 
 API_URL = "https://openrouter.ai/api/v1/models"
+RANKED_API_URL = API_URL + "?order=top_weekly"  # data[] order IS the rank
 CLAIM_URL = "https://openrouter.ai/models?max_price=0"
 LIMITS_DOC = "https://openrouter.ai/docs/api-reference/limits"
 FREE_OFFER_ID = "openrouter-free-models"
@@ -58,6 +59,13 @@ class OpenRouterCollector(Collector):
             if not m.free and f"{m.model_id}:free" in free_ids:
                 m.free_variant = f"{m.model_id}:free"
 
+        # weekly usage ranking (SPEC §40 tier 2): data[] order is the rank
+        usage = self._usage_ranks(http)
+        if not usage:
+            result.warnings.append("OpenRouter: weekly usage ranking unavailable")
+        for m in models:
+            m.usage_rank = usage.get(m.model_id)
+
         result.models = models
         free_models = [m for m in models if m.free]
         result.provider_updates = {
@@ -94,6 +102,18 @@ class OpenRouterCollector(Collector):
             f"OpenRouter: {len(models)} models, {len(free_models)} free"
         )
         return result
+
+    def _usage_ranks(self, http: HttpClient) -> dict[str, int]:
+        """model_id -> weekly usage rank (1 = most used). {} on failure."""
+        ranked = http.get_json(RANKED_API_URL)
+        entries = ranked.get("data") if isinstance(ranked, dict) else None
+        if not isinstance(entries, list) or not entries:
+            return {}
+        return {
+            entry.get("id"): rank
+            for rank, entry in enumerate(entries, 1)
+            if isinstance(entry, dict) and entry.get("id")
+        }
 
     def _to_model(self, entry: dict, checked: object) -> Model:
         model_id: str = entry["id"]

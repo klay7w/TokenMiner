@@ -136,11 +136,14 @@ def test_free_models_table_lists_models_with_context():
     providers, offers, models, scores, changes = _data()
     md = generate_readme(providers, offers, models, scores, changes, TODAY)
     table = md.split("# 🆓 Free Models")[1].split("# 🎁")[0]
-    assert "| Provider | Model | Ctx | Caps | Link |" in table
+    assert "| Provider | Rank | Model | Ctx | Caps | Link |" in table
     assert "Coder Free" in table  # compact display name, raw id replaced
     assert "256K" in table
     assert "https://goodrouter.example/coder" in table  # ↗ link column
     assert "📝" in table  # modality icons
+    # rank column renders the fallback tier for unranked models + legend
+    assert "| — |" in table
+    assert "LMArena](https://llmarena.ai)" in table
     # rate limit / API columns replaced by one footnote line
     assert (
         "Rate limits are rarely published; see provider pages. "
@@ -157,6 +160,33 @@ def test_free_models_table_keeps_all_rows():
     # Free Models table keeps ALL rows (no rate-limit column truncation)
     assert sum(1 for ln in table.splitlines() if ln.startswith("|") and "Coder Free" in ln) == 1
     assert sum(1 for ln in table.splitlines() if ln.startswith("|") and "small-free" in ln) == 1
+
+
+def test_free_models_table_tiered_rank_order():
+    """SPEC §40: arena rank first, then weekly usage, then context desc."""
+    providers, offers, models, scores, changes = _data()
+    models = models + [
+        Model(provider_id="goodrouter", model_id="dev/arena-hot", free=True,
+              name="Arena Hot", context_length=8_000, arena_rank=12,
+              model_url="https://goodrouter.example/arena",
+              last_checked=TODAY),
+        Model(provider_id="goodrouter", model_id="dev/usage-hot", free=True,
+              name="Usage Hot", context_length=4_000, usage_rank=2,
+              model_url="https://goodrouter.example/usage",
+              last_checked=TODAY),
+    ]
+    scores = {p.id: score_provider(p, offers, models) for p in providers}
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    table = md.split("# 🆓 Free Models")[1].split("# 🎁")[0]
+    body = [ln for ln in table.splitlines() if ln.startswith("|")][2:]
+    names = [ln.split("|")[3].strip() for ln in body]  # Rank | Model cols
+    # tier 1 (arena #12) before tier 2 (usage #2) before context-sorted rest
+    assert names[0] == "Arena Hot"
+    assert names[1] == "Usage Hot"
+    assert "#12 🏆" in body[0]
+    assert "#2 🔥" in body[1]
+    assert "| — |" in body[2]
+    assert "LMArena](https://llmarena.ai)" in table  # legend names the source
 
 
 def test_free_credits_section():
@@ -382,7 +412,7 @@ def test_provider_page_fixed_sections():
         "## Sources", "## Last Verified",
     ):
         assert section in page, section
-    assert "| Model | Ctx | Caps | Link |" in page
+    assert "| Model | Rank | Ctx | Caps | Link |" in page
     assert "Coder Free" in page
     assert "🛠️" in page and "🧠" in page  # capability icons
     assert "🖼️ image I/O · 👁️ image input (vision)" in page  # legend

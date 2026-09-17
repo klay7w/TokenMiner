@@ -86,7 +86,14 @@ class TestOpenRouterCollector:
             "pricing": {"prompt": "0", "completion": "0"},
         })
         fixture["data"].append({"id": "some/model-no-pricing"})
-        http = FakeHttpClient({OR_API: json.dumps(fixture)})
+        ranked = {"data": [
+            {"id": "stealth/union-alpha"},
+            {"id": fixture["data"][0]["id"]},
+        ]}
+        http = FakeHttpClient({
+            OR_API: json.dumps(fixture),
+            OR_API + "?order=top_weekly": json.dumps(ranked),
+        })
         provider = Provider(id="openrouter", name="OpenRouter")
         result = OpenRouterCollector().collect(http, provider)
         by_id = {m.model_id: m for m in result.models}
@@ -100,6 +107,32 @@ class TestOpenRouterCollector:
         assert no_pricing.free is False
         assert no_pricing.input_price is None
         assert no_pricing.output_price is None
+
+    def test_usage_rank_from_weekly_ordering(self, openrouter_fixture):
+        """usage_rank = position in ?order=top_weekly data[] (SPEC §40)."""
+        ids = [m["id"] for m in openrouter_fixture["data"]]
+        ranked = {"data": [{"id": ids[2]}, {"id": ids[0]}]}  # reversed subset
+        http = FakeHttpClient({
+            OR_API: json.dumps(openrouter_fixture),
+            OR_API + "?order=top_weekly": json.dumps(ranked),
+        })
+        provider = Provider(id="openrouter", name="OpenRouter")
+        result = OpenRouterCollector().collect(http, provider)
+        by_id = {m.model_id: m for m in result.models}
+        assert by_id[ids[2]].usage_rank == 1
+        assert by_id[ids[0]].usage_rank == 2
+        assert by_id[ids[1]].usage_rank is None  # absent from ranking
+        assert not result.warnings
+
+    def test_usage_rank_unavailable_is_warning_not_crash(self, openrouter_fixture):
+        """Weekly-ranking endpoint down -> usage_rank None + warning."""
+        http = FakeHttpClient({OR_API: json.dumps(openrouter_fixture)})
+        provider = Provider(id="openrouter", name="OpenRouter")
+        result = OpenRouterCollector().collect(http, provider)
+        assert all(m.usage_rank is None for m in result.models)
+        assert any("weekly usage ranking unavailable" in w
+                   for w in result.warnings)
+        assert result.models  # models still collected
 
 
 class TestTokenRouterCollector:

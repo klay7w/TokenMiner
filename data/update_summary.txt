@@ -5,10 +5,4 @@ offers_by_status: {'active': 10}
 offers_by_confidence: {'official': 10}
 models: 584
 free_models: 24
-changes: 6
-change: New free model: google/lyria-3-clip-preview (openrouter)
-change: New free model: google/lyria-3-pro-preview (openrouter)
-change: New free model: openrouter/free (openrouter)
-change: New free model: stealth/union-alpha (openrouter)
-change: DeepInfra: watch page changed: https://deepinfra.com
-change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+changes: 0
