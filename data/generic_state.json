@@ -1,7 +1,7 @@
 {
   "cerebras": {
     "https://inference-docs.cerebras.ai/support/pricing": {
-      "checked": "2026-09-16",
+      "checked": "2026-09-17",
       "hash": "fe50dca064f255dd3677df2f5fa1c5f5635cfebc11d3e10223b0d84a5ab41fff",
       "keywords": [
         "developer",
@@ -12,7 +12,7 @@
   },
   "cloudflare-ai-gateway": {
     "https://developers.cloudflare.com/ai-gateway/": {
-      "checked": "2026-09-16",
+      "checked": "2026-09-17",
       "hash": "fa5118c1c27dc52d8881582969fb149553fc1fdceebfd2ddbb3498ffe675fa43",
       "keywords": [
         "developer",
@@ -23,8 +23,8 @@
   },
   "deepinfra": {
     "https://deepinfra.com": {
-      "checked": "2026-09-16",
-      "hash": "a0d5a55f00f864c8d0173802b06e2e4b471c15ab4f2537e76d59b6d14de945cb",
+      "checked": "2026-09-17",
+      "hash": "f2813895f1a7efe851ba45802e81c0c1ef6dc015fa44d8e342d6ce0c82923b9d",
       "keywords": [
         "$10",
         "developer",
@@ -35,8 +35,8 @@
   },
   "fireworks": {
     "https://fireworks.ai/pricing": {
-      "checked": "2026-09-16",
-      "hash": "82d4e04ff9734a0ae7f3d3b06b0ea1ff692071cdc5342c0dd9853f92ae877834",
+      "checked": "2026-09-17",
+      "hash": "06f97de6d437c442db51c166613acf091645ba8386ff462ca670ca1b80340163",
       "keywords": [
         "$10",
         "$20",
@@ -51,8 +51,8 @@
   },
   "google-ai-studio": {
     "https://ai.google.dev/gemini-api/docs/pricing": {
-      "checked": "2026-09-16",
-      "hash": "820e7c7d974ed07f26552f97fc9b8b966e720d3cbe8705383afcd1b5647caa51",
+      "checked": "2026-09-17",
+      "hash": "85f9b785951308f52eda2b7ea07882bb8f86a740a5b8af990c3ec25162409275",
       "keywords": [
         "$10",
         "$20",
@@ -65,7 +65,7 @@
       "status": 200
     },
     "https://ai.google.dev/gemini-api/docs/rate-limits": {
-      "checked": "2026-09-16",
+      "checked": "2026-09-17",
       "hash": "1490eb2f6edde59c9615a4b175aca49ce0bcd17099bf7ba0ecb38cc689f0ad9c",
       "keywords": [
         "$10",
@@ -82,7 +82,7 @@
   },
   "groq": {
     "https://console.groq.com/docs/rate-limits": {
-      "checked": "2026-09-16",
+      "checked": "2026-09-17",
       "hash": "df267e9da3896e37219d5a300b13d79350ac014f6582bc2918345af53ac87030",
       "keywords": [
         "developer",
@@ -94,7 +94,7 @@
   },
   "huggingface": {
     "https://huggingface.co/docs/inference-providers/pricing": {
-      "checked": "2026-09-16",
+      "checked": "2026-09-17",
       "hash": "3b3d8d0393d12b64fe5e8f96a148688efbad31f8ba946059a492d7a0a3e1defd",
       "keywords": [
         "credit",
@@ -107,8 +107,8 @@
   },
   "mistral": {
     "https://mistral.ai/pricing": {
-      "checked": "2026-09-16",
-      "hash": "5b08701c884c0a80f674d90fbfbddccdf2e7ec1f8a844820a569467bd1897d0b",
+      "checked": "2026-09-17",
+      "hash": "f1e79dd5d6ab97c147460be432b2228cf53db99135ccf37877df30423cb60218",
       "keywords": [
         "$10",
         "$5",
@@ -123,8 +123,8 @@
   },
   "nvidia": {
     "https://build.nvidia.com/": {
-      "checked": "2026-09-16",
-      "hash": "162591fdfa5e04635c89d6f4c254600f0ca59da494f74bbd5a62923062850b7d",
+      "checked": "2026-09-17",
+      "hash": "1cacd14856f4682393d43ea76bd3d72eff49f907c744be3de6eedc17bbe42dfe",
       "keywords": [
         "developer",
         "free"
@@ -134,7 +134,7 @@
   },
   "portkey": {
     "https://portkey.ai": {
-      "checked": "2026-09-16",
+      "checked": "2026-09-17",
       "hash": "7341717c7221e7ea3abba2ecf54b5b72effc0ff16b6978a3ab145ca45340f7aa",
       "keywords": [
         "developer",
@@ -146,7 +146,7 @@
   },
   "requesty": {
     "https://requesty.ai": {
-      "checked": "2026-09-16",
+      "checked": "2026-09-17",
       "hash": "54bb508ff0ebb674bf10cd482324114a5347a940e90c5ce07fde133a0fcd0022",
       "keywords": [
         "$10",
@@ -160,7 +160,7 @@
   },
   "siliconflow": {
     "https://siliconflow.com": {
-      "checked": "2026-09-16",
+      "checked": "2026-09-17",
       "hash": "79670d67e9139e4abeeefc63a66ed447523b82ba8c587ac1c521b8469f07bfc8",
       "keywords": [
         "developer",
@@ -172,7 +172,7 @@
   },
   "together": {
     "https://www.together.ai/pricing": {
-      "checked": "2026-09-16",
+      "checked": "2026-09-17",
       "hash": "1bf5cdcd68fac44ff04858415a0c3b7d01367cb4b1e55618b7f3bd83cda68ff9",
       "keywords": [
         "$10",
