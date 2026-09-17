@@ -24,7 +24,7 @@
   "deepinfra": {
     "https://deepinfra.com": {
       "checked": "2026-09-17",
-      "hash": "f2813895f1a7efe851ba45802e81c0c1ef6dc015fa44d8e342d6ce0c82923b9d",
+      "hash": "f0b077dce63cb15d22c1b90f3f90c6c72bd56597ed8a39448ed14a2737022200",
       "keywords": [
         "$10",
         "developer",
@@ -124,7 +124,7 @@
   "nvidia": {
     "https://build.nvidia.com/": {
       "checked": "2026-09-17",
-      "hash": "1cacd14856f4682393d43ea76bd3d72eff49f907c744be3de6eedc17bbe42dfe",
+      "hash": "637d7005a09e821eb9469970d45cea7733a702631ef763e35bd33c78354d7c60",
       "keywords": [
         "developer",
         "free"

@@ -2,13 +2,13 @@
 
 > Mine free AI models, API credits, tokens and developer deals.
 
-Auto-updated **2026-09-17** · 15 providers · 10 offers · 20 free models tracked
+Auto-updated **2026-09-17** · 15 providers · 10 offers · 24 free models tracked
 
 # 🔥 Best Free AI Deals Right Now
 
 | # | Provider | Deal | Best Model | Ctx | Score | Get |
 |---|---|---|---|---|---|---|
-| 1 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | 20 free models ♾️ | [Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730) | 1M | 89 A | [→](https://openrouter.ai/models?max_price=0) |
+| 1 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | 24 free models ♾️ | [Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730) | 1M | 89 A | [→](https://openrouter.ai/models?max_price=0) |
 | 2 | <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | — | — | 51 D | [→](https://huggingface.co) |
 | 3 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | — | — | 43 D | [→](https://mistral.ai/pricing) |
 | 4 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo 🎓 💳 | — | — | 43 D | [→](https://mistral.ai/pricing) |
@@ -23,6 +23,8 @@ Auto-updated **2026-09-17** · 15 providers · 10 offers · 20 free models track
 
 | Provider | Model | Ctx | Caps | Link |
 |---|---|---|---|---|
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Lyria 3 Clip Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Lyria 3 Pro Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Thinking Machines: Inkling Small | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/thinkingmachines/inkling-small-20260730) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Thinking Machines: Inkling | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/thinkingmachines/inkling-20260715) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Nemotron 3 Ultra | 1M | 📝 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
@@ -38,8 +40,10 @@ Auto-updated **2026-09-17** · 15 providers · 10 offers · 20 free models track
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Nemotron 3 Super | 262K | 📝 | [↗](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Laguna S 2.1 | 262K | 📝 | [↗](https://openrouter.ai/poolside/laguna-s-2.1-20260720) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Laguna XS 2.1 | 262K | 📝 | [↗](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Union Alpha | 262K | 📝🖼️ | [↗](https://openrouter.ai/stealth/union-alpha) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | North Mini Code | 256K | 📝 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Nemotron 3 Nano Omni | 256K | 📝🖼️🎬🔊 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Free Models Router | 200K | 📝🖼️ | [↗](https://openrouter.ai/openrouter/free) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Nemotron 3.5 Content Safety | 128K | 📝🖼️ | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | LiquidAI: LFM2.5-2.6B | 66K | 📝 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | Z.ai: GLM 5.2 | 33K | 📝 | [↗](https://openrouter.ai/z-ai/glm-5.2-20260616) |
@@ -67,7 +71,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 🥉 **[Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604)** · 1M ctx · 📝🛠️🧠 · OpenRouter
 
 <details>
-<summary><b>More tool-calling free models (15)</b></summary>
+<summary><b>More tool-calling free models (17)</b></summary>
 
 - [Nemotron 3.5 Lightning](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) — 1M
 - [Dots Studio: Dots3-Note Preview](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) — 512K
@@ -81,8 +85,10 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 - [Nemotron 3 Super](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) — 262K
 - [Laguna S 2.1](https://openrouter.ai/poolside/laguna-s-2.1-20260720) — 262K
 - [Laguna XS 2.1](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) — 262K
+- [Union Alpha](https://openrouter.ai/stealth/union-alpha) — 262K
 - [North Mini Code](https://openrouter.ai/cohere/north-mini-code-20260617) — 256K
 - [Nemotron 3 Nano Omni](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) — 256K
+- [Free Models Router](https://openrouter.ai/openrouter/free) — 200K
 - [LiquidAI: LFM2.5-2.6B](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) — 66K
 
 </details>
@@ -98,7 +104,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 🥉 **[Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604)** · 1M ctx · 📝🛠️🧠 · OpenRouter
 
 <details>
-<summary><b>More reasoning free models (17)</b></summary>
+<summary><b>More reasoning free models (18)</b></summary>
 
 - [Nemotron 3.5 Lightning](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) — 1M
 - [Dots Studio: Dots3-Note Preview](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) — 512K
@@ -114,6 +120,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 - [Laguna XS 2.1](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) — 262K
 - [North Mini Code](https://openrouter.ai/cohere/north-mini-code-20260617) — 256K
 - [Nemotron 3 Nano Omni](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) — 256K
+- [Free Models Router](https://openrouter.ai/openrouter/free) — 200K
 - [Nemotron 3.5 Content Safety](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) — 128K
 - [LiquidAI: LFM2.5-2.6B](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) — 66K
 - [Z.ai: GLM 5.2](https://openrouter.ai/z-ai/glm-5.2-20260616) — 33K
@@ -124,10 +131,11 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
+2026-09-17: New free model: google/lyria-3-clip-preview (openrouter)  
+2026-09-17: New free model: google/lyria-3-pro-preview (openrouter)  
+2026-09-17: New free model: openrouter/free (openrouter)  
+2026-09-17: New free model: stealth/union-alpha (openrouter)  
 2026-09-17: DeepInfra: watch page changed: https://deepinfra.com  
-2026-09-17: Fireworks AI: watch page changed: https://fireworks.ai/pricing  
-2026-09-17: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing  
-2026-09-17: Mistral AI: watch page changed: https://mistral.ai/pricing  
 2026-09-17: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
 
 Full history in [CHANGELOG.md](CHANGELOG.md).

@@ -8,8 +8,8 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 
 ## Current Free Offers
 
-- **OpenRouter Free Models (20 models)** — type `free_tier`, value —, status `active`, confidence `official`
-  - 20 models are free (ID ending in ':free', $0 per token). Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.
+- **OpenRouter Free Models (24 models)** — type `free_tier`, value —, status `active`, confidence `official`
+  - 24 models are priced $0 per token, most carrying a ':free' id suffix. Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.
   - Claim: https://openrouter.ai/models?max_price=0
   - Source: https://openrouter.ai/api/v1/models
 
@@ -17,6 +17,8 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 
 | Model | Ctx | Caps | Link |
 |---|---|---|---|
+| Lyria 3 Clip Preview | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
+| Lyria 3 Pro Preview | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
 | Thinking Machines: Inkling Small | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-small-20260730) |
 | Thinking Machines: Inkling | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-20260715) |
 | Nemotron 3 Ultra | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
@@ -32,8 +34,10 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 | Nemotron 3 Super | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) |
 | Laguna S 2.1 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-s-2.1-20260720) |
 | Laguna XS 2.1 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) |
+| Union Alpha | 262K | 📝🖼️🛠️👁️ | [↗](https://openrouter.ai/stealth/union-alpha) |
 | North Mini Code | 256K | 📝🛠️🧠 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
 | Nemotron 3 Nano Omni | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
+| Free Models Router | 200K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/openrouter/free) |
 | Nemotron 3.5 Content Safety | 128K | 📝🖼️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
 | LiquidAI: LFM2.5-2.6B | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
 | Z.ai: GLM 5.2 | 33K | 📝🧠 | [↗](https://openrouter.ai/z-ai/glm-5.2-20260616) |
@@ -48,7 +52,7 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 ## Context Windows
 
 - Largest free-model context: **1M**
-- Free models with published context: 20 of 20
+- Free models with published context: 24 of 24
 
 ## Rate Limits
 
@@ -60,7 +64,7 @@ _No officially published rate-limit numbers recorded for free usage._
 
 ## Pros
 
-- 20 free model(s) available
+- 24 free model(s) available
 - long-context free models (≥200K)
 - free models with tool calling
 - free models with reasoning support
