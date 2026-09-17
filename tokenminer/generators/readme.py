@@ -39,17 +39,12 @@ HARD_BREAK = "  "
 
 
 def _best_free_model(models: list[Model]) -> Model | None:
+    """§19 Best Model column: the provider's highest §40-tiered free model
+    (arena rank → usage rank → context), consistent with the Free Models
+    table ordering."""
     if not models:
         return None
-    return sorted(
-        models,
-        key=lambda m: (
-            -(m.context_length or 0),
-            not m.supports_tools,
-            not m.supports_reasoning,
-            m.model_id,
-        ),
-    )[0]
+    return sorted(models, key=free_model_sort_key)[0]
 
 
 def _podium_and_details(
@@ -84,12 +79,18 @@ def _podium_and_details(
         name = esc(model_short(m))
         return f"[{name}]({esc(m.model_url)})" if m.model_url else name
 
+    def _rank_badge(m: Model) -> str:
+        """" · #N 🏆"-style suffix, or "" when unranked (no bare dash)."""
+        cell = free_rank_cell(m)
+        return f" · {cell}" if cell != "—" else ""
+
     podium = candidates[:3]
     for i, (medal, m) in enumerate(zip(("🥇", "🥈", "🥉"), podium)):
         provider = providers_by_id.get(m.provider_id)
         line = (
             f"{medal} **{_link(m)}** · {ctx_short(m.context_length)} ctx · "
-            f"{caps_with_capabilities(m)} · "
+            f"{caps_with_capabilities(m)}"
+            f"{_rank_badge(m)} · "
             f"{provider.name if provider else m.provider_id}"
         )
         if i < len(podium) - 1:
@@ -182,6 +183,7 @@ def generate_readme(
     if best:
         lines.append("| # | Provider | Deal | Best Model | Ctx | Score | Get |")
         lines.append("|---|---|---|---|---|---|---|")
+        any_ranked = False
         for rank, offer in enumerate(best, 1):
             provider = providers_by_id.get(offer.provider_id)
             score = scores.get(offer.provider_id)
@@ -195,6 +197,10 @@ def generate_readme(
                     f"[{name}]({esc(best_model.model_url)})"
                     if best_model.model_url else name
                 )
+                badge = free_rank_cell(best_model)
+                if badge != "—":
+                    model_cell = f"{model_cell} {badge}"
+                    any_ranked = True
                 ctx_cell = ctx_short(best_model.context_length)
             else:
                 model_cell = "—"
@@ -209,6 +215,9 @@ def generate_readme(
                 f"| {esc(score_cell)} "
                 f"| {get_cell} |"
             )
+        if any_ranked:
+            lines.append("")
+            lines.append(RANK_LEGEND)
     else:
         lines.append("_No officially verified active offers right now._")
     lines.append("")
@@ -285,7 +294,7 @@ def generate_readme(
         lines.append("")
         candidates = sorted(
             (m for m in all_free if getattr(m, flag)),
-            key=lambda m: (-(m.context_length or 0), m.provider_id, m.model_id),
+            key=free_model_sort_key,  # tiered: arena -> usage -> context (§40)
         )
         _podium_and_details(lines, candidates, providers_by_id, details_label)
         lines.append("")

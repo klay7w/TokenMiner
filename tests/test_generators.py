@@ -126,6 +126,10 @@ def test_best_deals_table_filters_and_links():
     # best free model by context, linked, short name + K/M context
     assert "[Coder Free](https://goodrouter.example/coder)" in best
     assert "| 256K |" in best
+    # unranked fixture: no rank badge anywhere, no rank legend under the table
+    assert "🏆" not in best
+    assert "🔥" not in best
+    assert "Rank:" not in best
     assert re.search(r"\| \d{1,3} [SABCD] \|", best)  # "89 A" style score cell
     # community + expired offers filtered out (SPEC §34)
     assert "Reported $100 Credit" not in best
@@ -187,6 +191,72 @@ def test_free_models_table_tiered_rank_order():
     assert "#2 🔥" in body[1]
     assert "| — |" in body[2]
     assert "LMArena](https://llmarena.ai)" in table  # legend names the source
+
+
+def test_best_deals_best_model_prefers_rank_over_context():
+    """§19 Best Model column: highest §40 tier wins over bigger context,
+    badge rendered in the cell, legend shown once under the table."""
+    providers, offers, models, scores, changes = _data()
+    models.append(Model(
+        provider_id="goodrouter", model_id="dev/arena-best", free=True,
+        name="Arena Best", context_length=8_000, arena_rank=42,
+        model_url="https://goodrouter.example/arena-best",
+        last_checked=TODAY,
+    ))
+    scores = {p.id: score_provider(p, offers, models) for p in providers}
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    best = md.split("# 🔥 Best Free AI Deals Right Now")[1].split("# 🆓")[0]
+    # arena #42 beats Coder Free's 256K context (badge outside the link)
+    assert "[Arena Best](https://goodrouter.example/arena-best) #42 🏆" in best
+    assert "[Coder Free]" not in best  # no longer the provider's pick
+    assert "| 8K |" in best
+    # legend appears exactly once, under the table
+    assert best.count("Rank: 🏆") == 1
+    assert "LMArena](https://llmarena.ai)" in best
+
+
+def test_coding_podium_tiered_order_with_badges():
+    """§22 Coding podium: supports_tools filter kept, ordering follows §40
+    tiers, badges shown per podium line, unranked lines stay badge-free."""
+    providers, offers, models, scores, changes = _data()
+    models += [
+        Model(provider_id="goodrouter", model_id="dev/arena-tool", free=True,
+              name="Arena Tool", context_length=8_000, arena_rank=7,
+              supports_tools=True,
+              model_url="https://goodrouter.example/at",
+              last_checked=TODAY),
+        Model(provider_id="goodrouter", model_id="dev/usage-tool", free=True,
+              name="Usage Tool", context_length=4_000, usage_rank=3,
+              supports_tools=True,
+              model_url="https://goodrouter.example/ut",
+              last_checked=TODAY),
+        # ranked but lacks tool calling -> must NOT enter the coding podium
+        Model(provider_id="goodrouter", model_id="dev/arena-notool", free=True,
+              name="Arena NoTool", context_length=16_000, arena_rank=1,
+              model_url="https://goodrouter.example/ant",
+              last_checked=TODAY),
+    ]
+    scores = {p.id: score_provider(p, offers, models) for p in providers}
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    coding = md.split("# 💻 Best Free Models for Coding")[1].split("# 🧠")[0]
+    # tier order: arena #7 -> usage #3 -> unranked context (Coder Free 256K)
+    assert (
+        "🥇 **[Arena Tool](https://goodrouter.example/at)**"
+        " · 8K ctx · 📝🛠️ · #7 🏆 · GoodRouter"
+    ) in coding
+    assert (
+        "🥈 **[Usage Tool](https://goodrouter.example/ut)**"
+        " · 4K ctx · 📝🛠️ · #3 🔥 · GoodRouter"
+    ) in coding
+    # unranked podium line keeps the old shape (no badge, no stray ·)
+    assert (
+        "🥉 **[Coder Free](https://goodrouter.example/coder)**"
+        " · 256K ctx · 📝🛠️🧠 · GoodRouter"
+    ) in coding
+    assert "Arena NoTool" not in coding  # filter still enforced
+    # reasoning podium untouched by tool-only models: same single candidate
+    reasoning = md.split("# 🧠 Best Free Models for Reasoning")[1].split("# 🕒")[0]
+    assert "🥇 **[Coder Free](https://goodrouter.example/coder)** · 256K ctx · 📝🛠️🧠 · GoodRouter" in reasoning
 
 
 def test_free_credits_section():
