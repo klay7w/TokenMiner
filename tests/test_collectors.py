@@ -78,6 +78,29 @@ class TestOpenRouterCollector:
         assert not any(m.free for m in result.models)
         assert result.offers == []  # no free models -> no free-tier offer
 
+    def test_zero_priced_model_without_free_suffix_is_free(self, openrouter_fixture):
+        """OpenRouter also lists $0/$0 models without a ':free' id suffix."""
+        fixture = json.loads(json.dumps(openrouter_fixture))
+        fixture["data"].append({
+            "id": "stealth/union-alpha",
+            "pricing": {"prompt": "0", "completion": "0"},
+        })
+        fixture["data"].append({"id": "some/model-no-pricing"})
+        http = FakeHttpClient({OR_API: json.dumps(fixture)})
+        provider = Provider(id="openrouter", name="OpenRouter")
+        result = OpenRouterCollector().collect(http, provider)
+        by_id = {m.model_id: m for m in result.models}
+        free_no_suffix = by_id["stealth/union-alpha"]
+        assert free_no_suffix.free is True
+        assert free_no_suffix.input_price == 0.0
+        assert free_no_suffix.output_price == 0.0
+        assert free_no_suffix.free_variant is None  # suffix logic untouched
+        # missing/None pricing must not count as free
+        no_pricing = by_id["some/model-no-pricing"]
+        assert no_pricing.free is False
+        assert no_pricing.input_price is None
+        assert no_pricing.output_price is None
+
 
 class TestTokenRouterCollector:
     def test_parses_real_fixture(self, tokenrouter_html):

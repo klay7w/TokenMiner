@@ -73,8 +73,8 @@ class OpenRouterCollector(Collector):
                 title=f"OpenRouter Free Models ({len(free_models)} models)",
                 type="free_tier",
                 description=(
-                    f"{len(free_models)} models are free (ID ending in ':free', "
-                    f"$0 per token). Free variants are subject to platform "
+                    f"{len(free_models)} models are priced $0 per token, most "
+                    f"carrying a ':free' id suffix. Free variants are subject to platform "
                     f"free-usage rate limits; current numbers are rendered "
                     f"dynamically on the limits page, so they are not recorded "
                     f"as fixed values. See {LIMITS_DOC}."
@@ -106,7 +106,11 @@ class OpenRouterCollector(Collector):
         pricing = entry.get("pricing") or {}
         top = entry.get("top_provider") or {}
         params = entry.get("supported_parameters") or []
-        free = model_id.endswith(":free")
+        input_price = _parse_price(pricing.get("prompt"))
+        output_price = _parse_price(pricing.get("completion"))
+        free = model_id.endswith(":free") or (
+            input_price == 0 and output_price == 0
+        )
         return Model(
             provider_id=self.provider_id,
             model_id=model_id,
@@ -115,8 +119,8 @@ class OpenRouterCollector(Collector):
             model_type=model_type,
             context_length=_int_or_none(entry.get("context_length")),
             max_output_tokens=_int_or_none(top.get("max_completion_tokens")),
-            input_price=_parse_price(pricing.get("prompt")),
-            output_price=_parse_price(pricing.get("completion")),
+            input_price=input_price,
+            output_price=output_price,
             free=free,
             rate_limit=None,  # exact free-tier numbers not published in the API
             supports_tools="tools" in params,
