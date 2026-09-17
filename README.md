@@ -8,7 +8,7 @@ Auto-updated **2026-09-17** · 15 providers · 10 offers · 24 free models track
 
 | # | Provider | Deal | Best Model | Ctx | Score | Get |
 |---|---|---|---|---|---|---|
-| 1 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | 24 free models ♾️ | [Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730) | 1M | 89 A | [→](https://openrouter.ai/models?max_price=0) |
+| 1 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | 24 free models ♾️ | [Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402) #68 🏆 | 262K | 89 A | [→](https://openrouter.ai/models?max_price=0) |
 | 2 | <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | — | — | 51 D | [→](https://huggingface.co) |
 | 3 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | — | — | 43 D | [→](https://mistral.ai/pricing) |
 | 4 | <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo 🎓 💳 | — | — | 43 D | [→](https://mistral.ai/pricing) |
@@ -18,6 +18,8 @@ Auto-updated **2026-09-17** · 15 providers · 10 offers · 24 free models track
 | 8 | <img src="https://www.google.com/s2/favicons?domain=ai.google.dev&sz=32" width="16" valign="middle"> [Google AI Studio (Gemini API)](docs/providers/google-ai-studio.md) | Free tier ♾️ | — | — | 21 D | [→](https://ai.google.dev/gemini-api/docs/pricing) |
 | 9 | <img src="https://www.google.com/s2/favicons?domain=groq.com&sz=32" width="16" valign="middle"> [Groq](docs/providers/groq.md) | Free tier ♾️ | — | — | 19 D | [→](https://console.groq.com/keys) |
 | 10 | <img src="https://www.google.com/s2/favicons?domain=build.nvidia.com&sz=32" width="16" valign="middle"> [NVIDIA Build (NIM APIs)](docs/providers/nvidia.md) | Free tier ♾️ | — | — | 19 D | [→](https://build.nvidia.com) |
+
+Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRouter](https://openrouter.ai) weekly usage rank · — unranked
 
 # 🆓 Free Models
 
@@ -68,30 +70,30 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 > ℹ️ Free models that support tool calling — the practical proxy for coding agents. **Not a formal benchmark.**
 
-🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter  
-🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter  
-🥉 **[Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604)** · 1M ctx · 📝🛠️🧠 · OpenRouter
+🥇 **[Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #68 🏆 · OpenRouter  
+🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · #85 🏆 · OpenRouter  
+🥉 **[Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #88 🏆 · OpenRouter
 
 <details>
 <summary><b>More tool-calling free models (17)</b></summary>
 
-- [Nemotron 3.5 Lightning](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) — 1M
-- [Dots Studio: Dots3-Note Preview](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) — 512K
-- [Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) — 262K
-- [Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402) — 262K
-- [Ling 3.0 Flash Fin](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) — 262K
-- [Ling 3.0 Flash Sante](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) — 262K
+- [Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) — 1M
+- [Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730) — 1M
+- [Nemotron 3 Super](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) — 262K
+- [Union Alpha](https://openrouter.ai/stealth/union-alpha) — 262K
 - [Ling 3.0 Flash VL](https://openrouter.ai/inclusionai/ling-3.0-flash-vl-20260910) — 262K
 - [Nex AGI: Nex-N2.5-Mini](https://openrouter.ai/nex-agi/nex-n2.5-mini-20260908) — 262K
 - [Nex AGI: Nex-N2.5-Pro](https://openrouter.ai/nex-agi/nex-n2.5-pro-20260907) — 262K
-- [Nemotron 3 Super](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) — 262K
+- [Ling 3.0 Flash Sante](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) — 262K
+- [Ling 3.0 Flash Fin](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) — 262K
+- [Dots Studio: Dots3-Note Preview](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) — 512K
+- [LiquidAI: LFM2.5-2.6B](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) — 66K
+- [Nemotron 3.5 Lightning](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) — 1M
 - [Laguna S 2.1](https://openrouter.ai/poolside/laguna-s-2.1-20260720) — 262K
 - [Laguna XS 2.1](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) — 262K
-- [Union Alpha](https://openrouter.ai/stealth/union-alpha) — 262K
 - [North Mini Code](https://openrouter.ai/cohere/north-mini-code-20260617) — 256K
 - [Nemotron 3 Nano Omni](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) — 256K
 - [Free Models Router](https://openrouter.ai/openrouter/free) — 200K
-- [LiquidAI: LFM2.5-2.6B](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) — 66K
 
 </details>
 
@@ -101,31 +103,31 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 > ℹ️ Free models exposing a reasoning parameter — the practical proxy for reasoning. **Not a formal benchmark.**
 
-🥇 **[Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter  
-🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · OpenRouter  
-🥉 **[Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604)** · 1M ctx · 📝🛠️🧠 · OpenRouter
+🥇 **[Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #68 🏆 · OpenRouter  
+🥈 **[Thinking Machines: Inkling](https://openrouter.ai/thinkingmachines/inkling-20260715)** · 1M ctx · 📝🖼️🔊🛠️👁️🧠 · #85 🏆 · OpenRouter  
+🥉 **[Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #88 🏆 · OpenRouter
 
 <details>
 <summary><b>More reasoning free models (18)</b></summary>
 
-- [Nemotron 3.5 Lightning](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) — 1M
-- [Dots Studio: Dots3-Note Preview](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) — 512K
-- [Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) — 262K
-- [Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402) — 262K
-- [Ling 3.0 Flash Fin](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) — 262K
-- [Ling 3.0 Flash Sante](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) — 262K
+- [Nemotron 3 Ultra](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) — 1M
+- [Thinking Machines: Inkling Small](https://openrouter.ai/thinkingmachines/inkling-small-20260730) — 1M
+- [Nemotron 3 Super](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) — 262K
 - [Ling 3.0 Flash VL](https://openrouter.ai/inclusionai/ling-3.0-flash-vl-20260910) — 262K
 - [Nex AGI: Nex-N2.5-Mini](https://openrouter.ai/nex-agi/nex-n2.5-mini-20260908) — 262K
 - [Nex AGI: Nex-N2.5-Pro](https://openrouter.ai/nex-agi/nex-n2.5-pro-20260907) — 262K
-- [Nemotron 3 Super](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) — 262K
+- [Ling 3.0 Flash Sante](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) — 262K
+- [Ling 3.0 Flash Fin](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) — 262K
+- [Dots Studio: Dots3-Note Preview](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) — 512K
+- [LiquidAI: LFM2.5-2.6B](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) — 66K
+- [Nemotron 3.5 Lightning](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) — 1M
 - [Laguna S 2.1](https://openrouter.ai/poolside/laguna-s-2.1-20260720) — 262K
 - [Laguna XS 2.1](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) — 262K
 - [North Mini Code](https://openrouter.ai/cohere/north-mini-code-20260617) — 256K
+- [Z.ai: GLM 5.2](https://openrouter.ai/z-ai/glm-5.2-20260616) — 33K
+- [Nemotron 3.5 Content Safety](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) — 128K
 - [Nemotron 3 Nano Omni](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) — 256K
 - [Free Models Router](https://openrouter.ai/openrouter/free) — 200K
-- [Nemotron 3.5 Content Safety](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) — 128K
-- [LiquidAI: LFM2.5-2.6B](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) — 66K
-- [Z.ai: GLM 5.2](https://openrouter.ai/z-ai/glm-5.2-20260616) — 33K
 
 </details>
 

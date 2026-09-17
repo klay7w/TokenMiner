@@ -253,11 +253,16 @@ Overall Free API。只有证据足够时才赋予。
 1. `# ⛏️ TokenMiner` + 副标题 "Mine free AI models, API credits, tokens and developer deals."
 2. `# 🔥 Best Free AI Deals Right Now` 表格：Rank / Provider / Offer /
    Best Model / Context / Free Quota / Payment / Expire / Score / Get
-   （Get → Claim URL；只展示 confidence=official/high 的优惠）。
+   （Get → Claim URL；只展示 confidence=official/high 的优惠）。Best Model 列
+   选取该 provider 免费池中 §40 分级名次最高的模型（与 Free Models 表一致），
+   单元格内附名次徽标（`#N 🏆/🔥`，无任何名次则不显示徽标），表下图例仅在
+   出现过徽标时附上。
 3. `# 🆓 Free Models`：Provider / Rank / Model / Ctx / Caps / Link。排序按 §40 分级基准（LMArena 名次 → 周使用量 → Context 降序）；Rank 列显示 `#N 🏆`（LMArena）/`#N 🔥`（周使用量）/`—`，表下图例注明来源。Rate Limit 与 API 不再单列，改为表下脚注（rate limits are rarely published → 见 provider pages；API compatibility 按 provider 列出）；Provider 图标使用 official_url 域名派生的外部 favicon（`https://www.google.com/s2/favicons?domain=<host>&sz=32`），Caps 为模态 emoji 图标（表下附图例）。
 4. `# 🎁 Free Credits`：Provider / Credits / Type / Requirement / Expire / Verified / Claim。
-5. `# 💻 Best Free Models for Coding`（🥇🥈🥉，声明非正式 Benchmark）。
-6. `# 🧠 Best Free Models for Reasoning`（同上）。
+5. `# 💻 Best Free Models for Coding`（🥇🥈🥉，声明非正式 Benchmark）：
+   过滤条件仍为 supports_tools，排序复用 §40 分级（arena → 周使用量 →
+   context 降序 → id），领奖台行附名次徽标（无名次则不显示）。
+6. `# 🧠 Best Free Models for Reasoning`（同上，过滤条件 supports_reasoning）。
 7. `# 🕒 Recently Changed`（最近若干项；完整记录进 CHANGELOG.md）。
 
 ## 24. Provider Page（docs/providers/<id>.md，固定章节）
