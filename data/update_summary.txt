@@ -1,8 +1,16 @@
-date: 2026-09-17
+date: 2026-09-18
 providers: 15
 offers: 10
 offers_by_status: {'active': 10}
 offers_by_confidence: {'official': 10}
-models: 584
-free_models: 24
-changes: 0
+models: 586
+free_models: 25
+changes: 8
+change: New free model: deepseek/deepseek-v4-flash-0731:free (openrouter)
+change: New free model: qwen/qwen3.8-27b:free (openrouter)
+change: Free model removed: stealth/union-alpha (openrouter)
+change: DeepInfra: watch page changed: https://deepinfra.com
+change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
+change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
+change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/rate-limits
+change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
