@@ -77,5 +77,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-09-18
-- Offer `groq-free-plan`: 2026-09-18
+- Provider: 2026-09-19
+- Offer `groq-free-plan`: 2026-09-19
