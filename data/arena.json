@@ -1,6 +1,6 @@
 {
   "source": "https://llmarena.ai/leaderboard/text",
-  "fetched": "2026-09-18",
+  "fetched": "2026-09-20",
   "models": [
     {
       "name": "claude-fable-5-high",
@@ -24,22 +24,22 @@
     },
     {
       "name": "claude-fable-5.1-max",
-      "organization": "anthropic",
+      "organization": null,
       "rank": 5
     },
     {
       "name": "claude-opus-4-6",
-      "organization": "anthropic",
+      "organization": null,
       "rank": 6
     },
     {
       "name": "claude-opus-4-7",
-      "organization": "anthropic",
+      "organization": null,
       "rank": 7
     },
     {
       "name": "muse-spark-1.3-max",
-      "organization": "meta",
+      "organization": null,
       "rank": 8
     },
     {
@@ -49,7 +49,7 @@
     },
     {
       "name": "claude-opus-5-high",
-      "organization": "anthropic",
+      "organization": null,
       "rank": 10
     },
     {
@@ -64,12 +64,12 @@
     },
     {
       "name": "muse-spark",
-      "organization": "meta",
+      "organization": null,
       "rank": 13
     },
     {
       "name": "claude-opus-5-max",
-      "organization": "anthropic",
+      "organization": null,
       "rank": 14
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       "name": "gpt-5.6-sol-xhigh",
-      "organization": "openai",
+      "organization": null,
       "rank": 18
     },
     {
@@ -99,7 +99,7 @@
     },
     {
       "name": "gpt-5.5-high",
-      "organization": "openai",
+      "organization": null,
       "rank": 20
     },
     {
@@ -119,7 +119,7 @@
     },
     {
       "name": "gpt-6-astra-max",
-      "organization": "openai",
+      "organization": null,
       "rank": 24
     },
     {
@@ -129,7 +129,7 @@
     },
     {
       "name": "gpt-5.4-high",
-      "organization": "openai",
+      "organization": null,
       "rank": 26
     },
     {
@@ -139,7 +139,7 @@
     },
     {
       "name": "gpt-5.5",
-      "organization": "openai",
+      "organization": null,
       "rank": 28
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "name": "claude-opus-4-8",
-      "organization": "anthropic",
+      "organization": null,
       "rank": 35
     },
     {
@@ -224,7 +224,7 @@
     },
     {
       "name": "gpt-5.6-terra-xhigh",
-      "organization": "openai",
+      "organization": null,
       "rank": 45
     },
     {
@@ -334,7 +334,7 @@
     },
     {
       "name": "gpt-5.6-luna-xhigh",
-      "organization": "openai",
+      "organization": null,
       "rank": 67
     },
     {
@@ -349,7 +349,7 @@
     },
     {
       "name": "claude-opus-4-1-20250805-thinking-16k",
-      "organization": "anthropic",
+      "organization": null,
       "rank": 70
     },
     {
@@ -424,7 +424,7 @@
     },
     {
       "name": "inkling",
-      "organization": "thinky",
+      "organization": null,
       "rank": 85
     },
     {
@@ -449,7 +449,7 @@
     },
     {
       "name": "qwen3.8-27b",
-      "organization": "alibaba",
+      "organization": null,
       "rank": 90
     },
     {
@@ -534,7 +534,7 @@
     },
     {
       "name": "claude-opus-4-20250514-thinking-16k",
-      "organization": "anthropic",
+      "organization": null,
       "rank": 107
     },
     {
@@ -839,7 +839,7 @@
     },
     {
       "name": "mistral-medium-2505",
-      "organization": "mistral",
+      "organization": null,
       "rank": 168
     },
     {
@@ -979,7 +979,7 @@
     },
     {
       "name": "mistral-small-2506",
-      "organization": "mistral",
+      "organization": null,
       "rank": 196
     },
     {
@@ -1354,7 +1354,7 @@
     },
     {
       "name": "mistral-small-3.1-24b-instruct-2503",
-      "organization": "mistral",
+      "organization": null,
       "rank": 271
     },
     {
