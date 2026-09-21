@@ -1,5 +1,5 @@
 # Hand-verified seed offers (SPEC §8, full schema).
-# Every value below was read from the cited official page on 2026-09-11.
+# Every value below was read from the cited official page between 2026-09-11 and 2026-09-21.
 # Numbers never appear here unless they were seen on source_url. Unverifiable
 # facts are left null. Collectors/validator refresh last_checked/last_verified.
 
@@ -161,3 +161,334 @@
   confidence: official
   first_seen: "2026-09-11"
   last_verified: "2026-09-11"
+- id: zhipu-free-flash-models
+  provider_id: zhipu
+  title: "Free GLM Flash Models"
+  type: free_model
+  description: >-
+    Permanently free models. Domestic BigModel docs state GLM-4.5-Flash is
+    "完全免费开放使用" with 128K context (legacy requests auto-routed to
+    GLM-4.7-Flash after its retirement date). International z.ai pricing
+    lists GLM-4.7-Flash, GLM-4.5-Flash and GLM-4.6V-Flash (vision) as "Free"
+    across all price columns (that page is priced in USD; free applies
+    regardless of currency).
+  value: 0
+  currency: null
+  free_tokens: null
+  recurring: true
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://bigmodel.cn/console
+  source_url: https://docs.bigmodel.cn/cn/guide/models/free/glm-4.5-flash
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: zhipu-new-user-token-package
+  provider_id: zhipu
+  title: "New User Token Package — 25M Tokens"
+  type: signup_credit
+  description: >-
+    Invited new users receive a "2500 万 Tokens 新用户礼包" after registering
+    and completing real-name verification (official promotion docs).
+  value: null
+  currency: CNY
+  free_tokens: "25000000"
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://bigmodel.cn/console
+  source_url: https://docs.bigmodel.cn/cn/update/promotion
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: zhipu-referral-tokens
+  provider_id: zhipu
+  title: "Referral Reward — 20M GLM-4.5-Air Tokens Each"
+  type: promotion
+  description: >-
+    For each invited new user who registers and completes real-name
+    verification, inviter and invitee each get 20M GLM-4.5-Air tokens (list
+    value CNY 58). Monthly caps: 10 invitees / 200M tokens per inviter.
+  value: 58
+  currency: CNY
+  free_tokens: "20000000"
+  recurring: true
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://bigmodel.cn/console
+  source_url: https://docs.bigmodel.cn/cn/update/promotion
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: moonshot-realname-voucher
+  provider_id: moonshot
+  title: "Real-name Verification Voucher — CNY 15"
+  type: signup_credit
+  description: >-
+    "认证成功后会为您赠送 15 元代金券" — granted after individual or enterprise
+    real-name verification; not usable for Kimi K3 (official account docs).
+  value: 15
+  currency: CNY
+  free_tokens: null
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://platform.kimi.com/console
+  source_url: https://platform.kimi.com/docs/guide/account-and-payments
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: alibaba-bailian-new-user-quota
+  provider_id: alibaba-bailian
+  title: "New User Free Quota — ~1M Tokens per Model, 90 Days"
+  type: signup_credit
+  description: >-
+    Each model carries an independent free quota, "通常为 100 万 Token", valid
+    90 days from activation, granted automatically on first activation (no
+    manual claim). One-time; same verified entity cannot re-claim after
+    re-registration. Beijing (华北2) region models only; real-time inference
+    only. Unverified accounts are hard-stopped when quota runs out.
+  value: null
+  currency: CNY
+  free_tokens: "1000000"
+  recurring: false
+  new_users_only: true
+  requires_payment_method: false
+  region_limit: "华北2 (Beijing)"
+  claim_url: https://bailian.console.aliyun.com
+  source_url: https://help.aliyun.com/zh/model-studio/new-free-quota
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: modelscope-free-api-inference
+  provider_id: modelscope
+  title: "Free Non-commercial API Inference"
+  type: free_tier
+  description: >-
+    API-Inference is "免费提供给广大开发者体验……非商业化、非盈利产品"
+    (official docs meta). Per-user daily call limits exist; the commonly
+    cited ~2,000 calls/day figure could NOT be verified on an official page
+    as of 2026-09-21 (community sources only) — treat the exact number as
+    uncertain.
+  value: null
+  currency: null
+  free_tokens: null
+  recurring: true
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://www.modelscope.cn
+  source_url: https://modelscope.cn/docs/model-service/API-Inference/intro
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: siliconflow-signup-credit
+  provider_id: siliconflow
+  title: "New User Signup Credit — CNY 14"
+  type: signup_credit
+  description: >-
+    "新用户注册即得 14 元免费额度（相当于 2 千万 Qwen1.5-14B Tokens）"; costs
+    are deducted from the gift balance first (official billing FAQ). Upgrades
+    the existing provider entry, which had no verified free offer.
+  value: 14
+  currency: CNY
+  free_tokens: null
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://cloud.siliconflow.cn
+  source_url: https://docs.siliconflow.com/cn/faqs/billing-rules
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: siliconflow-realname-referral-voucher
+  provider_id: siliconflow
+  title: "Real-name Voucher CNY 16 + Referral CNY 16 Each"
+  type: promotion
+  description: >-
+    Campaign running 2026-01-15 to 2026-12-31: complete real-name
+    verification to receive one CNY 16 universal voucher; invite friends
+    (registered + real-name verified) and both sides receive CNY 16
+    vouchers, no referral cap. Vouchers valid 180 days from receipt
+    (official announcement).
+  value: 16
+  currency: CNY
+  free_tokens: null
+  recurring: false
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://cloud.siliconflow.cn
+  source_url: https://www.siliconflow.cn/news/od7wj9rr23p95uhihmhrombp
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: siliconflow-free-models
+  provider_id: siliconflow
+  title: "Free Model Tier (embedding / rerank / ASR / image)"
+  type: free_model
+  description: >-
+    CNY 0 items on the official pricing page (2026-09-21 snapshot):
+    tencent/Hunyuan-MT-7B, XingChenAGI/Xing4.0-29B, PaddlePaddle/
+    PaddleOCR-VL-1.5, BAAI/bge-m3, BAAI/bge-reranker-v2-m3, BAAI/
+    bge-large-zh-v1.5, BAAI/bge-large-en-v1.5, image model Kwai-Kolors/Kolors,
+    and ASR models (XingChenGSR-V1.0, XingChenASR V3.2/Ultra/Diarize,
+    Qwen3-ASR-1.7B, SenseVoiceSmall). Note: small Qwen text models no longer
+    have a free tier on the current price page. Free-tier rate limits are
+    fixed but RPM/TPM values are not published on the FAQ page.
+  value: 0
+  currency: CNY
+  free_tokens: null
+  recurring: true
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://cloud.siliconflow.cn
+  source_url: https://siliconflow.cn/pricing
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: tencent-hunyuan-signup-pack
+  provider_id: tencent-hunyuan
+  title: "Service Activation Pack — 1M Tokens, 1 Year"
+  type: signup_credit
+  description: >-
+    First activation of the Hunyuan text service grants a 1M-token resource
+    pack shared across models (embedding has a separate 1M), valid 1 year,
+    one-time. Caution: the legacy Hunyuan platform announced full
+    shutdown/migration on 2026-09-30 — re-verify claimability before
+    relying on this.
+  value: null
+  currency: CNY
+  free_tokens: "1000000"
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://console.cloud.tencent.com
+  source_url: https://cloud.tencent.com/document/product/1729/97731
+  status: uncertain
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: baidu-qianfan-new-user-tokens
+  provider_id: baidu-qianfan
+  title: "New User Tokens — 1M per Model × 17 Models, 3 Months"
+  type: signup_credit
+  description: >-
+    Since 2025-10-24 new users automatically receive 1M tokens on each of 17
+    models (incl. ERNIE-4.5-Turbo, ERNIE-X1-Turbo, DeepSeek-R1/V3.1,
+    Kimi-K2-Instruct, Qwen3 series) upon agreeing to the terms; 3-month
+    validity, one-time, online inference only (no batch). Official docs.
+  value: null
+  currency: CNY
+  free_tokens: "1000000"
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://console.bce.baidu.com/qianfan
+  source_url: https://cloud.baidu.com/doc/qianfan/s/Imi2rpirg
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: baidu-qianfan-realname-voucher
+  provider_id: baidu-qianfan
+  title: "Real-name Verification Voucher — CNY 20"
+  type: promotion
+  description: >-
+    CNY 20 platform-wide no-threshold voucher after real-name verification,
+    valid 1 month (official docs).
+  value: 20
+  currency: CNY
+  free_tokens: null
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://console.bce.baidu.com/qianfan
+  source_url: https://cloud.baidu.com/doc/WENXINWORKSHOP/s/hgo0y0htu
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: volcengine-ark-model-trial
+  provider_id: volcengine-ark
+  title: "Per-model Trial Quota — 500K Tokens (reported)"
+  type: signup_credit
+  description: >-
+    Official-domain Volcengine articles (2026-08) state each model carries a
+    500K-token free trial quota auto-granted on activation; full article text
+    could not be fetched (JS-rendered), so this relies on official-domain
+    search snippets — verify in the Ark console. Agent Plan free quota is
+    monthly-reset and planned to rise to 80M tokens/month by 2026 Q4.
+  value: null
+  currency: CNY
+  free_tokens: "500000"
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://console.volcengine.com/ark
+  source_url: https://www.volcengine.com/product/doubao
+  status: uncertain
+  confidence: medium
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: iflytek-spark-free-pack
+  provider_id: iflytek-spark
+  title: "Free Token Pack — 2M (Individual) / 5M (Enterprise), 1 Year"
+  type: signup_credit
+  description: >-
+    Official activity page: individual developers CNY 0 pack of 2M tokens
+    (QPS 2, 1-year validity); enterprise pack 5M tokens (QPS 2, 1 year),
+    claimable in console. Promo page — exact current figures should be
+    re-checked in console.
+  value: 0
+  currency: CNY
+  free_tokens: "2000000"
+  recurring: false
+  new_users_only: true
+  requires_payment_method: null
+  claim_url: https://console.xfyun.cn
+  source_url: https://www.xfyun.cn/activities/discount
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"
+
+- id: iflytek-spark-lite-free
+  provider_id: iflytek-spark
+  title: "Spark Lite Free to Use"
+  type: free_tier
+  description: >-
+    Official Spark HTTP API docs mark the Lite version as "支持免费使用"
+    (free), subject to concurrency/rate limits; no unlimited claim is made.
+  value: 0
+  currency: CNY
+  free_tokens: null
+  recurring: true
+  new_users_only: false
+  requires_payment_method: null
+  claim_url: https://console.xfyun.cn
+  source_url: https://www.xfyun.cn/doc/spark/HTTP调用文档.html
+  status: active
+  confidence: official
+  first_seen: "2026-09-21"
+  last_verified: "2026-09-21"

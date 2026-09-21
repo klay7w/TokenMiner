@@ -338,3 +338,253 @@
   - https://tokenrouter.com/models
   collector: null
   watch_urls: []
+- id: zhipu
+  name: Zhipu AI (BigModel)
+  category: candidate
+  description: Chinese LLM provider (GLM series). BigModel open platform at
+    bigmodel.cn, international platform at z.ai. Permanently free GLM Flash
+    models plus new-user/referral token packages (verified 2026-09-21).
+  official_url: https://bigmodel.cn
+  pricing_url: https://docs.z.ai/guides/overview/pricing
+  docs_url: https://docs.bigmodel.cn
+  models_url: https://docs.bigmodel.cn/cn/guide/models/free/glm-4.5-flash
+  signup_url: https://bigmodel.cn/console
+  api_base_url: https://open.bigmodel.cn/api/paas/v4
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://docs.bigmodel.cn/cn/guide/models/free/glm-4.5-flash
+  - https://docs.z.ai/guides/overview/pricing
+  - https://docs.bigmodel.cn/cn/update/promotion
+  collector: generic
+  watch_urls:
+  - https://docs.z.ai/guides/overview/pricing
+  - https://docs.bigmodel.cn/cn/update/promotion
+
+- id: moonshot
+  name: Moonshot AI (Kimi Open Platform)
+  category: candidate
+  description: Chinese LLM provider (Kimi series). platform.moonshot.cn now
+    redirects to platform.kimi.com. Real-name-verified new users receive a CNY
+    15 voucher; no free models on the price list (verified 2026-09-21).
+  official_url: https://platform.kimi.com
+  pricing_url: https://platform.kimi.com/docs/pricing/chat
+  docs_url: https://platform.kimi.com/docs
+  models_url: https://platform.kimi.com/docs/pricing/chat
+  signup_url: https://platform.kimi.com/console
+  api_base_url: https://api.moonshot.cn/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://platform.kimi.com/docs/guide/account-and-payments
+  - https://platform.kimi.com/docs/pricing/chat
+  collector: generic
+  watch_urls:
+  - https://platform.kimi.com/docs/guide/account-and-payments
+
+- id: deepseek
+  name: DeepSeek
+  category: candidate
+  description: Chinese LLM provider (DeepSeek-V4 family). Official pricing docs
+    checked 2026-09-21 show pay-per-use only; no free tier, free model or
+    signup credit found on official pages.
+  official_url: https://deepseek.com
+  pricing_url: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+  docs_url: https://api-docs.deepseek.com/zh-cn/
+  models_url: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+  signup_url: https://platform.deepseek.com
+  api_base_url: https://api.deepseek.com/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+  collector: generic
+  watch_urls:
+  - https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+
+- id: alibaba-bailian
+  name: Alibaba Cloud Model Studio (Bailian)
+  category: candidate
+  description: Alibaba Cloud LLM platform (Qwen series, DashScope API). New
+    accounts receive a per-model free token quota (usually 1M tokens, 90 days,
+    Beijing region) granted automatically on activation (verified 2026-09-21).
+  official_url: https://www.aliyun.com/product/bailian
+  pricing_url: https://help.aliyun.com/zh/model-studio/models
+  docs_url: https://help.aliyun.com/zh/model-studio/
+  models_url: https://help.aliyun.com/zh/model-studio/models
+  signup_url: https://bailian.console.aliyun.com
+  api_base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://help.aliyun.com/zh/model-studio/new-free-quota
+  collector: generic
+  watch_urls:
+  - https://help.aliyun.com/zh/model-studio/new-free-quota
+
+- id: modelscope
+  name: ModelScope
+  category: candidate
+  description: Alibaba open-source model community offering free non-commercial
+    API inference ("API-Inference") for many open models; per-user daily call
+    limits apply (exact number not verifiable on official pages as of
+    2026-09-21).
+  official_url: https://www.modelscope.cn
+  pricing_url: https://www.modelscope.cn
+  docs_url: https://modelscope.cn/docs/model-service/API-Inference/intro
+  models_url: https://www.modelscope.cn/models
+  signup_url: https://www.modelscope.cn
+  api_base_url: https://api-inference.modelscope.cn/v1
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://modelscope.cn/docs/model-service/API-Inference/intro
+  collector: generic
+  watch_urls:
+  - https://modelscope.cn/docs/model-service/API-Inference/intro
+
+- id: volcengine-ark
+  name: Volcano Engine Ark (Doubao)
+  category: candidate
+  description: ByteDance cloud LLM platform (Doubao series). Trial token quota
+    per model (500K tokens reported in official-domain articles; full text not
+    fetchable, verify in console). Agent Plan free quota is monthly-reset
+    (verified via official-domain sources 2026-09-21).
+  official_url: https://www.volcengine.com/product/doubao
+  pricing_url: https://docs.volcengine.com/docs/82379/1099320
+  docs_url: https://docs.volcengine.com/docs/82379/1099320
+  models_url: https://www.volcengine.com/product/doubao
+  signup_url: https://console.volcengine.com/ark
+  api_base_url: null
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://console.volcengine.com/ark
+  collector: generic
+  watch_urls:
+  - https://docs.volcengine.com/docs/82379/1099320
+
+- id: tencent-hunyuan
+  name: Tencent Hunyuan
+  category: candidate
+  description: Tencent Cloud LLM service (Hunyuan series). New-service
+    activation grants a 1M-token resource pack (1-year validity). Note the
+    legacy Hunyuan platform announced full migration/shutdown on 2026-09-30
+    and hunyuan-lite free models were retired 2026-06-22 (verified 2026-09-21).
+  official_url: https://cloud.tencent.com/product/hunyuan
+  pricing_url: https://cloud.tencent.com/document/product/1729/97731
+  docs_url: https://cloud.tencent.com/document/product/1729
+  models_url: https://cloud.tencent.com/document/product/1729/97731
+  signup_url: https://console.cloud.tencent.com
+  api_base_url: null
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://cloud.tencent.com/document/product/1729/97731
+  - https://cloud.tencent.com/document/product/1729/131925
+  collector: generic
+  watch_urls:
+  - https://cloud.tencent.com/document/product/1729/97731
+
+- id: baidu-qianfan
+  name: Baidu Qianfan
+  category: candidate
+  description: Baidu Cloud LLM platform (ERNIE series + third-party open
+    models). New users automatically receive 1M tokens on each of 17 models
+    (3-month validity) plus a CNY 20 voucher after real-name verification
+    (verified 2026-09-21).
+  official_url: https://cloud.baidu.com/product/wenxinworkshop
+  pricing_url: https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya
+  docs_url: https://cloud.baidu.com/doc/qianfan/
+  models_url: https://cloud.baidu.com/doc/qianfan/s/Imi2rpirg
+  signup_url: https://console.bce.baidu.com/qianfan
+  api_base_url: null
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://cloud.baidu.com/doc/qianfan/s/Imi2rpirg
+  - https://cloud.baidu.com/doc/WENXINWORKSHOP/s/hgo0y0htu
+  collector: generic
+  watch_urls:
+  - https://cloud.baidu.com/doc/qianfan/s/Imi2rpirg
+
+- id: minimax
+  name: MiniMax
+  category: candidate
+  description: Chinese LLM provider (MiniMax series). Pricing docs checked
+    2026-09-21 show pay-per-use only; free music APIs were discontinued
+    2026-08-20; no signup credit found on official pages.
+  official_url: https://platform.minimax.cn
+  pricing_url: https://platform.minimax.cn/docs/pricing/overview.md
+  docs_url: https://platform.minimax.cn/docs/
+  models_url: https://platform.minimax.cn/docs/pricing/overview.md
+  signup_url: https://platform.minimax.cn
+  api_base_url: null
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: uncertain
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://platform.minimax.cn/docs/pricing/overview.md
+  collector: generic
+  watch_urls:
+  - https://platform.minimax.cn/docs/pricing/overview.md
+
+- id: iflytek-spark
+  name: iFlytek Spark
+  category: candidate
+  description: iFlytek LLM platform (Spark series). Free token packs for
+    individual (2M tokens) and enterprise (5M tokens) developers with 1-year
+    validity; Spark Lite model free to use (verified 2026-09-21).
+  official_url: https://www.xfyun.cn
+  pricing_url: https://www.xfyun.cn/activities/discount
+  docs_url: https://www.xfyun.cn/doc/spark/HTTP调用文档.html
+  models_url: https://www.xfyun.cn/activities/discount
+  signup_url: https://console.xfyun.cn
+  api_base_url: null
+  api_compatibility:
+  - openai
+  requires_account: true
+  status: active
+  last_checked: '2026-09-21'
+  last_verified: '2026-09-21'
+  sources:
+  - https://www.xfyun.cn/activities/discount
+  - https://www.xfyun.cn/doc/spark/HTTP调用文档.html
+  collector: generic
+  watch_urls:
+  - https://www.xfyun.cn/activities/discount
