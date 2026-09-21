@@ -1,14 +1,9 @@
-date: 2026-09-20
+date: 2026-09-21
 providers: 15
 offers: 10
 offers_by_status: {'active': 10}
 offers_by_confidence: {'official': 10}
 models: 586
 free_models: 24
-changes: 6
-change: Free model removed: deepseek/deepseek-v4-flash-0731:free (openrouter)
-change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
+changes: 1
 change: DeepInfra: watch page changed: https://deepinfra.com
-change: Groq: watch page changed: https://console.groq.com/docs/rate-limits
-change: Mistral AI: watch page changed: https://mistral.ai/pricing
-change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
