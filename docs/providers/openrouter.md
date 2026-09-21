@@ -118,5 +118,5 @@ Risk tags: ♾️ Permanent Free Tier
 
 ## Last Verified
 
-- Provider: 2026-09-20
-- Offer `openrouter-free-models`: 2026-09-20
+- Provider: 2026-09-21
+- Offer `openrouter-free-models`: 2026-09-21
