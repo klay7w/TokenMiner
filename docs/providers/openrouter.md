@@ -24,23 +24,23 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 | Nemotron 3 Ultra | #109 🏆 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
 | Thinking Machines: Inkling Small | #141 🏆 | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-small-20260730) |
 | Nemotron 3 Super | #192 🏆 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b-20230311) |
-| Ling 3.0 Flash VL | #15 🔥 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-vl-20260910) |
-| Nex AGI: Nex-N2.5-Mini | #18 🔥 | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-mini-20260908) |
-| Nex AGI: Nex-N2.5-Pro | #19 🔥 | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-pro-20260907) |
-| Ling 3.0 Flash Sante | #24 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) |
-| Ling 3.0 Flash Fin | #35 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) |
-| Dots Studio: Dots3-Note Preview | #51 🔥 | 512K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
-| LiquidAI: LFM2.5-2.6B | #61 🔥 | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
-| Nemotron 3.5 Lightning | #63 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
-| Laguna S 2.1 | #79 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-s-2.1-20260720) |
-| Laguna XS 2.1 | #111 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) |
-| North Mini Code | #118 🔥 | 256K | 📝🛠️🧠 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
-| Z.ai: GLM 5.2 | #121 🔥 | 33K | 📝🧠 | [↗](https://openrouter.ai/z-ai/glm-5.2-20260616) |
-| Nemotron 3.5 Content Safety | #128 🔥 | 128K | 📝🖼️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
-| Nemotron 3 Nano Omni | #149 🔥 | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
-| Lyria 3 Pro Preview | #186 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
-| Lyria 3 Clip Preview | #187 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
-| Free Models Router | #230 🔥 | 200K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/openrouter/free) |
+| Ling 3.0 Flash VL | #19 🔥 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-vl-20260910) |
+| Nex AGI: Nex-N2.5-Mini | #23 🔥 | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-mini-20260908) |
+| Nex AGI: Nex-N2.5-Pro | #25 🔥 | 262K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/nex-agi/nex-n2.5-pro-20260907) |
+| Ling 3.0 Flash Sante | #30 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-sante-20260904) |
+| Ling 3.0 Flash Fin | #41 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.0-flash-fin-20260827) |
+| Dots Studio: Dots3-Note Preview | #57 🔥 | 512K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
+| LiquidAI: LFM2.5-2.6B | #66 🔥 | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
+| Nemotron 3.5 Lightning | #68 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
+| Laguna S 2.1 | #84 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-s-2.1-20260720) |
+| Laguna XS 2.1 | #114 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/poolside/laguna-xs-2.1-20260625) |
+| North Mini Code | #121 🔥 | 256K | 📝🛠️🧠 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
+| Z.ai: GLM 5.2 | #124 🔥 | 33K | 📝🧠 | [↗](https://openrouter.ai/z-ai/glm-5.2-20260616) |
+| Nemotron 3.5 Content Safety | #131 🔥 | 128K | 📝🖼️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
+| Nemotron 3 Nano Omni | #151 🔥 | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
+| Lyria 3 Pro Preview | #188 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
+| Lyria 3 Clip Preview | #189 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
+| Free Models Router | #231 🔥 | 200K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/openrouter/free) |
 
 Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRouter](https://openrouter.ai) weekly usage rank · — unranked
 
@@ -118,5 +118,5 @@ Risk tags: ♾️ Permanent Free Tier
 
 ## Last Verified
 
-- Provider: 2026-09-21
-- Offer `openrouter-free-models`: 2026-09-21
+- Provider: 2026-09-22
+- Offer `openrouter-free-models`: 2026-09-22
