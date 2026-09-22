@@ -1,9 +1,10 @@
-date: 2026-09-21
+date: 2026-09-22
 providers: 15
 offers: 10
 offers_by_status: {'active': 10}
 offers_by_confidence: {'official': 10}
-models: 586
+models: 587
 free_models: 24
-changes: 1
+changes: 2
 change: DeepInfra: watch page changed: https://deepinfra.com
+change: SiliconFlow: watch page changed: https://siliconflow.com
