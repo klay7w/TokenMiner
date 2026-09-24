@@ -1,6 +1,6 @@
 {
   "source": "https://llmarena.ai/leaderboard/text",
-  "fetched": "2026-09-23",
+  "fetched": "2026-09-24",
   "models": [
     {
       "name": "claude-fable-5-high",
@@ -44,7 +44,7 @@
     },
     {
       "name": "gemini-3.8-flash-high",
-      "organization": null,
+      "organization": "google",
       "rank": 9
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "name": "gemini-3.5-flash-high",
-      "organization": null,
+      "organization": "google",
       "rank": 25
     },
     {
@@ -134,7 +134,7 @@
     },
     {
       "name": "gpt-5.2-chat-latest-20260210",
-      "organization": null,
+      "organization": "openai",
       "rank": 27
     },
     {
@@ -159,17 +159,17 @@
     },
     {
       "name": "gpt-5.5-instant",
-      "organization": null,
+      "organization": "openai",
       "rank": 32
     },
     {
       "name": "gemini-3-flash",
-      "organization": null,
+      "organization": "google",
       "rank": 33
     },
     {
       "name": "qwen3.7-max-preview",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 34
     },
     {
@@ -184,7 +184,7 @@
     },
     {
       "name": "claude-sonnet-4-6",
-      "organization": null,
+      "organization": "anthropic",
       "rank": 37
     },
     {
@@ -219,7 +219,7 @@
     },
     {
       "name": "mimo-v2.5-pro",
-      "organization": null,
+      "organization": "xiaomi",
       "rank": 44
     },
     {
@@ -234,7 +234,7 @@
     },
     {
       "name": "glm-5.1",
-      "organization": null,
+      "organization": "zai",
       "rank": 47
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "name": "kimi-k2.6",
-      "organization": null,
+      "organization": "moonshot",
       "rank": 52
     },
     {
@@ -274,12 +274,12 @@
     },
     {
       "name": "gemini-3-flash (thinking-minimal)",
-      "organization": null,
+      "organization": "google",
       "rank": 55
     },
     {
       "name": "glm-5",
-      "organization": null,
+      "organization": "zai",
       "rank": 56
     },
     {
@@ -294,7 +294,7 @@
     },
     {
       "name": "gemini-3.5-flash-lite",
-      "organization": null,
+      "organization": "google",
       "rank": 59
     },
     {
@@ -309,7 +309,7 @@
     },
     {
       "name": "qwen3.7-plus",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 62
     },
     {
@@ -319,7 +319,7 @@
     },
     {
       "name": "gpt-5.1-high",
-      "organization": null,
+      "organization": "openai",
       "rank": 64
     },
     {
@@ -369,7 +369,7 @@
     },
     {
       "name": "gpt-5.4-mini-high",
-      "organization": null,
+      "organization": "openai",
       "rank": 74
     },
     {
@@ -384,7 +384,7 @@
     },
     {
       "name": "gemini-2.5-pro",
-      "organization": null,
+      "organization": "google",
       "rank": 77
     },
     {
@@ -394,7 +394,7 @@
     },
     {
       "name": "qwen3.6-plus",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 79
     },
     {
@@ -409,17 +409,17 @@
     },
     {
       "name": "qwen3.5-397b-a17b",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 82
     },
     {
       "name": "glm-4.7",
-      "organization": null,
+      "organization": "zai",
       "rank": 83
     },
     {
       "name": "minimax-m3",
-      "organization": null,
+      "organization": "minimax",
       "rank": 84
     },
     {
@@ -429,7 +429,7 @@
     },
     {
       "name": "gpt-5.1",
-      "organization": null,
+      "organization": "openai",
       "rank": 86
     },
     {
@@ -444,7 +444,7 @@
     },
     {
       "name": "gpt-5.2-high",
-      "organization": null,
+      "organization": "openai",
       "rank": 89
     },
     {
@@ -454,7 +454,7 @@
     },
     {
       "name": "gpt-5.2",
-      "organization": null,
+      "organization": "openai",
       "rank": 91
     },
     {
@@ -474,22 +474,22 @@
     },
     {
       "name": "gpt-5-high",
-      "organization": null,
+      "organization": "openai",
       "rank": 95
     },
     {
       "name": "mimo-v2.5",
-      "organization": null,
+      "organization": "xiaomi",
       "rank": 96
     },
     {
       "name": "glm-5v-turbo",
-      "organization": null,
+      "organization": "zai",
       "rank": 97
     },
     {
       "name": "gemini-3.1-flash-lite-preview",
-      "organization": null,
+      "organization": "google",
       "rank": 98
     },
     {
@@ -509,7 +509,7 @@
     },
     {
       "name": "kimi-k2-thinking-turbo",
-      "organization": null,
+      "organization": "moonshot",
       "rank": 102
     },
     {
@@ -529,7 +529,7 @@
     },
     {
       "name": "mistral-medium-3.5",
-      "organization": null,
+      "organization": "mistral",
       "rank": 106
     },
     {
@@ -569,7 +569,7 @@
     },
     {
       "name": "qwen3-235b-a22b-instruct-2507",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 114
     },
     {
@@ -619,7 +619,7 @@
     },
     {
       "name": "qwen3.5-122b-a10b",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 124
     },
     {
@@ -664,7 +664,7 @@
     },
     {
       "name": "mistral-large-3",
-      "organization": null,
+      "organization": "mistral",
       "rank": 133
     },
     {
@@ -689,22 +689,22 @@
     },
     {
       "name": "gemini-2.5-flash",
-      "organization": null,
+      "organization": "google",
       "rank": 138
     },
     {
       "name": "mistral-medium-2508",
-      "organization": null,
+      "organization": "mistral",
       "rank": 139
     },
     {
       "name": "qwen3.5-27b",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 140
     },
     {
       "name": "Inkling Small",
-      "organization": null,
+      "organization": "thinky",
       "rank": 141
     },
     {
@@ -729,7 +729,7 @@
     },
     {
       "name": "gpt-5.4-nano-high",
-      "organization": null,
+      "organization": "openai",
       "rank": 146
     },
     {
@@ -739,12 +739,12 @@
     },
     {
       "name": "claude-sonnet-4-20250514-thinking-32k",
-      "organization": null,
+      "organization": "anthropic",
       "rank": 148
     },
     {
       "name": "qwen3-235b-a22b-thinking-2507",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 149
     },
     {
@@ -759,7 +759,7 @@
     },
     {
       "name": "qwen3.5-flash",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 152
     },
     {
@@ -779,7 +779,7 @@
     },
     {
       "name": "qwen3.5-35b-a3b",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 156
     },
     {
@@ -789,7 +789,7 @@
     },
     {
       "name": "step-3.5-flash",
-      "organization": null,
+      "organization": "stepfun",
       "rank": 158
     },
     {
@@ -809,12 +809,12 @@
     },
     {
       "name": "minimax-m2.5",
-      "organization": null,
+      "organization": "minimax",
       "rank": 162
     },
     {
       "name": "gpt-5-mini-high",
-      "organization": null,
+      "organization": "openai",
       "rank": 163
     },
     {
@@ -864,7 +864,7 @@
     },
     {
       "name": "qwen3-30b-a3b-instruct-2507",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 173
     },
     {
@@ -879,17 +879,17 @@
     },
     {
       "name": "trinity-large-preview",
-      "organization": null,
+      "organization": "arcee-ai",
       "rank": 176
     },
     {
       "name": "solar-pro4",
-      "organization": null,
+      "organization": "upstage",
       "rank": 177
     },
     {
       "name": "qwen3-235b-a22b",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 178
     },
     {
@@ -924,7 +924,7 @@
     },
     {
       "name": "trinity-large-thinking",
-      "organization": null,
+      "organization": "arcee-ai",
       "rank": 185
     },
     {
@@ -944,7 +944,7 @@
     },
     {
       "name": "minimax-m1",
-      "organization": null,
+      "organization": "minimax",
       "rank": 189
     },
     {
@@ -964,7 +964,7 @@
     },
     {
       "name": "gemini-2.0-flash-001",
-      "organization": null,
+      "organization": "google",
       "rank": 193
     },
     {
@@ -984,7 +984,7 @@
     },
     {
       "name": "intellect-3",
-      "organization": null,
+      "organization": "prime-intellect",
       "rank": 197
     },
     {
@@ -1004,7 +1004,7 @@
     },
     {
       "name": "gpt-oss-120b",
-      "organization": null,
+      "organization": "openai",
       "rank": 201
     },
     {
@@ -1034,7 +1034,7 @@
     },
     {
       "name": "o3-mini",
-      "organization": null,
+      "organization": "openai",
       "rank": 207
     },
     {
@@ -1054,7 +1054,7 @@
     },
     {
       "name": "mercury-2",
-      "organization": null,
+      "organization": "inception-ai",
       "rank": 211
     },
     {
@@ -1069,12 +1069,12 @@
     },
     {
       "name": "minimax-m2",
-      "organization": null,
+      "organization": "minimax",
       "rank": 214
     },
     {
       "name": "ling-flash-2.0",
-      "organization": null,
+      "organization": "ant-group",
       "rank": 215
     },
     {
@@ -1109,7 +1109,7 @@
     },
     {
       "name": "gpt-5-nano-high",
-      "organization": null,
+      "organization": "openai",
       "rank": 222
     },
     {
@@ -1119,12 +1119,12 @@
     },
     {
       "name": "nova-2-lite",
-      "organization": null,
+      "organization": "amazon",
       "rank": 224
     },
     {
       "name": "qwq-32b",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 225
     },
     {
@@ -1184,7 +1184,7 @@
     },
     {
       "name": "qwen3-30b-a3b",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 237
     },
     {
@@ -1229,7 +1229,7 @@
     },
     {
       "name": "ring-flash-2.0",
-      "organization": null,
+      "organization": "ant-group",
       "rank": 246
     },
     {
@@ -1259,7 +1259,7 @@
     },
     {
       "name": "gpt-oss-20b",
-      "organization": null,
+      "organization": "openai",
       "rank": 252
     },
     {
@@ -1314,7 +1314,7 @@
     },
     {
       "name": "mercury",
-      "organization": null,
+      "organization": "inception-ai",
       "rank": 263
     },
     {
@@ -1334,7 +1334,7 @@
     },
     {
       "name": "granite-4.1-8b",
-      "organization": null,
+      "organization": "ibm",
       "rank": 267
     },
     {
@@ -1429,7 +1429,7 @@
     },
     {
       "name": "ibm-granite-h-small",
-      "organization": null,
+      "organization": "ibm",
       "rank": 286
     },
     {
@@ -1794,7 +1794,7 @@
     },
     {
       "name": "qwq-32b-preview",
-      "organization": null,
+      "organization": "alibaba",
       "rank": 359
     },
     {
