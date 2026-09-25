@@ -1,16 +1,13 @@
-date: 2026-09-24
+date: 2026-09-25
 providers: 15
 offers: 10
 offers_by_status: {'active': 10}
 offers_by_confidence: {'official': 10}
-models: 604
+models: 605
 free_models: 24
-changes: 8
-change: New free model: stealth/space-bunny-alpha (openrouter)
-change: Free model removed: inclusionai/ling-3.0-flash-vl:free (openrouter)
+changes: 5
+change: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/
 change: DeepInfra: watch page changed: https://deepinfra.com
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
 change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
-change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/rate-limits
-change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
-change: SiliconFlow: watch page changed: https://siliconflow.com
+change: Together AI: watch page changed: https://www.together.ai/pricing
