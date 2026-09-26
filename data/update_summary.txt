@@ -1,13 +1,14 @@
-date: 2026-09-25
+date: 2026-09-26
 providers: 15
 offers: 10
 offers_by_status: {'active': 10}
 offers_by_confidence: {'official': 10}
-models: 605
-free_models: 24
-changes: 5
+models: 603
+free_models: 21
+changes: 6
+change: Free model removed: nex-agi/nex-n2.5-mini:free (openrouter)
+change: Free model removed: nex-agi/nex-n2.5-pro:free (openrouter)
+change: Free model removed: z-ai/glm-5.2:free (openrouter)
 change: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/
 change: DeepInfra: watch page changed: https://deepinfra.com
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
-change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
-change: Together AI: watch page changed: https://www.together.ai/pricing

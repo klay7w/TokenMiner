@@ -77,5 +77,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-09-25
-- Offer `google-ai-studio-free-tier`: 2026-09-25
+- Provider: 2026-09-26
+- Offer `google-ai-studio-free-tier`: 2026-09-26
