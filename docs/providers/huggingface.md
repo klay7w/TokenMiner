@@ -77,5 +77,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-09-26
-- Offer `huggingface-monthly-credits`: 2026-09-26
+- Provider: 2026-09-28
+- Offer `huggingface-monthly-credits`: 2026-09-28
