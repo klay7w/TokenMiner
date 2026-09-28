@@ -37,6 +37,25 @@ SUBTITLE = "Mine free AI models, API credits, tokens and developer deals."
 # line while keeping a URL-ending autolink intact.
 HARD_BREAK = "  "
 
+# Contributor credits rendered in the README. Hand-maintained (README.md is
+# fully regenerated on every run, so credits must live here to persist).
+# Each entry: login (GitHub handle), avatar (square avatar URL), profile
+# (GitHub profile URL), summary (one line, shown as the hover tooltip —
+# keep it free of double quotes).
+CONTRIBUTORS: list[dict[str, str]] = [
+    {
+        "login": "TAO-LIUJIANG",
+        "avatar": "https://avatars.githubusercontent.com/u/203933569?v=4&s=80",
+        "profile": "https://github.com/TAO-LIUJIANG",
+        "summary": (
+            "TAO-LIUJIANG — #18: surveyed 10 domestic Chinese providers "
+            "against official sources; #19: added Zhipu, Moonshot, DeepSeek "
+            "and Tencent Hunyuan (4 providers, 8 verified offers) plus 3 "
+            "SiliconFlow corrections"
+        ),
+    },
+]
+
 
 def _best_free_model(models: list[Model]) -> Model | None:
     """§19 Best Model column: the provider's highest §40-tiered free model
@@ -321,6 +340,23 @@ def generate_readme(
         lines.append("Full history in [CHANGELOG.md](CHANGELOG.md).")
     else:
         lines.append("_No changes since last run._")
+    lines.append("")
+
+    # Contributors ----------------------------------------------------------
+    # One inline-HTML anchor per contributor, all on a single markdown line;
+    # the title attribute carries the one-line contribution summary as the
+    # hover tooltip. esc() is a no-op for the current entries (no pipes or
+    # newlines) but keeps values safe if a future summary contains them.
+    lines.append("# 👥 Contributors")
+    lines.append("")
+    lines.append(
+        " ".join(
+            f'<a href="{esc(c["profile"])}" title="{esc(c["summary"])}">'
+            f'<img src="{esc(c["avatar"])}" width="80" '
+            f'alt="@{esc(c["login"])}"></a>'
+            for c in CONTRIBUTORS
+        )
+    )
     lines.append("")
 
     # Footer ----------------------------------------------------------------

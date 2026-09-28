@@ -2,7 +2,7 @@
 
 > Mine free AI models, API credits, tokens and developer deals.
 
-Auto-updated **2026-09-28** · 15 providers · 10 offers · 21 free models tracked
+Auto-updated **2026-09-28** · 19 providers · 10 offers · 21 free models tracked
 
 # 🔥 Best Free AI Deals Right Now
 
@@ -128,9 +128,11 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-09-28: DeepInfra: watch page changed: https://deepinfra.com
+_No changes since last run._
 
-Full history in [CHANGELOG.md](CHANGELOG.md).
+# 👥 Contributors
+
+<a href="https://github.com/TAO-LIUJIANG" title="TAO-LIUJIANG — #18: surveyed 10 domestic Chinese providers against official sources; #19: added Zhipu, Moonshot, DeepSeek and Tencent Hunyuan (4 providers, 8 verified offers) plus 3 SiliconFlow corrections"><img src="https://avatars.githubusercontent.com/u/203933569?v=4&s=80" width="80" alt="@TAO-LIUJIANG"></a>
 
 # 📖 Data & Verification
 

@@ -7,6 +7,8 @@ from pathlib import Path
 
 from tokenminer.diffing import Change
 from tokenminer.generators import generate_provider_page, generate_readme
+from tokenminer.generators.format import esc
+from tokenminer.generators.readme import CONTRIBUTORS
 from tokenminer.models import Model, Offer, Provider
 from tokenminer.scoring import score_provider
 from tokenminer.utils.time import today
@@ -434,7 +436,7 @@ def test_ranking_podium_only_when_three_or_fewer():
 def test_recently_changed_section():
     providers, offers, models, scores, changes = _data()
     md = generate_readme(providers, offers, models, scores, changes, TODAY)
-    body = md.split("# 🕒 Recently Changed")[1].split("# 📖")[0]
+    body = md.split("# 🕒 Recently Changed")[1].split("# 👥")[0]
     lines = [l for l in body.splitlines() if l.strip()]
     # Date-prefixed entry lines, no markdown bullet, no +/-/⚠ symbol.
     # All entry lines except the last end with a GFM hard break — exactly
@@ -453,6 +455,26 @@ def test_recently_changed_section():
         assert not line.endswith("<br>"), f"line must not end with '<br>': {line!r}"
     for line in lines[:-2]:
         assert not line.lstrip().startswith("-")  # no markdown bullet
+
+
+def test_contributors_section():
+    providers, offers, models, scores, changes = _data()
+    md = generate_readme(providers, offers, models, scores, changes, TODAY)
+    # Section sits between "Recently Changed" and the "Data & Verification"
+    # footer, so it survives every regeneration.
+    assert md.index("# 🕒 Recently Changed") < md.index("# 👥 Contributors") < md.index("# 📖 Data & Verification")
+    body = md.split("# 👥 Contributors")[1].split("# 📖")[0]
+    content = [l for l in body.splitlines() if l.strip()]
+    assert len(content) == 1, "contributors must render on one markdown line"
+    line = content[0]
+    # One inline-HTML anchor per contributor; title carries the hover tooltip.
+    for c in CONTRIBUTORS:
+        anchor = (
+            f'<a href="{esc(c["profile"])}" title="{esc(c["summary"])}">'
+            f'<img src="{esc(c["avatar"])}" width="80" '
+            f'alt="@{esc(c["login"])}"></a>'
+        )
+        assert anchor in line, f"missing anchor for {c['login']}: {anchor!r}"
 
 
 def test_pipe_characters_escaped_in_tables():
