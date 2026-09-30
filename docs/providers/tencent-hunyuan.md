@@ -8,7 +8,10 @@ Tencent Cloud LLM service (Hunyuan series). New-service activation grants a 1M-t
 
 ## Current Free Offers
 
-_No offers recorded for this provider._
+- **Service Activation Pack — 1M Tokens, 1 Year** — type `signup_credit`, value —, status `uncertain`, confidence `official` ⚠️ **Stale**
+  - First activation of the Hunyuan text service grants a 1M-token resource pack shared across models (embedding has a separate 1M), valid 1 year, one-time. Caution: the legacy Hunyuan platform announced full shutdown/migration on 2026-09-30 — re-verify claimability before relying on this.
+  - Claim: https://console.cloud.tencent.com
+  - Source: https://cloud.tencent.com/document/product/1729/97731
 
 ## Free Models
 
@@ -37,11 +40,12 @@ _Nothing notable derived from current data._
 ## Cons
 
 - no free offering verified right now
+- some offers not re-verified within 7 days
 - candidate provider — not yet fully integrated
 
 ## TokenMiner Score
 
-**10/100 — grade D**
+**15/100 — grade D**
 
 | Component | Points | Max |
 |---|---|---|
@@ -52,7 +56,9 @@ _Nothing notable derived from current data._
 | API Compatibility | 6 | 10 |
 | Ease of Claim | 3 | 5 |
 | Platform Reliability | 1 | 5 |
-| Transparency | 0 | 5 |
+| Transparency | 5 | 5 |
+
+Risk tags: 🎁 New Users Only · ⚠️ Unverified
 
 ## Recommended For
 
@@ -73,4 +79,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-09-21
+- Provider: 2026-09-30
+- Offer `tencent-hunyuan-signup-pack`: 2026-09-21 ⚠️ stale

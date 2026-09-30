@@ -8,7 +8,10 @@ Chinese LLM provider (Kimi series). platform.moonshot.cn now redirects to platfo
 
 ## Current Free Offers
 
-_No offers recorded for this provider._
+- **Real-name Verification Voucher — CNY 15** — type `signup_credit`, value $15, status `active`, confidence `official` ⚠️ **Stale**
+  - "认证成功后会为您赠送 15 元代金券" — granted after individual or enterprise real-name verification; not usable for Kimi K3 (official account docs).
+  - Claim: https://platform.kimi.com/console
+  - Source: https://platform.kimi.com/docs/guide/account-and-payments
 
 ## Free Models
 
@@ -37,23 +40,25 @@ _Nothing notable derived from current data._
 
 ## Cons
 
-- no free offering verified right now
+- some offers not re-verified within 7 days
 - candidate provider — not yet fully integrated
 
 ## TokenMiner Score
 
-**12/100 — grade D**
+**36/100 — grade D**
 
 | Component | Points | Max |
 |---|---|---|
-| Free Value | 0 | 30 |
+| Free Value | 15 | 30 |
 | Model Quality | 0 | 20 |
-| Quota & Rate Limit | 0 | 15 |
+| Quota & Rate Limit | 4 | 15 |
 | Context Window | 0 | 10 |
 | API Compatibility | 6 | 10 |
 | Ease of Claim | 3 | 5 |
 | Platform Reliability | 3 | 5 |
-| Transparency | 0 | 5 |
+| Transparency | 5 | 5 |
+
+Risk tags: 🎁 New Users Only · ⚠️ Unverified
 
 ## Recommended For
 
@@ -74,4 +79,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-09-21
+- Provider: 2026-09-30
+- Offer `moonshot-realname-voucher`: 2026-09-21 ⚠️ stale
