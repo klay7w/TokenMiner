@@ -1,28 +1,17 @@
-date: 2026-09-30
+date: 2026-10-03
 providers: 19
 offers: 18
 offers_by_status: {'active': 17, 'uncertain': 1}
 offers_by_confidence: {'official': 18}
-models: 609
-free_models: 20
-changes: 20
-change: New offer: Real-name Verification Voucher — CNY 15 (moonshot)
-change: New offer: Free Model Tier (embedding / rerank / ASR / image) (siliconflow)
-change: New offer: Real-name Voucher CNY 16 + Referral CNY 16 Each (siliconflow)
-change: New offer: New User Signup Credit — CNY 14 (siliconflow)
-change: New offer: Service Activation Pack — 1M Tokens, 1 Year (tencent-hunyuan)
-change: New offer: Free GLM Flash Models (zhipu)
-change: New offer: New User Token Package — 25M Tokens (zhipu)
-change: New offer: Referral Reward — 20M GLM-4.5-Air Tokens Each (zhipu)
-change: Free model removed: inclusionai/ling-3.0-flash-fin:free (openrouter)
+models: 612
+free_models: 22
+changes: 9
+change: New free model: apodex/apodex-1.1-mini:free (openrouter)
+change: New free model: inclusionai/ling-3.1-flash (openrouter)
 change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
+change: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/
 change: DeepInfra: watch page changed: https://deepinfra.com
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
-change: Mistral AI: watch page changed: https://mistral.ai/pricing
+change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
 change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
-change: SiliconFlow: watch page changed: https://siliconflow.com
-change: Zhipu AI (BigModel): now watching https://docs.z.ai/guides/overview/pricing
-change: Zhipu AI (BigModel): now watching https://docs.bigmodel.cn/cn/update/promotion
-change: Moonshot AI (Kimi Open Platform): now watching https://platform.kimi.com/docs/guide/account-and-payments
-change: DeepSeek: now watching https://api-docs.deepseek.com/zh-cn/quick_start/pricing
-change: Tencent Hunyuan: now watching https://cloud.tencent.com/document/product/1729/97731
+change: Together AI: watch page changed: https://www.together.ai/pricing

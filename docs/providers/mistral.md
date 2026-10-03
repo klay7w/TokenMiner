@@ -84,6 +84,6 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-09-30
-- Offer `mistral-free-plan-credits`: 2026-09-30
-- Offer `mistral-student-pro`: 2026-09-30
+- Provider: 2026-10-03
+- Offer `mistral-free-plan-credits`: 2026-10-03
+- Offer `mistral-student-pro`: 2026-10-03
