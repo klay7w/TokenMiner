@@ -1,18 +1,18 @@
-date: 2026-10-05
+date: 2026-10-07
 providers: 19
 offers: 18
 offers_by_status: {'active': 17, 'uncertain': 1}
 offers_by_confidence: {'official': 18}
-models: 612
-free_models: 22
+models: 611
+free_models: 20
 changes: 10
-change: New free model: apodex/apodex-1.1-mini:free (openrouter)
-change: New free model: inclusionai/ling-3.1-flash (openrouter)
-change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
+change: Free model removed: qwen/qwen3.8-27b:free (openrouter)
+change: Free model removed: stealth/space-bunny-alpha (openrouter)
 change: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/
 change: DeepInfra: watch page changed: https://deepinfra.com
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
 change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
 change: Groq: watch page changed: https://console.groq.com/docs/rate-limits
-change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
+change: Mistral AI: watch page changed: https://mistral.ai/pricing
 change: Together AI: watch page changed: https://www.together.ai/pricing
