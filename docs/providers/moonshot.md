@@ -79,5 +79,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-10-05
+- Provider: 2026-10-07
 - Offer `moonshot-realname-voucher`: 2026-09-21 ⚠️ stale
