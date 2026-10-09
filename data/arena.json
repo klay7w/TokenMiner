@@ -1,6 +1,6 @@
 {
   "source": "https://llmarena.ai/leaderboard/text",
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "models": [
     {
       "name": "gemini-4-argon-high",
@@ -8,17 +8,17 @@
       "rank": 1
     },
     {
-      "name": "claude-opus-4-6-high",
+      "name": "claude-opus-5.5-high",
       "organization": null,
       "rank": 2
     },
     {
-      "name": "claude-fable-5-high",
+      "name": "claude-opus-4-6-high",
       "organization": null,
       "rank": 3
     },
     {
-      "name": "claude-opus-5.5-high",
+      "name": "claude-fable-5-high",
       "organization": null,
       "rank": 4
     },
@@ -83,12 +83,12 @@
       "rank": 16
     },
     {
-      "name": "gemini-3.7-flash-high",
+      "name": "gemini-3.1-pro-preview",
       "organization": null,
       "rank": 17
     },
     {
-      "name": "gemini-3.1-pro-preview",
+      "name": "gemini-3.7-flash-high",
       "organization": null,
       "rank": 18
     },
@@ -108,22 +108,22 @@
       "rank": 21
     },
     {
-      "name": "gemini-3.6-flash-high",
+      "name": "qwen3.8-max",
       "organization": null,
       "rank": 22
     },
     {
-      "name": "qwen3.8-max",
+      "name": "gemini-3.6-flash-high",
       "organization": null,
       "rank": 23
     },
     {
-      "name": "claude-opus-4-8-high",
+      "name": "gpt-5.5-high",
       "organization": null,
       "rank": 24
     },
     {
-      "name": "gpt-5.5-high",
+      "name": "claude-opus-4-8-high",
       "organization": null,
       "rank": 25
     },
@@ -143,27 +143,27 @@
       "rank": 28
     },
     {
-      "name": "gpt-6-astra-max",
+      "name": "gpt-5.5",
       "organization": null,
       "rank": 29
     },
     {
-      "name": "gpt-5.5",
+      "name": "gemini-3.5-flash-medium",
       "organization": null,
       "rank": 30
     },
     {
-      "name": "gemini-3.5-flash-medium",
+      "name": "gpt-5.2-chat-latest-20260210",
       "organization": null,
       "rank": 31
     },
     {
-      "name": "glm-5.2-max",
+      "name": "claude-sonnet-5.5-xhigh",
       "organization": null,
       "rank": 32
     },
     {
-      "name": "gpt-5.2-chat-latest-20260210",
+      "name": "glm-5.2-max",
       "organization": null,
       "rank": 33
     },
@@ -173,57 +173,57 @@
       "rank": 34
     },
     {
-      "name": "qwen3.7-max-preview",
+      "name": "gpt-6-astra-max",
       "organization": null,
       "rank": 35
     },
     {
-      "name": "grok-4.20-beta1",
+      "name": "qwen3.7-max-preview",
       "organization": null,
       "rank": 36
     },
     {
-      "name": "claude-opus-4-8",
+      "name": "grok-4.20-beta1",
       "organization": null,
       "rank": 37
     },
     {
-      "name": "deepseek-v4.1-flash-max",
+      "name": "glm-5.3-flash",
       "organization": null,
       "rank": 38
     },
     {
-      "name": "claude-opus-4-5-20251101-high-32k",
+      "name": "deepseek-v4.1-flash-max",
       "organization": null,
       "rank": 39
     },
     {
-      "name": "gpt-5.5-instant",
+      "name": "claude-opus-4-8",
       "organization": null,
       "rank": 40
     },
     {
-      "name": "glm-5.3-flash",
+      "name": "claude-opus-4-5-20251101-high-32k",
       "organization": null,
       "rank": 41
     },
     {
-      "name": "gemini-3-flash",
+      "name": "gpt-5.5-instant",
       "organization": null,
       "rank": 42
     },
     {
-      "name": "claude-sonnet-4-6",
+      "name": "gemini-3-flash",
       "organization": null,
       "rank": 43
     },
     {
-      "name": "grok-4.20-beta-0309-reasoning",
+      "name": "claude-sonnet-4-6",
       "organization": null,
       "rank": 44
     },
     {
-      "name": "claude-sonnet-5.5-xhigh",
+      "name": "grok-4.20-beta-0309-reasoning",
       "organization": null,
       "rank": 45
     },
@@ -238,22 +238,22 @@
       "rank": 47
     },
     {
-      "name": "ernie-5.1",
+      "name": "mimo-v2.5-pro",
       "organization": null,
       "rank": 48
     },
     {
-      "name": "mimo-v2.5-pro",
+      "name": "ernie-5.1",
       "organization": null,
       "rank": 49
     },
     {
-      "name": "grok-4.5",
+      "name": "gpt-5.6-terra-xhigh",
       "organization": null,
       "rank": 50
     },
     {
-      "name": "gpt-5.6-terra-xhigh",
+      "name": "grok-4.5",
       "organization": null,
       "rank": 51
     },
@@ -273,12 +273,12 @@
       "rank": 54
     },
     {
-      "name": "glm-5.1",
+      "name": "deepseek-v4-pro-high-20260813",
       "organization": null,
       "rank": 55
     },
     {
-      "name": "deepseek-v4-pro-high-20260813",
+      "name": "glm-5.1",
       "organization": null,
       "rank": 56
     },
@@ -318,72 +318,72 @@
       "rank": 63
     },
     {
-      "name": "gpt-6-sol-max",
+      "name": "claude-sonnet-4-5-20250929-high-32k",
       "organization": null,
       "rank": 64
     },
     {
-      "name": "claude-sonnet-4-5-20250929-high-32k",
+      "name": "dola-seed-2.0-pro",
       "organization": null,
       "rank": 65
     },
     {
-      "name": "dola-seed-2.0-pro",
+      "name": "qwen3.7-plus",
       "organization": null,
       "rank": 66
     },
     {
-      "name": "hy3",
+      "name": "gpt-6-sol-max",
       "organization": null,
       "rank": 67
     },
     {
-      "name": "qwen3.7-plus",
+      "name": "gpt-5.1-high",
       "organization": null,
       "rank": 68
     },
     {
-      "name": "gpt-5.1-high",
+      "name": "claude-sonnet-4-5-20250929",
       "organization": null,
       "rank": 69
     },
     {
-      "name": "claude-sonnet-4-5-20250929",
+      "name": "gemini-3.5-flash-lite",
       "organization": null,
       "rank": 70
     },
     {
-      "name": "gemini-3.5-flash-lite",
+      "name": "deepseek-v4-pro-high-preview",
       "organization": null,
       "rank": 71
     },
     {
-      "name": "deepseek-v4-pro-high-preview",
+      "name": "grok-4.6-high",
       "organization": null,
       "rank": 72
     },
     {
-      "name": "grok-4.6-high",
+      "name": "hy3",
       "organization": null,
       "rank": 73
     },
     {
-      "name": "Step 5 Preview",
+      "name": "gpt-5.6-luna-xhigh",
       "organization": null,
       "rank": 74
     },
     {
-      "name": "gpt-5.6-luna-xhigh",
+      "name": "gemma-4-31b",
       "organization": null,
       "rank": 75
     },
     {
-      "name": "gemma-4-31b",
+      "name": "mimo-v2.6-flash",
       "organization": null,
       "rank": 76
     },
     {
-      "name": "mimo-v2.6-flash",
+      "name": "gpt-5.3-chat-latest",
       "organization": null,
       "rank": 77
     },
@@ -393,27 +393,27 @@
       "rank": 78
     },
     {
-      "name": "gpt-5.3-chat-latest",
+      "name": "claude-opus-4-1-20250805-thinking-16k",
       "organization": null,
       "rank": 79
     },
     {
-      "name": "claude-opus-4-1-20250805-thinking-16k",
+      "name": "ernie-5.0-preview-1203",
       "organization": null,
       "rank": 80
     },
     {
-      "name": "ernie-5.0-preview-1203",
+      "name": "claude-opus-4-1-20250805",
       "organization": null,
       "rank": 81
     },
     {
-      "name": "claude-opus-4-1-20250805",
+      "name": "mimo-v2-pro",
       "organization": null,
       "rank": 82
     },
     {
-      "name": "mimo-v2-pro",
+      "name": "Step 5 Preview",
       "organization": null,
       "rank": 83
     },
@@ -448,12 +448,12 @@
       "rank": 89
     },
     {
-      "name": "gpt-6-luna-max",
+      "name": "grok-4.7-xhigh",
       "organization": null,
       "rank": 90
     },
     {
-      "name": "grok-4.7-xhigh",
+      "name": "gpt-6-luna-max",
       "organization": null,
       "rank": 91
     },
@@ -463,12 +463,12 @@
       "rank": 92
     },
     {
-      "name": "glm-4.7",
+      "name": "grok-4.3",
       "organization": null,
       "rank": 93
     },
     {
-      "name": "grok-4.3",
+      "name": "glm-4.7",
       "organization": null,
       "rank": 94
     },
@@ -483,12 +483,12 @@
       "rank": 96
     },
     {
-      "name": "gpt-5.1",
+      "name": "deepseek-v4-flash-high-preview",
       "organization": null,
       "rank": 97
     },
     {
-      "name": "deepseek-v4-flash-high-preview",
+      "name": "gpt-5.1",
       "organization": null,
       "rank": 98
     },
@@ -558,12 +558,12 @@
       "rank": 111
     },
     {
-      "name": "kimi-k2.5-instant",
+      "name": "grok-4-1-fast-reasoning",
       "organization": null,
       "rank": 112
     },
     {
-      "name": "grok-4-1-fast-reasoning",
+      "name": "kimi-k2.5-instant",
       "organization": null,
       "rank": 113
     },
@@ -573,22 +573,22 @@
       "rank": 114
     },
     {
-      "name": "mistral-medium-3.5",
+      "name": "mistral-large-4",
       "organization": null,
       "rank": 115
     },
     {
-      "name": "gpt-5-chat",
+      "name": "amazon-nova-experimental-chat-26-02-10",
       "organization": null,
       "rank": 116
     },
     {
-      "name": "amazon-nova-experimental-chat-26-02-10",
+      "name": "mistral-medium-3.5",
       "organization": null,
       "rank": 117
     },
     {
-      "name": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
+      "name": "gpt-5-chat",
       "organization": null,
       "rank": 118
     },
@@ -598,7 +598,7 @@
       "rank": 119
     },
     {
-      "name": "muse-glimmer",
+      "name": "nvidia-nemotron-3-ultra-550b-a55b-nvfp4",
       "organization": null,
       "rank": 120
     },
@@ -613,57 +613,57 @@
       "rank": 122
     },
     {
-      "name": "glm-4.6",
+      "name": "muse-glimmer",
       "organization": null,
       "rank": 123
     },
     {
-      "name": "qwen3-max-2025-09-23",
+      "name": "glm-4.6",
       "organization": null,
       "rank": 124
     },
     {
-      "name": "deepseek-v3.2-thinking",
+      "name": "qwen3-max-2025-09-23",
       "organization": null,
       "rank": 125
     },
     {
-      "name": "qwen3-235b-a22b-instruct-2507",
+      "name": "deepseek-v3.2-thinking",
       "organization": null,
       "rank": 126
     },
     {
-      "name": "deepseek-v3.2-exp",
+      "name": "qwen3-235b-a22b-instruct-2507",
       "organization": null,
       "rank": 127
     },
     {
-      "name": "deepseek-r1-0528",
+      "name": "deepseek-v3.2-exp",
       "organization": null,
       "rank": 128
     },
     {
-      "name": "grok-4-fast-chat",
+      "name": "deepseek-r1-0528",
       "organization": null,
       "rank": 129
     },
     {
-      "name": "ernie-5.0-preview-1022",
+      "name": "grok-4-fast-chat",
       "organization": null,
       "rank": 130
     },
     {
-      "name": "kimi-k2-0905-preview",
+      "name": "ernie-5.0-preview-1022",
       "organization": null,
       "rank": 131
     },
     {
-      "name": "kimi-k2-0711-preview",
+      "name": "kimi-k2-0905-preview",
       "organization": null,
       "rank": 132
     },
     {
-      "name": "deepseek-v3.1-terminus-thinking",
+      "name": "kimi-k2-0711-preview",
       "organization": null,
       "rank": 133
     },
@@ -678,32 +678,32 @@
       "rank": 135
     },
     {
-      "name": "deepseek-v3.1-thinking",
+      "name": "deepseek-v3.1-terminus-thinking",
       "organization": null,
       "rank": 136
     },
     {
-      "name": "minimax-m2.7",
+      "name": "deepseek-v3.1-thinking",
       "organization": null,
       "rank": 137
     },
     {
-      "name": "deepseek-v3.1-terminus",
+      "name": "minimax-m2.7",
       "organization": null,
       "rank": 138
     },
     {
-      "name": "gpt-4.1-2025-04-14",
+      "name": "deepseek-v3.1-terminus",
       "organization": null,
       "rank": 139
     },
     {
-      "name": "claude-opus-4-20250514",
+      "name": "gpt-4.1-2025-04-14",
       "organization": null,
       "rank": 140
     },
     {
-      "name": "mistral-large-3",
+      "name": "claude-opus-4-20250514",
       "organization": null,
       "rank": 141
     },
@@ -713,22 +713,22 @@
       "rank": 142
     },
     {
-      "name": "qwen3-vl-235b-a22b-instruct",
+      "name": "mistral-large-3",
       "organization": null,
       "rank": 143
     },
     {
-      "name": "amazon-nova-experimental-chat-26-01-10",
+      "name": "qwen3-vl-235b-a22b-instruct",
       "organization": null,
       "rank": 144
     },
     {
-      "name": "grok-3-preview-02-24",
+      "name": "amazon-nova-experimental-chat-26-01-10",
       "organization": null,
       "rank": 145
     },
     {
-      "name": "glm-4.5",
+      "name": "grok-3-preview-02-24",
       "organization": null,
       "rank": 146
     },
@@ -738,42 +738,42 @@
       "rank": 147
     },
     {
-      "name": "gemini-2.5-flash",
+      "name": "glm-4.5",
       "organization": null,
       "rank": 148
     },
     {
-      "name": "hunyuan-hy3-preview",
+      "name": "gemini-2.5-flash",
       "organization": null,
       "rank": 149
     },
     {
-      "name": "qwen3.5-27b",
+      "name": "hunyuan-hy3-preview",
       "organization": null,
       "rank": 150
     },
     {
-      "name": "mistral-medium-2508",
+      "name": "qwen3.5-27b",
       "organization": null,
       "rank": 151
     },
     {
-      "name": "Inkling Small",
+      "name": "mistral-medium-2508",
       "organization": null,
       "rank": 152
     },
     {
-      "name": "grok-4-fast-reasoning",
+      "name": "Inkling Small",
       "organization": null,
       "rank": 153
     },
     {
-      "name": "gemini-2.5-flash-preview-09-2025",
+      "name": "grok-4-fast-reasoning",
       "organization": null,
       "rank": 154
     },
     {
-      "name": "qwen3-235b-a22b-no-thinking",
+      "name": "gemini-2.5-flash-preview-09-2025",
       "organization": null,
       "rank": 155
     },
@@ -783,62 +783,62 @@
       "rank": 156
     },
     {
-      "name": "claude-sonnet-4-20250514-thinking-32k",
+      "name": "qwen3-235b-a22b-no-thinking",
       "organization": null,
       "rank": 157
     },
     {
-      "name": "gpt-5.4-nano-high",
+      "name": "claude-sonnet-4-20250514-thinking-32k",
       "organization": null,
       "rank": 158
     },
     {
-      "name": "longcat-flash-chat",
+      "name": "gpt-5.4-nano-high",
       "organization": null,
       "rank": 159
     },
     {
-      "name": "qwen3-235b-a22b-thinking-2507",
+      "name": "longcat-flash-chat",
       "organization": null,
       "rank": 160
     },
     {
-      "name": "qwen3-next-80b-a3b-instruct",
+      "name": "qwen3-235b-a22b-thinking-2507",
       "organization": null,
       "rank": 161
     },
     {
-      "name": "deepseek-r1",
+      "name": "qwen3-next-80b-a3b-instruct",
       "organization": null,
       "rank": 162
     },
     {
-      "name": "qwen3.5-flash",
+      "name": "deepseek-r1",
       "organization": null,
       "rank": 163
     },
     {
-      "name": "deepseek-v3-0324",
+      "name": "qwen3.5-flash",
       "organization": null,
       "rank": 164
     },
     {
-      "name": "qwen3-vl-235b-a22b-thinking",
+      "name": "deepseek-v3-0324",
       "organization": null,
       "rank": 165
     },
     {
-      "name": "hunyuan-vision-1.5-thinking",
+      "name": "qwen3-vl-235b-a22b-thinking",
       "organization": null,
       "rank": 166
     },
     {
-      "name": "amazon-nova-experimental-chat-12-10",
+      "name": "qwen3.5-35b-a3b",
       "organization": null,
       "rank": 167
     },
     {
-      "name": "qwen3.5-35b-a3b",
+      "name": "hunyuan-vision-1.5-thinking",
       "organization": null,
       "rank": 168
     },
@@ -848,12 +848,12 @@
       "rank": 169
     },
     {
-      "name": "mimo-v2-flash (non-thinking)",
+      "name": "amazon-nova-experimental-chat-12-10",
       "organization": null,
       "rank": 170
     },
     {
-      "name": "minimax-m2.5",
+      "name": "mimo-v2-flash (non-thinking)",
       "organization": null,
       "rank": 171
     },
@@ -868,22 +868,22 @@
       "rank": 173
     },
     {
-      "name": "gpt-5-mini-high",
+      "name": "minimax-m2.5",
       "organization": null,
       "rank": 174
     },
     {
-      "name": "o1-preview",
+      "name": "gpt-5-mini-high",
       "organization": null,
       "rank": 175
     },
     {
-      "name": "claude-3-7-sonnet-20250219-thinking-32k",
+      "name": "o1-preview",
       "organization": null,
       "rank": 176
     },
     {
-      "name": "mistral-medium-2505",
+      "name": "claude-3-7-sonnet-20250219-thinking-32k",
       "organization": null,
       "rank": 177
     },
@@ -893,27 +893,27 @@
       "rank": 178
     },
     {
-      "name": "hunyuan-t1-20250711",
+      "name": "mistral-medium-2505",
       "organization": null,
       "rank": 179
     },
     {
-      "name": "mimo-v2-flash (thinking)",
+      "name": "hunyuan-t1-20250711",
       "organization": null,
       "rank": 180
     },
     {
-      "name": "solar-pro4",
+      "name": "mimo-v2-flash (thinking)",
       "organization": null,
       "rank": 181
     },
     {
-      "name": "minimax-m2.1-preview",
+      "name": "solar-pro4",
       "organization": null,
       "rank": 182
     },
     {
-      "name": "gpt-4.1-mini-2025-04-14",
+      "name": "minimax-m2.1-preview",
       "organization": null,
       "rank": 183
     },
@@ -923,167 +923,167 @@
       "rank": 184
     },
     {
-      "name": "qwen3-30b-a3b-instruct-2507",
+      "name": "gpt-4.1-mini-2025-04-14",
       "organization": null,
       "rank": 185
     },
     {
-      "name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
+      "name": "qwen3-30b-a3b-instruct-2507",
       "organization": null,
       "rank": 186
     },
     {
-      "name": "glm-4.6v",
+      "name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
       "organization": null,
       "rank": 187
     },
     {
-      "name": "trinity-large-preview",
+      "name": "glm-4.6v",
       "organization": null,
       "rank": 188
     },
     {
-      "name": "qwen3-235b-a22b",
+      "name": "trinity-large-preview",
       "organization": null,
       "rank": 189
     },
     {
-      "name": "gemini-2.5-flash-lite-preview-06-17-thinking",
+      "name": "qwen3-235b-a22b",
       "organization": null,
       "rank": 190
     },
     {
-      "name": "claude-3-5-sonnet-20241022",
+      "name": "gemini-2.5-flash-lite-preview-06-17-thinking",
       "organization": null,
       "rank": 191
     },
     {
-      "name": "qwen2.5-max",
+      "name": "claude-3-5-sonnet-20241022",
       "organization": null,
       "rank": 192
     },
     {
-      "name": "glm-4.5-air",
+      "name": "qwen2.5-max",
       "organization": null,
       "rank": 193
     },
     {
-      "name": "claude-3-7-sonnet-20250219",
+      "name": "glm-4.5-air",
       "organization": null,
       "rank": 194
     },
     {
-      "name": "qwen3-next-80b-a3b-thinking",
+      "name": "claude-3-7-sonnet-20250219",
       "organization": null,
       "rank": 195
     },
     {
-      "name": "trinity-large-thinking",
+      "name": "qwen3-next-80b-a3b-thinking",
       "organization": null,
       "rank": 196
     },
     {
-      "name": "gemma-3-27b-it",
+      "name": "trinity-large-thinking",
       "organization": null,
       "rank": 197
     },
     {
-      "name": "glm-4.7-flash",
+      "name": "gemma-3-27b-it",
       "organization": null,
       "rank": 198
     },
     {
-      "name": "amazon-nova-experimental-chat-11-10",
+      "name": "glm-4.7-flash",
       "organization": null,
       "rank": 199
     },
     {
-      "name": "minimax-m1",
+      "name": "amazon-nova-experimental-chat-11-10",
       "organization": null,
       "rank": 200
     },
     {
-      "name": "o3-mini-high",
+      "name": "grok-3-mini-high",
       "organization": null,
       "rank": 201
     },
     {
-      "name": "grok-3-mini-high",
+      "name": "minimax-m1",
       "organization": null,
       "rank": 202
     },
     {
-      "name": "nvidia-nemotron-3-super-120b-a12b",
+      "name": "o3-mini-high",
       "organization": null,
       "rank": 203
     },
     {
-      "name": "gemini-2.0-flash-001",
+      "name": "nvidia-nemotron-3-super-120b-a12b",
       "organization": null,
       "rank": 204
     },
     {
-      "name": "deepseek-v3",
+      "name": "gemini-2.0-flash-001",
       "organization": null,
       "rank": 205
     },
     {
-      "name": "grok-3-mini-beta",
+      "name": "deepseek-v3",
       "organization": null,
       "rank": 206
     },
     {
-      "name": "mistral-small-2506",
+      "name": "grok-3-mini-beta",
       "organization": null,
       "rank": 207
     },
     {
-      "name": "intellect-3",
+      "name": "mistral-small-2506",
       "organization": null,
       "rank": 208
     },
     {
-      "name": "command-a-03-2025",
+      "name": "intellect-3",
       "organization": null,
       "rank": 209
     },
     {
-      "name": "gemini-2.0-flash-lite-preview-02-05",
+      "name": "command-a-03-2025",
       "organization": null,
       "rank": 210
     },
     {
-      "name": "glm-4.5v",
+      "name": "gemini-2.0-flash-lite-preview-02-05",
       "organization": null,
       "rank": 211
     },
     {
-      "name": "gpt-oss-120b",
+      "name": "glm-4.5v",
       "organization": null,
       "rank": 212
     },
     {
-      "name": "gemini-1.5-pro-002",
+      "name": "gpt-oss-120b",
       "organization": null,
       "rank": 213
     },
     {
-      "name": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
+      "name": "gemini-1.5-pro-002",
       "organization": null,
       "rank": 214
     },
     {
-      "name": "step-3",
+      "name": "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4",
       "organization": null,
       "rank": 215
     },
     {
-      "name": "hunyuan-turbos-20250226",
+      "name": "step-3",
       "organization": null,
       "rank": 216
     },
     {
-      "name": "amazon-nova-experimental-chat-10-20",
+      "name": "hunyuan-turbos-20250226",
       "organization": null,
       "rank": 217
     },
@@ -1093,12 +1093,12 @@
       "rank": 218
     },
     {
-      "name": "llama-3.1-nemotron-ultra-253b-v1",
+      "name": "amazon-nova-experimental-chat-10-20",
       "organization": null,
       "rank": 219
     },
     {
-      "name": "amazon-nova-experimental-chat-10-09",
+      "name": "llama-3.1-nemotron-ultra-253b-v1",
       "organization": null,
       "rank": 220
     },
@@ -1108,77 +1108,77 @@
       "rank": 221
     },
     {
-      "name": "gpt-4o-2024-05-13",
+      "name": "amazon-nova-experimental-chat-10-09",
       "organization": null,
       "rank": 222
     },
     {
-      "name": "qwen-plus-0125",
+      "name": "gpt-4o-2024-05-13",
       "organization": null,
       "rank": 223
     },
     {
-      "name": "ling-flash-2.0",
+      "name": "qwen-plus-0125",
       "organization": null,
       "rank": 224
     },
     {
-      "name": "minimax-m2",
+      "name": "mercury-2",
       "organization": null,
       "rank": 225
     },
     {
-      "name": "mercury-2",
+      "name": "ling-flash-2.0",
       "organization": null,
       "rank": 226
     },
     {
-      "name": "claude-3-5-sonnet-20240620",
+      "name": "minimax-m2",
       "organization": null,
       "rank": 227
     },
     {
-      "name": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
+      "name": "claude-3-5-sonnet-20240620",
       "organization": null,
       "rank": 228
     },
     {
-      "name": "glm-4-plus-0111",
+      "name": "nvidia-llama-3.3-nemotron-super-49b-v1.5",
       "organization": null,
       "rank": 229
     },
     {
-      "name": "gemma-3-12b-it",
+      "name": "glm-4-plus-0111",
       "organization": null,
       "rank": 230
     },
     {
-      "name": "hunyuan-turbo-0110",
+      "name": "gemma-3-12b-it",
       "organization": null,
       "rank": 231
     },
     {
-      "name": "granite-4.2-30b",
+      "name": "hunyuan-turbo-0110",
       "organization": null,
       "rank": 232
     },
     {
-      "name": "gpt-5-nano-high",
+      "name": "granite-4.2-30b",
       "organization": null,
       "rank": 233
     },
     {
-      "name": "o1-mini",
+      "name": "gpt-5-nano-high",
       "organization": null,
       "rank": 234
     },
     {
-      "name": "gemini-advanced-0514",
+      "name": "o1-mini",
       "organization": null,
       "rank": 235
     },
     {
-      "name": "qwq-32b",
+      "name": "gemini-advanced-0514",
       "organization": null,
       "rank": 236
     },
@@ -1188,22 +1188,22 @@
       "rank": 237
     },
     {
-      "name": "gpt-4o-2024-08-06",
+      "name": "qwq-32b",
       "organization": null,
       "rank": 238
     },
     {
-      "name": "llama-3.1-405b-instruct-bf16",
+      "name": "gpt-4o-2024-08-06",
       "organization": null,
       "rank": 239
     },
     {
-      "name": "nova-2-lite",
+      "name": "llama-3.1-405b-instruct-bf16",
       "organization": null,
       "rank": 240
     },
     {
-      "name": "step-2-16k-exp-202412",
+      "name": "nova-2-lite",
       "organization": null,
       "rank": 241
     },
@@ -1213,107 +1213,107 @@
       "rank": 242
     },
     {
-      "name": "olmo-3.1-32b-instruct",
+      "name": "step-2-16k-exp-202412",
       "organization": null,
       "rank": 243
     },
     {
-      "name": "yi-lightning",
+      "name": "olmo-3.1-32b-instruct",
       "organization": null,
       "rank": 244
     },
     {
-      "name": "llama-3.3-nemotron-49b-super-v1",
+      "name": "yi-lightning",
       "organization": null,
       "rank": 245
     },
     {
-      "name": "llama-4-maverick-17b-128e-instruct",
+      "name": "llama-3.3-nemotron-49b-super-v1",
       "organization": null,
       "rank": 246
     },
     {
-      "name": "qwen3-30b-a3b",
+      "name": "llama-4-maverick-17b-128e-instruct",
       "organization": null,
       "rank": 247
     },
     {
-      "name": "hunyuan-large-2025-02-10",
+      "name": "qwen3-30b-a3b",
       "organization": null,
       "rank": 248
     },
     {
-      "name": "claude-3-5-haiku-20241022",
+      "name": "hunyuan-large-2025-02-10",
       "organization": null,
       "rank": 249
     },
     {
-      "name": "gpt-4-turbo-2024-04-09",
+      "name": "claude-3-5-haiku-20241022",
       "organization": null,
       "rank": 250
     },
     {
-      "name": "gemini-1.5-pro-001",
+      "name": "gpt-4-turbo-2024-04-09",
       "organization": null,
       "rank": 251
     },
     {
-      "name": "deepseek-v2.5-1210",
+      "name": "gemini-1.5-pro-001",
       "organization": null,
       "rank": 252
     },
     {
-      "name": "ring-flash-2.0",
+      "name": "deepseek-v2.5-1210",
       "organization": null,
       "rank": 253
     },
     {
-      "name": "gpt-4.1-nano-2025-04-14",
+      "name": "ring-flash-2.0",
       "organization": null,
       "rank": 254
     },
     {
-      "name": "claude-3-opus-20240229",
+      "name": "gpt-4.1-nano-2025-04-14",
       "organization": null,
       "rank": 255
     },
     {
-      "name": "molmo-2-8b",
+      "name": "claude-3-opus-20240229",
       "organization": null,
       "rank": 256
     },
     {
-      "name": "llama-4-scout-17b-16e-instruct",
+      "name": "molmo-2-8b",
       "organization": null,
       "rank": 257
     },
     {
-      "name": "step-1o-turbo-202506",
+      "name": "llama-4-scout-17b-16e-instruct",
       "organization": null,
       "rank": 258
     },
     {
-      "name": "glm-4-plus",
+      "name": "step-1o-turbo-202506",
       "organization": null,
       "rank": 259
     },
     {
-      "name": "qwen-max-0919",
+      "name": "glm-4-plus",
       "organization": null,
       "rank": 260
     },
     {
-      "name": "llama-3.3-70b-instruct",
+      "name": "qwen-max-0919",
       "organization": null,
       "rank": 261
     },
     {
-      "name": "gpt-4o-mini-2024-07-18",
+      "name": "llama-3.3-70b-instruct",
       "organization": null,
       "rank": 262
     },
     {
-      "name": "gpt-oss-20b",
+      "name": "gpt-4o-mini-2024-07-18",
       "organization": null,
       "rank": 263
     },
@@ -1323,67 +1323,67 @@
       "rank": 264
     },
     {
-      "name": "qwen2.5-plus-1127",
+      "name": "gpt-oss-20b",
       "organization": null,
       "rank": 265
     },
     {
-      "name": "mistral-large-2407",
+      "name": "qwen2.5-plus-1127",
       "organization": null,
       "rank": 266
     },
     {
-      "name": "athene-v2-chat",
+      "name": "mistral-large-2407",
       "organization": null,
       "rank": 267
     },
     {
-      "name": "nvidia-nemotron-3-nano-30b-a3b-bf16",
+      "name": "athene-v2-chat",
       "organization": null,
       "rank": 268
     },
     {
-      "name": "gpt-4-0125-preview",
+      "name": "nvidia-nemotron-3-nano-30b-a3b-bf16",
       "organization": null,
       "rank": 269
     },
     {
-      "name": "gpt-4-1106-preview",
+      "name": "gpt-4-0125-preview",
       "organization": null,
       "rank": 270
     },
     {
-      "name": "hunyuan-standard-2025-02-10",
+      "name": "gpt-4-1106-preview",
       "organization": null,
       "rank": 271
     },
     {
-      "name": "gemini-1.5-flash-002",
+      "name": "hunyuan-standard-2025-02-10",
       "organization": null,
       "rank": 272
     },
     {
-      "name": "grok-2-mini-2024-08-13",
+      "name": "gemini-1.5-flash-002",
       "organization": null,
       "rank": 273
     },
     {
-      "name": "deepseek-v2.5",
+      "name": "grok-2-mini-2024-08-13",
       "organization": null,
       "rank": 274
     },
     {
-      "name": "athene-70b-0725",
+      "name": "deepseek-v2.5",
       "organization": null,
       "rank": 275
     },
     {
-      "name": "olmo-3-32b-think",
+      "name": "athene-70b-0725",
       "organization": null,
       "rank": 276
     },
     {
-      "name": "mistral-large-2411",
+      "name": "olmo-3-32b-think",
       "organization": null,
       "rank": 277
     },
@@ -1393,22 +1393,22 @@
       "rank": 278
     },
     {
-      "name": "magistral-medium-2506",
+      "name": "mistral-large-2411",
       "organization": null,
       "rank": 279
     },
     {
-      "name": "granite-4.1-8b",
+      "name": "magistral-medium-2506",
       "organization": null,
       "rank": 280
     },
     {
-      "name": "gemma-3-4b-it",
+      "name": "granite-4.1-8b",
       "organization": null,
       "rank": 281
     },
     {
-      "name": "mistral-small-3.1-24b-instruct-2503",
+      "name": "gemma-3-4b-it",
       "organization": null,
       "rank": 282
     },
@@ -1418,654 +1418,659 @@
       "rank": 283
     },
     {
-      "name": "llama-3.1-nemotron-70b-instruct",
+      "name": "mistral-small-3.1-24b-instruct-2503",
       "organization": null,
       "rank": 284
     },
     {
-      "name": "hunyuan-large-vision",
+      "name": "llama-3.1-nemotron-70b-instruct",
       "organization": null,
       "rank": 285
     },
     {
-      "name": "llama-3.1-70b-instruct",
+      "name": "hunyuan-large-vision",
       "organization": null,
       "rank": 286
     },
     {
-      "name": "amazon-nova-pro-v1.0",
+      "name": "llama-3.1-70b-instruct",
       "organization": null,
       "rank": 287
     },
     {
-      "name": "granite-4.2-3b",
+      "name": "granite-4.2-8b",
       "organization": null,
       "rank": 288
     },
     {
-      "name": "gemma-2-27b-it",
+      "name": "amazon-nova-pro-v1.0",
       "organization": null,
       "rank": 289
     },
     {
-      "name": "jamba-1.5-large",
+      "name": "granite-4.2-3b",
       "organization": null,
       "rank": 290
     },
     {
-      "name": "granite-4.2-8b",
+      "name": "gemma-2-27b-it",
       "organization": null,
       "rank": 291
     },
     {
-      "name": "reka-core-20240904",
+      "name": "jamba-1.5-large",
       "organization": null,
       "rank": 292
     },
     {
-      "name": "gpt-4-0314",
+      "name": "reka-core-20240904",
       "organization": null,
       "rank": 293
     },
     {
-      "name": "ibm-granite-h-small",
+      "name": "gpt-4-0314",
       "organization": null,
       "rank": 294
     },
     {
-      "name": "llama-3.1-nemotron-51b-instruct",
+      "name": "ibm-granite-h-small",
       "organization": null,
       "rank": 295
     },
     {
-      "name": "gemini-1.5-flash-001",
+      "name": "olmo-3.1-32b-think",
       "organization": null,
       "rank": 296
     },
     {
-      "name": "olmo-3.1-32b-think",
+      "name": "llama-3.1-nemotron-51b-instruct",
       "organization": null,
       "rank": 297
     },
     {
-      "name": "llama-3.1-tulu-3-70b",
+      "name": "gemini-1.5-flash-001",
       "organization": null,
       "rank": 298
     },
     {
-      "name": "claude-3-sonnet-20240229",
+      "name": "llama-3.1-tulu-3-70b",
       "organization": null,
       "rank": 299
     },
     {
-      "name": "gemma-2-9b-it-simpo",
+      "name": "claude-3-sonnet-20240229",
       "organization": null,
       "rank": 300
     },
     {
-      "name": "nemotron-4-340b-instruct",
+      "name": "gemma-2-9b-it-simpo",
       "organization": null,
       "rank": 301
     },
     {
-      "name": "llama-3-70b-instruct",
+      "name": "nemotron-4-340b-instruct",
       "organization": null,
       "rank": 302
     },
     {
-      "name": "command-r-plus-08-2024",
+      "name": "llama-3-70b-instruct",
       "organization": null,
       "rank": 303
     },
     {
-      "name": "gpt-4-0613",
+      "name": "command-r-plus-08-2024",
       "organization": null,
       "rank": 304
     },
     {
-      "name": "mistral-small-24b-instruct-2501",
+      "name": "gpt-4-0613",
       "organization": null,
       "rank": 305
     },
     {
-      "name": "glm-4-0520",
+      "name": "mistral-small-24b-instruct-2501",
       "organization": null,
       "rank": 306
     },
     {
-      "name": "reka-flash-20240904",
+      "name": "glm-4-0520",
       "organization": null,
       "rank": 307
     },
     {
-      "name": "qwen2.5-coder-32b-instruct",
+      "name": "reka-flash-20240904",
       "organization": null,
       "rank": 308
     },
     {
-      "name": "c4ai-aya-expanse-32b",
+      "name": "qwen2.5-coder-32b-instruct",
       "organization": null,
       "rank": 309
     },
     {
-      "name": "gemma-2-9b-it",
+      "name": "c4ai-aya-expanse-32b",
       "organization": null,
       "rank": 310
     },
     {
-      "name": "deepseek-coder-v2",
+      "name": "gemma-2-9b-it",
       "organization": null,
       "rank": 311
     },
     {
-      "name": "qwen2-72b-instruct",
+      "name": "deepseek-coder-v2",
       "organization": null,
       "rank": 312
     },
     {
-      "name": "command-r-plus",
+      "name": "qwen2-72b-instruct",
       "organization": null,
       "rank": 313
     },
     {
-      "name": "claude-3-haiku-20240307",
+      "name": "command-r-plus",
       "organization": null,
       "rank": 314
     },
     {
-      "name": "amazon-nova-lite-v1.0",
+      "name": "claude-3-haiku-20240307",
       "organization": null,
       "rank": 315
     },
     {
-      "name": "gemini-1.5-flash-8b-001",
+      "name": "amazon-nova-lite-v1.0",
       "organization": null,
       "rank": 316
     },
     {
-      "name": "phi-4",
+      "name": "gemini-1.5-flash-8b-001",
       "organization": null,
       "rank": 317
     },
     {
-      "name": "olmo-2-0325-32b-instruct",
+      "name": "phi-4",
       "organization": null,
       "rank": 318
     },
     {
-      "name": "command-r-08-2024",
+      "name": "olmo-2-0325-32b-instruct",
       "organization": null,
       "rank": 319
     },
     {
-      "name": "mistral-large-2402",
+      "name": "command-r-08-2024",
       "organization": null,
       "rank": 320
     },
     {
-      "name": "amazon-nova-micro-v1.0",
+      "name": "mistral-large-2402",
       "organization": null,
       "rank": 321
     },
     {
-      "name": "jamba-1.5-mini",
+      "name": "amazon-nova-micro-v1.0",
       "organization": null,
       "rank": 322
     },
     {
-      "name": "ministral-8b-2410",
+      "name": "jamba-1.5-mini",
       "organization": null,
       "rank": 323
     },
     {
-      "name": "gemini-pro-dev-api",
+      "name": "ministral-8b-2410",
       "organization": null,
       "rank": 324
     },
     {
-      "name": "qwen1.5-110b-chat",
+      "name": "gemini-pro-dev-api",
       "organization": null,
       "rank": 325
     },
     {
-      "name": "reka-flash-21b-20240226-online",
+      "name": "qwen1.5-110b-chat",
       "organization": null,
       "rank": 326
     },
     {
-      "name": "qwen1.5-72b-chat",
+      "name": "reka-flash-21b-20240226-online",
       "organization": null,
       "rank": 327
     },
     {
-      "name": "hunyuan-standard-256k",
+      "name": "qwen1.5-72b-chat",
       "organization": null,
       "rank": 328
     },
     {
-      "name": "mixtral-8x22b-instruct-v0.1",
+      "name": "hunyuan-standard-256k",
       "organization": null,
       "rank": 329
     },
     {
-      "name": "command-r",
+      "name": "mixtral-8x22b-instruct-v0.1",
       "organization": null,
       "rank": 330
     },
     {
-      "name": "reka-flash-21b-20240226",
+      "name": "command-r",
       "organization": null,
       "rank": 331
     },
     {
-      "name": "gpt-3.5-turbo-0125",
+      "name": "reka-flash-21b-20240226",
       "organization": null,
       "rank": 332
     },
     {
-      "name": "llama-3-8b-instruct",
+      "name": "gpt-3.5-turbo-0125",
       "organization": null,
       "rank": 333
     },
     {
-      "name": "gemini-pro",
+      "name": "llama-3-8b-instruct",
       "organization": null,
       "rank": 334
     },
     {
-      "name": "c4ai-aya-expanse-8b",
+      "name": "gemini-pro",
       "organization": null,
       "rank": 335
     },
     {
-      "name": "mistral-medium",
+      "name": "c4ai-aya-expanse-8b",
       "organization": null,
       "rank": 336
     },
     {
-      "name": "llama-3.1-tulu-3-8b",
+      "name": "mistral-medium",
       "organization": null,
       "rank": 337
     },
     {
-      "name": "zephyr-orpo-141b-A35b-v0.1",
+      "name": "llama-3.1-tulu-3-8b",
       "organization": null,
       "rank": 338
     },
     {
-      "name": "yi-1.5-34b-chat",
+      "name": "zephyr-orpo-141b-A35b-v0.1",
       "organization": null,
       "rank": 339
     },
     {
-      "name": "llama-3.1-8b-instruct",
+      "name": "yi-1.5-34b-chat",
       "organization": null,
       "rank": 340
     },
     {
-      "name": "granite-3.1-8b-instruct",
+      "name": "llama-3.1-8b-instruct",
       "organization": null,
       "rank": 341
     },
     {
-      "name": "gpt-3.5-turbo-1106",
+      "name": "granite-3.1-8b-instruct",
       "organization": null,
       "rank": 342
     },
     {
-      "name": "qwen1.5-32b-chat",
+      "name": "gpt-3.5-turbo-1106",
       "organization": null,
       "rank": 343
     },
     {
-      "name": "gemma-2-2b-it",
+      "name": "qwen1.5-32b-chat",
       "organization": null,
       "rank": 344
     },
     {
-      "name": "phi-3-medium-4k-instruct",
+      "name": "gemma-2-2b-it",
       "organization": null,
       "rank": 345
     },
     {
-      "name": "mixtral-8x7b-instruct-v0.1",
+      "name": "phi-3-medium-4k-instruct",
       "organization": null,
       "rank": 346
     },
     {
-      "name": "dbrx-instruct-preview",
+      "name": "mixtral-8x7b-instruct-v0.1",
       "organization": null,
       "rank": 347
     },
     {
-      "name": "qwen1.5-14b-chat",
+      "name": "dbrx-instruct-preview",
       "organization": null,
       "rank": 348
     },
     {
-      "name": "internlm2_5-20b-chat",
+      "name": "qwen1.5-14b-chat",
       "organization": null,
       "rank": 349
     },
     {
-      "name": "deepseek-llm-67b-chat",
+      "name": "internlm2_5-20b-chat",
       "organization": null,
       "rank": 350
     },
     {
-      "name": "wizardlm-70b",
+      "name": "deepseek-llm-67b-chat",
       "organization": null,
       "rank": 351
     },
     {
-      "name": "yi-34b-chat",
+      "name": "wizardlm-70b",
       "organization": null,
       "rank": 352
     },
     {
-      "name": "granite-3.0-8b-instruct",
+      "name": "yi-34b-chat",
       "organization": null,
       "rank": 353
     },
     {
-      "name": "openchat-3.5",
+      "name": "granite-3.0-8b-instruct",
       "organization": null,
       "rank": 354
     },
     {
-      "name": "openchat-3.5-0106",
+      "name": "openchat-3.5",
       "organization": null,
       "rank": 355
     },
     {
-      "name": "gemma-1.1-7b-it",
+      "name": "openchat-3.5-0106",
       "organization": null,
       "rank": 356
     },
     {
-      "name": "snowflake-arctic-instruct",
+      "name": "gemma-1.1-7b-it",
       "organization": null,
       "rank": 357
     },
     {
-      "name": "granite-3.1-2b-instruct",
+      "name": "snowflake-arctic-instruct",
       "organization": null,
       "rank": 358
     },
     {
-      "name": "tulu-2-dpo-70b",
+      "name": "granite-3.1-2b-instruct",
       "organization": null,
       "rank": 359
     },
     {
-      "name": "openhermes-2.5-mistral-7b",
+      "name": "tulu-2-dpo-70b",
       "organization": null,
       "rank": 360
     },
     {
-      "name": "vicuna-33b",
+      "name": "openhermes-2.5-mistral-7b",
       "organization": null,
       "rank": 361
     },
     {
-      "name": "phi-3-small-8k-instruct",
+      "name": "vicuna-33b",
       "organization": null,
       "rank": 362
     },
     {
-      "name": "starling-lm-7b-beta",
+      "name": "phi-3-small-8k-instruct",
       "organization": null,
       "rank": 363
     },
     {
-      "name": "llama-2-70b-chat",
+      "name": "starling-lm-7b-beta",
       "organization": null,
       "rank": 364
     },
     {
-      "name": "starling-lm-7b-alpha",
+      "name": "llama-2-70b-chat",
       "organization": null,
       "rank": 365
     },
     {
-      "name": "llama-3.2-3b-instruct",
+      "name": "starling-lm-7b-alpha",
       "organization": null,
       "rank": 366
     },
     {
-      "name": "nous-hermes-2-mixtral-8x7b-dpo",
+      "name": "llama-3.2-3b-instruct",
       "organization": null,
       "rank": 367
     },
     {
-      "name": "granite-3.0-2b-instruct",
+      "name": "nous-hermes-2-mixtral-8x7b-dpo",
       "organization": null,
       "rank": 368
     },
     {
-      "name": "llama2-70b-steerlm-chat",
+      "name": "granite-3.0-2b-instruct",
       "organization": null,
       "rank": 369
     },
     {
-      "name": "qwq-32b-preview",
+      "name": "llama2-70b-steerlm-chat",
       "organization": null,
       "rank": 370
     },
     {
-      "name": "solar-10.7b-instruct-v1.0",
+      "name": "qwq-32b-preview",
       "organization": null,
       "rank": 371
     },
     {
-      "name": "dolphin-2.2.1-mistral-7b",
+      "name": "solar-10.7b-instruct-v1.0",
       "organization": null,
       "rank": 372
     },
     {
-      "name": "mpt-30b-chat",
+      "name": "dolphin-2.2.1-mistral-7b",
       "organization": null,
       "rank": 373
     },
     {
-      "name": "wizardlm-13b",
+      "name": "mpt-30b-chat",
       "organization": null,
       "rank": 374
     },
     {
-      "name": "mistral-7b-instruct-v0.2",
+      "name": "wizardlm-13b",
       "organization": null,
       "rank": 375
     },
     {
-      "name": "falcon-180b-chat",
+      "name": "mistral-7b-instruct-v0.2",
       "organization": null,
       "rank": 376
     },
     {
-      "name": "qwen1.5-7b-chat",
+      "name": "falcon-180b-chat",
       "organization": null,
       "rank": 377
     },
     {
-      "name": "phi-3-mini-4k-instruct-june-2024",
+      "name": "qwen1.5-7b-chat",
       "organization": null,
       "rank": 378
     },
     {
-      "name": "vicuna-13b",
+      "name": "phi-3-mini-4k-instruct-june-2024",
       "organization": null,
       "rank": 379
     },
     {
-      "name": "llama-2-13b-chat",
+      "name": "vicuna-13b",
       "organization": null,
       "rank": 380
     },
     {
-      "name": "qwen-14b-chat",
+      "name": "llama-2-13b-chat",
       "organization": null,
       "rank": 381
     },
     {
-      "name": "palm-2",
+      "name": "qwen-14b-chat",
       "organization": null,
       "rank": 382
     },
     {
-      "name": "gemma-7b-it",
+      "name": "palm-2",
       "organization": null,
       "rank": 383
     },
     {
-      "name": "codellama-34b-instruct",
+      "name": "gemma-7b-it",
       "organization": null,
       "rank": 384
     },
     {
-      "name": "zephyr-7b-beta",
+      "name": "codellama-34b-instruct",
       "organization": null,
       "rank": 385
     },
     {
-      "name": "phi-3-mini-128k-instruct",
+      "name": "zephyr-7b-beta",
       "organization": null,
       "rank": 386
     },
     {
-      "name": "phi-3-mini-4k-instruct",
+      "name": "phi-3-mini-128k-instruct",
       "organization": null,
       "rank": 387
     },
     {
-      "name": "guanaco-33b",
+      "name": "phi-3-mini-4k-instruct",
       "organization": null,
       "rank": 388
     },
     {
-      "name": "zephyr-7b-alpha",
+      "name": "guanaco-33b",
       "organization": null,
       "rank": 389
     },
     {
-      "name": "stripedhyena-nous-7b",
+      "name": "zephyr-7b-alpha",
       "organization": null,
       "rank": 390
     },
     {
-      "name": "codellama-70b-instruct",
+      "name": "stripedhyena-nous-7b",
       "organization": null,
       "rank": 391
     },
     {
-      "name": "gemma-1.1-2b-it",
+      "name": "codellama-70b-instruct",
       "organization": null,
       "rank": 392
     },
     {
-      "name": "vicuna-7b",
+      "name": "gemma-1.1-2b-it",
       "organization": null,
       "rank": 393
     },
     {
-      "name": "smollm2-1.7b-instruct",
+      "name": "vicuna-7b",
       "organization": null,
       "rank": 394
     },
     {
-      "name": "llama-3.2-1b-instruct",
+      "name": "smollm2-1.7b-instruct",
       "organization": null,
       "rank": 395
     },
     {
-      "name": "mistral-7b-instruct",
+      "name": "llama-3.2-1b-instruct",
       "organization": null,
       "rank": 396
     },
     {
-      "name": "llama-2-7b-chat",
+      "name": "mistral-7b-instruct",
       "organization": null,
       "rank": 397
     },
     {
-      "name": "gemma-2b-it",
+      "name": "llama-2-7b-chat",
       "organization": null,
       "rank": 398
     },
     {
-      "name": "qwen1.5-4b-chat",
+      "name": "gemma-2b-it",
       "organization": null,
       "rank": 399
     },
     {
-      "name": "olmo-7b-instruct",
+      "name": "qwen1.5-4b-chat",
       "organization": null,
       "rank": 400
     },
     {
-      "name": "koala-13b",
+      "name": "olmo-7b-instruct",
       "organization": null,
       "rank": 401
     },
     {
-      "name": "alpaca-13b",
+      "name": "koala-13b",
       "organization": null,
       "rank": 402
     },
     {
-      "name": "gpt4all-13b-snoozy",
+      "name": "alpaca-13b",
       "organization": null,
       "rank": 403
     },
     {
-      "name": "mpt-7b-chat",
+      "name": "gpt4all-13b-snoozy",
       "organization": null,
       "rank": 404
     },
     {
-      "name": "chatglm3-6b",
+      "name": "mpt-7b-chat",
       "organization": null,
       "rank": 405
     },
     {
-      "name": "RWKV-4-Raven-14B",
+      "name": "chatglm3-6b",
       "organization": null,
       "rank": 406
     },
     {
-      "name": "chatglm2-6b",
+      "name": "RWKV-4-Raven-14B",
       "organization": null,
       "rank": 407
     },
     {
-      "name": "oasst-pythia-12b",
+      "name": "chatglm2-6b",
       "organization": null,
       "rank": 408
     },
     {
-      "name": "chatglm-6b",
+      "name": "oasst-pythia-12b",
       "organization": null,
       "rank": 409
     },
     {
-      "name": "fastchat-t5-3b",
+      "name": "chatglm-6b",
       "organization": null,
       "rank": 410
     },
     {
-      "name": "dolly-v2-12b",
+      "name": "fastchat-t5-3b",
       "organization": null,
       "rank": 411
     },
     {
-      "name": "llama-13b",
+      "name": "dolly-v2-12b",
       "organization": null,
       "rank": 412
     },
     {
-      "name": "stablelm-tuned-alpha-7b",
+      "name": "llama-13b",
       "organization": null,
       "rank": 413
+    },
+    {
+      "name": "stablelm-tuned-alpha-7b",
+      "organization": null,
+      "rank": 414
     }
   ]
 }
