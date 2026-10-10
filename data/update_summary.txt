@@ -1,12 +1,13 @@
-date: 2026-10-08
+date: 2026-10-09
 providers: 19
 offers: 18
 offers_by_status: {'active': 17, 'uncertain': 1}
 offers_by_confidence: {'official': 18}
-models: 615
-free_models: 20
-changes: 4
+models: 617
+free_models: 19
+changes: 5
+change: Free model removed: inclusionai/ling-3.0-flash-sante:free (openrouter)
 change: DeepInfra: watch page changed: https://deepinfra.com
-change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
-change: Mistral AI: watch page changed: https://mistral.ai/pricing
+change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+change: SiliconFlow: watch page changed: https://siliconflow.com
 change: Together AI: watch page changed: https://www.together.ai/pricing
