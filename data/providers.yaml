@@ -13,8 +13,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://inference-docs.cerebras.ai/support/pricing
   collector: generic
@@ -37,8 +37,8 @@
   - gemini
   requires_account: true
   status: uncertain
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://developers.cloudflare.com/ai-gateway/
   collector: generic
@@ -59,8 +59,8 @@
   - openai
   requires_account: true
   status: uncertain
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://deepinfra.com
   collector: generic
@@ -82,8 +82,8 @@
   - openai
   requires_account: true
   status: uncertain
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://api-docs.deepseek.com/zh-cn/quick_start/pricing
   collector: generic
@@ -104,8 +104,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://fireworks.ai/pricing
   collector: generic
@@ -128,8 +128,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://ai.google.dev/gemini-api/docs/pricing
   collector: generic
@@ -151,8 +151,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://console.groq.com/docs/rate-limits
   collector: generic
@@ -174,8 +174,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://huggingface.co/docs/inference-providers/pricing
   collector: generic
@@ -196,8 +196,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://mistral.ai/pricing
   collector: generic
@@ -219,8 +219,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://platform.kimi.com/docs/guide/account-and-payments
   - https://platform.kimi.com/docs/pricing/chat
@@ -242,8 +242,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://build.nvidia.com/
   collector: generic
@@ -264,8 +264,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://openrouter.ai/api/v1/models
   - https://openrouter.ai/docs/api-reference/limits
@@ -288,8 +288,8 @@
   - gemini
   requires_account: true
   status: uncertain
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://portkey.ai
   collector: generic
@@ -311,8 +311,8 @@
   - anthropic
   requires_account: true
   status: uncertain
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://requesty.ai
   collector: generic
@@ -333,8 +333,8 @@
   - openai
   requires_account: true
   status: uncertain
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://siliconflow.com
   collector: generic
@@ -357,8 +357,8 @@
   - openai
   requires_account: true
   status: uncertain
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://cloud.tencent.com/document/product/1729/97731
   - https://cloud.tencent.com/document/product/1729/131925
@@ -380,8 +380,8 @@
   - openai
   requires_account: true
   status: uncertain
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://www.together.ai/pricing
   collector: generic
@@ -404,8 +404,8 @@
   - gemini
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://tokenrouter.com/models
   collector: null
@@ -426,8 +426,8 @@
   - openai
   requires_account: true
   status: active
-  last_checked: '2026-10-09'
-  last_verified: '2026-10-09'
+  last_checked: '2026-10-11'
+  last_verified: '2026-10-11'
   sources:
   - https://docs.bigmodel.cn/cn/guide/models/free/glm-4.5-flash
   - https://docs.z.ai/guides/overview/pricing
