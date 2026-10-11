@@ -2,7 +2,7 @@
 
 > Mine free AI models, API credits, tokens and developer deals.
 
-Auto-updated **2026-10-09** · 19 providers · 18 offers · 19 free models tracked
+Auto-updated **2026-10-11** · 19 providers · 18 offers · 19 free models tracked
 
 # 🔥 Best Free AI Deals Right Now
 
@@ -48,9 +48,9 @@ Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRou
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #148 🔥 | North Mini Code | 256K | 📝 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #156 🔥 | Nemotron 3.5 Content Safety | 128K | 📝🖼️ | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #176 🔥 | Nemotron 3 Nano Omni | 256K | 📝🖼️🎬🔊 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #213 🔥 | Lyria 3 Pro Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #214 🔥 | Lyria 3 Clip Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #255 🔥 | Free Models Router | 200K | 📝🖼️ | [↗](https://openrouter.ai/openrouter/free) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #212 🔥 | Lyria 3 Pro Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #213 🔥 | Lyria 3 Clip Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #253 🔥 | Free Models Router | 200K | 📝🖼️ | [↗](https://openrouter.ai/openrouter/free) |
 
 Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRouter](https://openrouter.ai) weekly usage rank · — unranked
 
@@ -62,17 +62,17 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 | Provider | Amount | Requirement | Verified | Claim |
 |---|---|---|---|---|
-| <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 once | New users | 2026-10-09 | [Claim](https://cloud.cerebras.ai) |
-| <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 once | New users | 2026-10-09 | [Claim](https://fireworks.ai/pricing) |
-| <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | Account | 2026-10-09 | [Claim](https://huggingface.co) |
-| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | Account | 2026-10-09 | [Claim](https://mistral.ai/pricing) |
-| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo ♻️ | New users · 🎓 Student · 💳 Card | 2026-10-09 | [Claim](https://mistral.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 once | New users | 2026-10-11 | [Claim](https://cloud.cerebras.ai) |
+| <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 once | New users | 2026-10-11 | [Claim](https://fireworks.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | Account | 2026-10-11 | [Claim](https://huggingface.co) |
+| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | Account | 2026-10-11 | [Claim](https://mistral.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo ♻️ | New users · 🎓 Student · 💳 Card | 2026-10-11 | [Claim](https://mistral.ai/pricing) |
 | <img src="https://www.google.com/s2/favicons?domain=platform.kimi.com&sz=32" width="16" valign="middle"> [Moonshot AI (Kimi Open Platform)](docs/providers/moonshot.md) | 15 USD once | New users | 2026-09-21 | [Claim](https://platform.kimi.com/console) |
 | <img src="https://www.google.com/s2/favicons?domain=siliconflow.com&sz=32" width="16" valign="middle"> [SiliconFlow](docs/providers/siliconflow.md) | 16 USD once | Account | 2026-09-21 | [Claim](https://cloud.siliconflow.cn) |
-| <img src="https://www.google.com/s2/favicons?domain=siliconflow.com&sz=32" width="16" valign="middle"> [SiliconFlow](docs/providers/siliconflow.md) | 14 USD once | New users | 2026-10-09 | [Claim](https://cloud.siliconflow.cn) |
+| <img src="https://www.google.com/s2/favicons?domain=siliconflow.com&sz=32" width="16" valign="middle"> [SiliconFlow](docs/providers/siliconflow.md) | 14 USD once | New users | 2026-10-11 | [Claim](https://cloud.siliconflow.cn) |
 | <img src="https://www.google.com/s2/favicons?domain=cloud.tencent.com&sz=32" width="16" valign="middle"> [Tencent Hunyuan](docs/providers/tencent-hunyuan.md) | First activation of the Hunyuan text ser… | New users | 2026-09-21 | [Claim](https://console.cloud.tencent.com) |
-| <img src="https://www.google.com/s2/favicons?domain=bigmodel.cn&sz=32" width="16" valign="middle"> [Zhipu AI (BigModel)](docs/providers/zhipu.md) | Invited new users receive a "2500 万 Toke… | New users | 2026-10-09 | [Claim](https://bigmodel.cn/console) |
-| <img src="https://www.google.com/s2/favicons?domain=bigmodel.cn&sz=32" width="16" valign="middle"> [Zhipu AI (BigModel)](docs/providers/zhipu.md) | 58 USD/mo ♻️ | Account | 2026-10-09 | [Claim](https://bigmodel.cn/console) |
+| <img src="https://www.google.com/s2/favicons?domain=bigmodel.cn&sz=32" width="16" valign="middle"> [Zhipu AI (BigModel)](docs/providers/zhipu.md) | Invited new users receive a "2500 万 Toke… | New users | 2026-10-11 | [Claim](https://bigmodel.cn/console) |
+| <img src="https://www.google.com/s2/favicons?domain=bigmodel.cn&sz=32" width="16" valign="middle"> [Zhipu AI (BigModel)](docs/providers/zhipu.md) | 58 USD/mo ♻️ | Account | 2026-10-11 | [Claim](https://bigmodel.cn/console) |
 
 # 💻 Best Free Models for Coding
 
@@ -135,11 +135,14 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-10-09: Free model removed: inclusionai/ling-3.0-flash-sante:free (openrouter)  
-2026-10-09: DeepInfra: watch page changed: https://deepinfra.com  
-2026-10-09: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/  
-2026-10-09: SiliconFlow: watch page changed: https://siliconflow.com  
-2026-10-09: Together AI: watch page changed: https://www.together.ai/pricing
+2026-10-11: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/  
+2026-10-11: DeepInfra: watch page changed: https://deepinfra.com  
+2026-10-11: Fireworks AI: watch page changed: https://fireworks.ai/pricing  
+2026-10-11: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing  
+2026-10-11: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/rate-limits  
+2026-10-11: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/  
+2026-10-11: Requesty: watch page changed: https://requesty.ai  
+2026-10-11: Zhipu AI (BigModel): watch page changed: https://docs.z.ai/guides/overview/pricing
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 

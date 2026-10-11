@@ -1,13 +1,16 @@
-date: 2026-10-09
+date: 2026-10-11
 providers: 19
 offers: 18
 offers_by_status: {'active': 17, 'uncertain': 1}
 offers_by_confidence: {'official': 18}
-models: 617
+models: 606
 free_models: 19
-changes: 5
-change: Free model removed: inclusionai/ling-3.0-flash-sante:free (openrouter)
+changes: 8
+change: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/
 change: DeepInfra: watch page changed: https://deepinfra.com
+change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
+change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
+change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/rate-limits
 change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
-change: SiliconFlow: watch page changed: https://siliconflow.com
-change: Together AI: watch page changed: https://www.together.ai/pricing
+change: Requesty: watch page changed: https://requesty.ai
+change: Zhipu AI (BigModel): watch page changed: https://docs.z.ai/guides/overview/pricing
