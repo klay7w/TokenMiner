@@ -77,5 +77,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-10-15
-- Offer `fireworks-signup-credit`: 2026-10-15
+- Provider: 2026-10-17
+- Offer `fireworks-signup-credit`: 2026-10-17
