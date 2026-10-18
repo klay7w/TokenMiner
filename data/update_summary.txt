@@ -1,20 +1,12 @@
-date: 2026-10-17
+date: 2026-10-18
 providers: 19
 offers: 18
 offers_by_status: {'active': 17, 'uncertain': 1}
 offers_by_confidence: {'official': 18}
-models: 624
+models: 626
 free_models: 19
-changes: 12
-change: New free model: nvidia/nemotron-3.5-super-vl:free (openrouter)
-change: New free model: xingchen-agi/xing4.0-29b-a4b:free (openrouter)
-change: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/
+changes: 4
 change: DeepInfra: watch page changed: https://deepinfra.com
 change: DeepSeek: watch page changed: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
-change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
-change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
-change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/rate-limits
-change: Mistral AI: watch page changed: https://mistral.ai/pricing
-change: Moonshot AI (Kimi Open Platform): watch page changed: https://platform.kimi.com/docs/guide/account-and-payments
 change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
 change: Together AI: watch page changed: https://www.together.ai/pricing
