@@ -1,24 +1,20 @@
-date: 2026-10-25
+date: 2026-10-29
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 625
-free_models: 20
-changes: 16
-change: Real-name Verification Voucher — CNY 15: status changed active → uncertain
-change: Offer expired: OpenRouter Free Models (20 models) (openrouter)
-change: Real-name Voucher CNY 16 + Referral CNY 16 Each: status changed active → uncertain
-change: New free model: recursive/flint-v1.0:free (openrouter)
-change: Free model removed: minimax/minimax-m3.1-flash:free (openrouter)
-change: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/
+models: 615
+free_models: 19
+changes: 12
+change: Free model removed: nvidia/nemotron-3-super-120b-a12b:free (openrouter)
+change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
 change: DeepInfra: watch page changed: https://deepinfra.com
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
 change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
+change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/rate-limits
 change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
-change: Moonshot AI (Kimi Open Platform): watch page changed: https://platform.kimi.com/docs/guide/account-and-payments
 change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
 change: Requesty: watch page changed: https://requesty.ai
 change: SiliconFlow: watch page changed: https://siliconflow.com
-change: Together AI: watch page changed: https://www.together.ai/pricing
 change: Zhipu AI (BigModel): watch page changed: https://docs.z.ai/guides/overview/pricing
+change: Zhipu AI (BigModel): watch page changed: https://docs.bigmodel.cn/cn/update/promotion
