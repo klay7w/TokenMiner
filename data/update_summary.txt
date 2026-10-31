@@ -1,20 +1,17 @@
-date: 2026-10-29
+date: 2026-10-31
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 615
+models: 614
 free_models: 19
-changes: 12
-change: Free model removed: nvidia/nemotron-3-super-120b-a12b:free (openrouter)
-change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
+changes: 9
+change: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/
 change: DeepInfra: watch page changed: https://deepinfra.com
+change: DeepSeek: watch page changed: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
 change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
-change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/rate-limits
-change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
-change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+change: Mistral AI: watch page changed: https://mistral.ai/pricing
 change: Requesty: watch page changed: https://requesty.ai
 change: SiliconFlow: watch page changed: https://siliconflow.com
-change: Zhipu AI (BigModel): watch page changed: https://docs.z.ai/guides/overview/pricing
-change: Zhipu AI (BigModel): watch page changed: https://docs.bigmodel.cn/cn/update/promotion
+change: Together AI: watch page changed: https://www.together.ai/pricing
