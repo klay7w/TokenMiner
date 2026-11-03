@@ -1,8 +1,8 @@
 {
   "cerebras": {
     "https://inference-docs.cerebras.ai/support/pricing": {
-      "checked": "2026-11-01",
-      "hash": "37a24c00c884f8479fe5c9abf9994563a798d17921476e52f470b016e88affb0",
+      "checked": "2026-11-03",
+      "hash": "0bc10e798758f4ddec84d3c96c7c2a2a723704c5fe39ce1c2d285fc52b60762e",
       "keywords": [
         "$5",
         "credit",
@@ -16,7 +16,7 @@
   },
   "cloudflare-ai-gateway": {
     "https://developers.cloudflare.com/ai-gateway/": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "61b69e36748a1a0344a0a1de3bf88258dc5ae35ca18afe1664d7971a8cc32c5e",
       "keywords": [
         "developer",
@@ -27,8 +27,8 @@
   },
   "deepinfra": {
     "https://deepinfra.com": {
-      "checked": "2026-11-01",
-      "hash": "ecb7643e49804a2bf9981cea61b0144151817dccfdb8283ec18c17ca44166f74",
+      "checked": "2026-11-03",
+      "hash": "4f3c24cec020fb97404cecc2370429ce2105d30a8863e6df1460a993e03b3c14",
       "keywords": [
         "$10",
         "$5",
@@ -40,7 +40,7 @@
   },
   "deepseek": {
     "https://api-docs.deepseek.com/zh-cn/quick_start/pricing": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "1c4d07bf58fc14f1ca7469b42a883d08dbff5d3b97452c56e4ef8146a22e33d5",
       "keywords": [
         "token"
@@ -50,8 +50,8 @@
   },
   "fireworks": {
     "https://fireworks.ai/pricing": {
-      "checked": "2026-11-01",
-      "hash": "4efc4194575b032603feb03179beec2b5db00f5413d8b96092f8c3207865d1be",
+      "checked": "2026-11-03",
+      "hash": "c63248d7ca991781a01bde51aa79cefd29c1f5034577a74899b5db2372bfd735",
       "keywords": [
         "$10",
         "$20",
@@ -66,38 +66,23 @@
   },
   "google-ai-studio": {
     "https://ai.google.dev/gemini-api/docs/pricing": {
-      "checked": "2026-11-01",
-      "hash": "6c9adaf7c3798320d9f3a5f59667061526d6a68cf4bac6888fccefcb6b39f177",
+      "checked": "2026-11-03",
+      "hash": "2976b325a79a29579168926b1aa1ec73a563a06aa86b92a0ed79e192acb9698f",
       "keywords": [
-        "$10",
-        "$20",
-        "$5",
-        "developer",
-        "free",
-        "free tier",
-        "token"
+        "developer"
       ],
       "status": 200
     },
     "https://ai.google.dev/gemini-api/docs/rate-limits": {
-      "checked": "2026-11-01",
-      "hash": "c3197690d5b16979a1e71cc140c164820889ca1b3b1b6fa769e93cd216d92bbc",
-      "keywords": [
-        "$10",
-        "$20",
-        "$5",
-        "developer",
-        "free",
-        "free tier",
-        "token",
-        "trial"
-      ],
+      "checked": "2026-11-03",
+      "hash": "c298112b5bfddc0110f5f029729165b7faec8841380077375e434b6f0a613e9e",
+      "keywords": [],
       "status": 200
     }
   },
   "groq": {
     "https://console.groq.com/docs/rate-limits": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "0fce1a09a954911a1fc939c07d3ba62efb69c99e981b6a5c2906825175a0d22b",
       "keywords": [
         "developer",
@@ -109,7 +94,7 @@
   },
   "huggingface": {
     "https://huggingface.co/docs/inference-providers/pricing": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "c18fd679dc6c3e5b8b63332098acdba9046cf0897dabdd5d5af5db018b041a48",
       "keywords": [
         "credit",
@@ -122,7 +107,7 @@
   },
   "mistral": {
     "https://mistral.ai/pricing": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "ba3a5648752326d00cbb914fd2e669677308252f6fcb29ec218cc5c5b72bd10e",
       "keywords": [
         "$5",
@@ -136,8 +121,8 @@
   },
   "moonshot": {
     "https://platform.kimi.com/docs/guide/account-and-payments": {
-      "checked": "2026-11-01",
-      "hash": "360c25b61033370b39b91f2548263a20b6529bbadfa07c5404233635b1f9fb04",
+      "checked": "2026-11-03",
+      "hash": "74bc2015d761bb0912846c12d82a8cf85d392cf1d081a67b3fedd30d18ea53dd",
       "keywords": [
         "token"
       ],
@@ -146,7 +131,7 @@
   },
   "nvidia": {
     "https://build.nvidia.com/": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "207ce03fe7a6c0188a8d26575cdd7ced1fc56ef0073864656f826285f0277e68",
       "keywords": [
         "developer",
@@ -157,7 +142,7 @@
   },
   "portkey": {
     "https://portkey.ai": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "7341717c7221e7ea3abba2ecf54b5b72effc0ff16b6978a3ab145ca45340f7aa",
       "keywords": [
         "developer",
@@ -169,7 +154,7 @@
   },
   "requesty": {
     "https://requesty.ai": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "4d47b2d4d20599869c0502b7af927f646186f00af2c1da9b612c85eb02d52451",
       "keywords": [
         "$10",
@@ -182,8 +167,8 @@
   },
   "siliconflow": {
     "https://siliconflow.com": {
-      "checked": "2026-11-01",
-      "hash": "58e31ae487b020f7aeebda1c5405b8be5e5f307c47a5b534c63aa26c9a225a42",
+      "checked": "2026-11-03",
+      "hash": "4c69340dd7de0ca4bae981b101adaa8d9c7f4cb770406c4a381e46ceb466e203",
       "keywords": [
         "developer",
         "free",
@@ -194,7 +179,7 @@
   },
   "tencent-hunyuan": {
     "https://cloud.tencent.com/document/product/1729/97731": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "7840663f974a7e77e1395c26f4dc7765979d7b064786d54e6aa7c4656ae5c244",
       "keywords": [
         "token"
@@ -204,7 +189,7 @@
   },
   "together": {
     "https://www.together.ai/pricing": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "87319e8ca4841fc5dc930a5906cd2b50ae68ec2e024b89ddaba6bfba9b88f1f2",
       "keywords": [
         "$10",
@@ -221,7 +206,7 @@
   },
   "zhipu": {
     "https://docs.bigmodel.cn/cn/update/promotion": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "897b42e3bd2b2eadf57546c900a1d64253e660fc02f50ee1284074321b9f1bf3",
       "keywords": [
         "developer",
@@ -230,7 +215,7 @@
       "status": 200
     },
     "https://docs.z.ai/guides/overview/pricing": {
-      "checked": "2026-11-01",
+      "checked": "2026-11-03",
       "hash": "b8aa11bb753079d7a9f172c281951bf04a9bc4f94d1f3d26a0e9ee0c67bef184",
       "keywords": [
         "developer",
