@@ -1,15 +1,13 @@
-date: 2026-11-03
+date: 2026-11-04
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 606
-free_models: 17
-changes: 7
-change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
+models: 610
+free_models: 18
+changes: 5
+change: New free model: stealth/crouton-alpha (openrouter)
 change: DeepInfra: watch page changed: https://deepinfra.com
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
-change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/pricing
-change: Google AI Studio (Gemini API): watch page changed: https://ai.google.dev/gemini-api/docs/rate-limits
-change: Moonshot AI (Kimi Open Platform): watch page changed: https://platform.kimi.com/docs/guide/account-and-payments
+change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
 change: SiliconFlow: watch page changed: https://siliconflow.com
