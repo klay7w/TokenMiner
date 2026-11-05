@@ -8,8 +8,8 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 
 ## Current Free Offers
 
-- **OpenRouter Free Models (18 models)** — type `free_tier`, value —, status `expired`, confidence `official` ⚠️ **Stale**
-  - 18 models are priced $0 per token, most carrying a ':free' id suffix. Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.
+- **OpenRouter Free Models (16 models)** — type `free_tier`, value —, status `expired`, confidence `official` ⚠️ **Stale**
+  - 16 models are priced $0 per token, most carrying a ':free' id suffix. Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.
   - Claim: https://openrouter.ai/models?max_price=0
   - Source: https://openrouter.ai/api/v1/models
 
@@ -18,16 +18,14 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 | Model | Rank | Ctx | Caps | Link |
 |---|---|---|---|---|
 | Gemma 4 31B | #77 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
-| Thinking Machines: Inkling | #92 🏆 | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-20260715) |
 | Gemma 4 26B A4B | #101 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
-| Thinking Machines: Inkling Small | #158 🏆 | 1M | 📝🖼️🔊🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-small-20260730) |
-| Crouton Alpha | #2 🔥 | 1M | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/stealth/crouton-alpha) |
-| Flint | #10 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/recursive/flint-v1.0-20261021) |
-| XingChen: Xing4.0 29B A4B | #14 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b-20261015) |
-| Nemotron 3.5 Super VL | #22 🔥 | 1M | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) |
-| Dots Studio: Dots3-Note Preview | #112 🔥 | 512K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
-| LiquidAI: LFM2.5-2.6B | #122 🔥 | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
-| Nemotron 3.5 Lightning | #124 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
+| Crouton Alpha | #4 🔥 | 1M | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/stealth/crouton-alpha) |
+| Flint | #12 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/recursive/flint-v1.0-20261021) |
+| XingChen: Xing4.0 29B A4B | #16 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b-20261015) |
+| Nemotron 3.5 Super VL | #24 🔥 | 1M | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) |
+| Dots Studio: Dots3-Note Preview | #114 🔥 | 512K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
+| LiquidAI: LFM2.5-2.6B | #124 🔥 | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
+| Nemotron 3.5 Lightning | #126 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
 | North Mini Code | #170 🔥 | 256K | 📝🛠️🧠 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
 | Nemotron 3.5 Content Safety | #177 🔥 | 128K | 📝🖼️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-content-safety-20260604) |
 | Nemotron 3 Ultra | #179 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
@@ -48,7 +46,7 @@ Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRou
 ## Context Windows
 
 - Largest free-model context: **1M**
-- Free models with published context: 18 of 18
+- Free models with published context: 16 of 16
 
 ## Rate Limits
 
@@ -60,7 +58,7 @@ _No officially published rate-limit numbers recorded for free usage._
 
 ## Pros
 
-- 18 free model(s) available
+- 16 free model(s) available
 - long-context free models (≥200K)
 - free models with tool calling
 - free models with reasoning support
@@ -111,5 +109,5 @@ Risk tags: ♾️ Permanent Free Tier
 
 ## Last Verified
 
-- Provider: 2026-11-04
+- Provider: 2026-11-05
 - Offer `openrouter-free-models`: 2026-10-20 ⚠️ stale
