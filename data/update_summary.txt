@@ -1,13 +1,16 @@
-date: 2026-11-04
+date: 2026-11-05
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 610
-free_models: 18
-changes: 5
-change: New free model: stealth/crouton-alpha (openrouter)
+models: 617
+free_models: 16
+changes: 8
+change: Free model removed: thinkingmachines/inkling-small:free (openrouter)
+change: Free model removed: thinkingmachines/inkling:free (openrouter)
+change: Cloudflare AI Gateway: watch page changed: https://developers.cloudflare.com/ai-gateway/
 change: DeepInfra: watch page changed: https://deepinfra.com
-change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
-change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
-change: SiliconFlow: watch page changed: https://siliconflow.com
+change: DeepSeek: watch page changed: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+change: Mistral AI: watch page changed: https://mistral.ai/pricing
+change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+change: Together AI: watch page changed: https://www.together.ai/pricing
