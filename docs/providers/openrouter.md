@@ -8,8 +8,8 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 
 ## Current Free Offers
 
-- **OpenRouter Free Models (16 models)** — type `free_tier`, value —, status `expired`, confidence `official` ⚠️ **Stale**
-  - 16 models are priced $0 per token, most carrying a ':free' id suffix. Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.
+- **OpenRouter Free Models (15 models)** — type `free_tier`, value —, status `expired`, confidence `official` ⚠️ **Stale**
+  - 15 models are priced $0 per token, most carrying a ':free' id suffix. Free variants are subject to platform free-usage rate limits; current numbers are rendered dynamically on the limits page, so they are not recorded as fixed values. See https://openrouter.ai/docs/api-reference/limits.
   - Claim: https://openrouter.ai/models?max_price=0
   - Source: https://openrouter.ai/api/v1/models
 
@@ -17,22 +17,21 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 
 | Model | Rank | Ctx | Caps | Link |
 |---|---|---|---|---|
-| Gemma 4 31B | #77 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
-| Gemma 4 26B A4B | #100 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
+| Gemma 4 31B | #78 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
+| Gemma 4 26B A4B | #101 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
 | Thinking Machines: Inkling 2 Small | #151 🏆 | 1M | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/thinkingmachines/inkling-2-small-20261107) |
-| LiquidAI: LFM3-1.7B | #7 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-3-1.7b-20261106) |
-| Flint | #19 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/recursive/flint-v1.0-20261021) |
-| XingChen: Xing4.0 29B A4B | #24 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b-20261015) |
-| Nemotron 3.5 Super VL | #31 🔥 | 1M | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) |
-| Dots Studio: Dots3-Note Preview | #122 🔥 | 512K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
-| LiquidAI: LFM2.5-2.6B | #132 🔥 | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
-| Nemotron 3.5 Lightning | #134 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
-| North Mini Code | #182 🔥 | 256K | 📝🛠️🧠 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
-| Nemotron 3 Ultra | #191 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
-| Nemotron 3 Nano Omni | #211 🔥 | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
-| Lyria 3 Pro Preview | #245 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
-| Lyria 3 Clip Preview | #246 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
-| Free Models Router | #464 🔥 | 200K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/openrouter/free) |
+| LiquidAI: LFM3-1.7B | #11 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-3-1.7b-20261106) |
+| Flint | #25 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/recursive/flint-v1.0-20261021) |
+| Nemotron 3.5 Super VL | #36 🔥 | 1M | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) |
+| Dots Studio: Dots3-Note Preview | #127 🔥 | 512K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
+| LiquidAI: LFM2.5-2.6B | #137 🔥 | 66K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
+| Nemotron 3.5 Lightning | #139 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
+| North Mini Code | #187 🔥 | 256K | 📝🛠️🧠 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
+| Nemotron 3 Ultra | #196 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
+| Nemotron 3 Nano Omni | #216 🔥 | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
+| Lyria 3 Pro Preview | #250 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
+| Lyria 3 Clip Preview | #251 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
+| Free Models Router | #468 🔥 | 200K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/openrouter/free) |
 
 Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRouter](https://openrouter.ai) weekly usage rank · — unranked
 
@@ -46,7 +45,7 @@ Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRou
 ## Context Windows
 
 - Largest free-model context: **1M**
-- Free models with published context: 16 of 16
+- Free models with published context: 15 of 15
 
 ## Rate Limits
 
@@ -58,7 +57,7 @@ _No officially published rate-limit numbers recorded for free usage._
 
 ## Pros
 
-- 16 free model(s) available
+- 15 free model(s) available
 - long-context free models (≥200K)
 - free models with tool calling
 - free models with reasoning support
@@ -109,5 +108,5 @@ Risk tags: ♾️ Permanent Free Tier
 
 ## Last Verified
 
-- Provider: 2026-11-10
+- Provider: 2026-11-11
 - Offer `openrouter-free-models`: 2026-10-20 ⚠️ stale

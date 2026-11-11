@@ -1,14 +1,14 @@
-date: 2026-11-10
+date: 2026-11-11
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 628
-free_models: 16
+models: 632
+free_models: 15
 changes: 6
-change: New free model: thinkingmachines/inkling-2-small:free (openrouter)
-change: Free model removed: stealth/crouton-alpha (openrouter)
+change: Free model removed: xingchen-agi/xing4.0-29b-a4b:free (openrouter)
+change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
 change: DeepInfra: watch page changed: https://deepinfra.com
-change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
 change: SiliconFlow: watch page changed: https://siliconflow.com
 change: Together AI: watch page changed: https://www.together.ai/pricing
