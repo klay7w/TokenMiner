@@ -1,18 +1,14 @@
-date: 2026-11-09
+date: 2026-11-10
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 623
+models: 628
 free_models: 16
-changes: 10
-change: New free model: liquid/lfm-3-1.7b:free (openrouter)
-change: Free model removed: nvidia/nemotron-3.5-content-safety:free (openrouter)
-change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
+changes: 6
+change: New free model: thinkingmachines/inkling-2-small:free (openrouter)
+change: Free model removed: stealth/crouton-alpha (openrouter)
 change: DeepInfra: watch page changed: https://deepinfra.com
-change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
-change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
-change: Mistral AI: watch page changed: https://mistral.ai/pricing
-change: Moonshot AI (Kimi Open Platform): watch page changed: https://platform.kimi.com/docs/guide/account-and-payments
 change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+change: SiliconFlow: watch page changed: https://siliconflow.com
 change: Together AI: watch page changed: https://www.together.ai/pricing
