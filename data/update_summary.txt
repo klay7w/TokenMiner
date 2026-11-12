@@ -1,14 +1,14 @@
-date: 2026-11-11
+date: 2026-11-12
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 632
-free_models: 15
+models: 634
+free_models: 16
 changes: 6
-change: Free model removed: xingchen-agi/xing4.0-29b-a4b:free (openrouter)
+change: New free model: baidu/ernie-5.5-flash-preview:free (openrouter)
 change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
 change: DeepInfra: watch page changed: https://deepinfra.com
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
-change: SiliconFlow: watch page changed: https://siliconflow.com
+change: Mistral AI: watch page changed: https://mistral.ai/pricing
 change: Together AI: watch page changed: https://www.together.ai/pricing

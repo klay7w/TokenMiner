@@ -2,7 +2,7 @@
 
 > Mine free AI models, API credits, tokens and developer deals.
 
-Auto-updated **2026-11-11** · 19 providers · 18 offers · 15 free models tracked
+Auto-updated **2026-11-12** · 19 providers · 18 offers · 16 free models tracked
 
 # 🔥 Best Free AI Deals Right Now
 
@@ -29,19 +29,20 @@ Auto-updated **2026-11-11** · 19 providers · 18 offers · 15 free models track
 |---|---|---|---|---|---|
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #78 🏆 | Gemma 4 31B | 262K | 📝🖼️🎬 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #101 🏆 | Gemma 4 26B A4B | 262K | 📝🖼️🎬 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #151 🏆 | Thinking Machines: Inkling 2 Small | 1M | 📝🖼️ | [↗](https://openrouter.ai/thinkingmachines/inkling-2-small-20261107) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #152 🏆 | Thinking Machines: Inkling 2 Small | 1M | 📝🖼️ | [↗](https://openrouter.ai/thinkingmachines/inkling-2-small-20261107) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #1 🔥 | ERNIE-5.5-Flash-Preview | 1M | 📝 | [↗](https://openrouter.ai/baidu/ernie-5.5-flash-preview-20261110) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #11 🔥 | LiquidAI: LFM3-1.7B | 262K | 📝 | [↗](https://openrouter.ai/liquid/lfm-3-1.7b-20261106) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #25 🔥 | Flint | 262K | 📝 | [↗](https://openrouter.ai/recursive/flint-v1.0-20261021) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #36 🔥 | Nemotron 3.5 Super VL | 1M | 📝🖼️🎬 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #127 🔥 | Dots Studio: Dots3-Note Preview | 512K | 📝🖼️ | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #137 🔥 | LiquidAI: LFM2.5-2.6B | 66K | 📝 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #139 🔥 | Nemotron 3.5 Lightning | 1M | 📝 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #187 🔥 | North Mini Code | 256K | 📝 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #196 🔥 | Nemotron 3 Ultra | 1M | 📝 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #216 🔥 | Nemotron 3 Nano Omni | 256K | 📝🖼️🎬🔊 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #250 🔥 | Lyria 3 Pro Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #251 🔥 | Lyria 3 Clip Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #468 🔥 | Free Models Router | 200K | 📝🖼️ | [↗](https://openrouter.ai/openrouter/free) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #26 🔥 | Flint | 262K | 📝 | [↗](https://openrouter.ai/recursive/flint-v1.0-20261021) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #37 🔥 | Nemotron 3.5 Super VL | 1M | 📝🖼️🎬 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #129 🔥 | Dots Studio: Dots3-Note Preview | 512K | 📝🖼️ | [↗](https://openrouter.ai/dots-studio/dots-3-note-preview-20260813) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #138 🔥 | LiquidAI: LFM2.5-2.6B | 66K | 📝 | [↗](https://openrouter.ai/liquid/lfm-2.5-2.6b-20260811) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #140 🔥 | Nemotron 3.5 Lightning | 1M | 📝 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #188 🔥 | North Mini Code | 256K | 📝 | [↗](https://openrouter.ai/cohere/north-mini-code-20260617) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #197 🔥 | Nemotron 3 Ultra | 1M | 📝 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #217 🔥 | Nemotron 3 Nano Omni | 256K | 📝🖼️🎬🔊 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #251 🔥 | Lyria 3 Pro Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #252 🔥 | Lyria 3 Clip Preview | 1M | 📝🖼️🔊 | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #467 🔥 | Free Models Router | 200K | 📝🖼️ | [↗](https://openrouter.ai/openrouter/free) |
 
 Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRouter](https://openrouter.ai) weekly usage rank · — unranked
 
@@ -53,17 +54,17 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 | Provider | Amount | Requirement | Verified | Claim |
 |---|---|---|---|---|
-| <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 once | New users | 2026-11-11 | [Claim](https://cloud.cerebras.ai) |
-| <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 once | New users | 2026-11-11 | [Claim](https://fireworks.ai/pricing) |
-| <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | Account | 2026-11-11 | [Claim](https://huggingface.co) |
-| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | Account | 2026-11-11 | [Claim](https://mistral.ai/pricing) |
-| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo ♻️ | New users · 🎓 Student · 💳 Card | 2026-11-11 | [Claim](https://mistral.ai/pricing) |
-| <img src="https://www.google.com/s2/favicons?domain=platform.kimi.com&sz=32" width="16" valign="middle"> [Moonshot AI (Kimi Open Platform)](docs/providers/moonshot.md) | 15 USD once | New users | 2026-11-11 | [Claim](https://platform.kimi.com/console) |
+| <img src="https://www.google.com/s2/favicons?domain=cerebras.ai&sz=32" width="16" valign="middle"> [Cerebras Inference](docs/providers/cerebras.md) | $5 once | New users | 2026-11-12 | [Claim](https://cloud.cerebras.ai) |
+| <img src="https://www.google.com/s2/favicons?domain=fireworks.ai&sz=32" width="16" valign="middle"> [Fireworks AI](docs/providers/fireworks.md) | $1 once | New users | 2026-11-12 | [Claim](https://fireworks.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=32" width="16" valign="middle"> [Hugging Face Inference Providers](docs/providers/huggingface.md) | $0.1/mo ♻️ | Account | 2026-11-12 | [Claim](https://huggingface.co) |
+| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $10/mo ♻️ | Account | 2026-11-12 | [Claim](https://mistral.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=mistral.ai&sz=32" width="16" valign="middle"> [Mistral AI](docs/providers/mistral.md) | $5.99/mo ♻️ | New users · 🎓 Student · 💳 Card | 2026-11-12 | [Claim](https://mistral.ai/pricing) |
+| <img src="https://www.google.com/s2/favicons?domain=platform.kimi.com&sz=32" width="16" valign="middle"> [Moonshot AI (Kimi Open Platform)](docs/providers/moonshot.md) | 15 USD once | New users | 2026-11-12 | [Claim](https://platform.kimi.com/console) |
 | <img src="https://www.google.com/s2/favicons?domain=siliconflow.com&sz=32" width="16" valign="middle"> [SiliconFlow](docs/providers/siliconflow.md) | 16 USD once | Account | 2026-09-21 | [Claim](https://cloud.siliconflow.cn) |
-| <img src="https://www.google.com/s2/favicons?domain=siliconflow.com&sz=32" width="16" valign="middle"> [SiliconFlow](docs/providers/siliconflow.md) | 14 USD once | New users | 2026-11-10 | [Claim](https://cloud.siliconflow.cn) |
+| <img src="https://www.google.com/s2/favicons?domain=siliconflow.com&sz=32" width="16" valign="middle"> [SiliconFlow](docs/providers/siliconflow.md) | 14 USD once | New users | 2026-11-12 | [Claim](https://cloud.siliconflow.cn) |
 | <img src="https://www.google.com/s2/favicons?domain=cloud.tencent.com&sz=32" width="16" valign="middle"> [Tencent Hunyuan](docs/providers/tencent-hunyuan.md) | First activation of the Hunyuan text ser… | New users | 2026-09-21 | [Claim](https://console.cloud.tencent.com) |
-| <img src="https://www.google.com/s2/favicons?domain=bigmodel.cn&sz=32" width="16" valign="middle"> [Zhipu AI (BigModel)](docs/providers/zhipu.md) | Invited new users receive a "2500 万 Toke… | New users | 2026-11-11 | [Claim](https://bigmodel.cn/console) |
-| <img src="https://www.google.com/s2/favicons?domain=bigmodel.cn&sz=32" width="16" valign="middle"> [Zhipu AI (BigModel)](docs/providers/zhipu.md) | 58 USD/mo ♻️ | Account | 2026-11-11 | [Claim](https://bigmodel.cn/console) |
+| <img src="https://www.google.com/s2/favicons?domain=bigmodel.cn&sz=32" width="16" valign="middle"> [Zhipu AI (BigModel)](docs/providers/zhipu.md) | Invited new users receive a "2500 万 Toke… | New users | 2026-11-12 | [Claim](https://bigmodel.cn/console) |
+| <img src="https://www.google.com/s2/favicons?domain=bigmodel.cn&sz=32" width="16" valign="middle"> [Zhipu AI (BigModel)](docs/providers/zhipu.md) | 58 USD/mo ♻️ | Account | 2026-11-12 | [Claim](https://bigmodel.cn/console) |
 
 # 💻 Best Free Models for Coding
 
@@ -71,11 +72,12 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 🥇 **[Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #78 🏆 · OpenRouter  
 🥈 **[Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #101 🏆 · OpenRouter  
-🥉 **[Thinking Machines: Inkling 2 Small](https://openrouter.ai/thinkingmachines/inkling-2-small-20261107)** · 1M ctx · 📝🖼️🛠️👁️🧠 · #151 🏆 · OpenRouter
+🥉 **[Thinking Machines: Inkling 2 Small](https://openrouter.ai/thinkingmachines/inkling-2-small-20261107)** · 1M ctx · 📝🖼️🛠️👁️🧠 · #152 🏆 · OpenRouter
 
 <details>
-<summary><b>More tool-calling free models (10)</b></summary>
+<summary><b>More tool-calling free models (11)</b></summary>
 
+- [ERNIE-5.5-Flash-Preview](https://openrouter.ai/baidu/ernie-5.5-flash-preview-20261110) — 1M
 - [LiquidAI: LFM3-1.7B](https://openrouter.ai/liquid/lfm-3-1.7b-20261106) — 262K
 - [Flint](https://openrouter.ai/recursive/flint-v1.0-20261021) — 262K
 - [Nemotron 3.5 Super VL](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) — 1M
@@ -97,11 +99,12 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 🥇 **[Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #78 🏆 · OpenRouter  
 🥈 **[Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #101 🏆 · OpenRouter  
-🥉 **[Thinking Machines: Inkling 2 Small](https://openrouter.ai/thinkingmachines/inkling-2-small-20261107)** · 1M ctx · 📝🖼️🛠️👁️🧠 · #151 🏆 · OpenRouter
+🥉 **[Thinking Machines: Inkling 2 Small](https://openrouter.ai/thinkingmachines/inkling-2-small-20261107)** · 1M ctx · 📝🖼️🛠️👁️🧠 · #152 🏆 · OpenRouter
 
 <details>
-<summary><b>More reasoning free models (10)</b></summary>
+<summary><b>More reasoning free models (11)</b></summary>
 
+- [ERNIE-5.5-Flash-Preview](https://openrouter.ai/baidu/ernie-5.5-flash-preview-20261110) — 1M
 - [LiquidAI: LFM3-1.7B](https://openrouter.ai/liquid/lfm-3-1.7b-20261106) — 262K
 - [Flint](https://openrouter.ai/recursive/flint-v1.0-20261021) — 262K
 - [Nemotron 3.5 Super VL](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) — 1M
@@ -119,12 +122,12 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-11-11: Free model removed: xingchen-agi/xing4.0-29b-a4b:free (openrouter)  
-2026-11-11: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing  
-2026-11-11: DeepInfra: watch page changed: https://deepinfra.com  
-2026-11-11: Fireworks AI: watch page changed: https://fireworks.ai/pricing  
-2026-11-11: SiliconFlow: watch page changed: https://siliconflow.com  
-2026-11-11: Together AI: watch page changed: https://www.together.ai/pricing
+2026-11-12: New free model: baidu/ernie-5.5-flash-preview:free (openrouter)  
+2026-11-12: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing  
+2026-11-12: DeepInfra: watch page changed: https://deepinfra.com  
+2026-11-12: Fireworks AI: watch page changed: https://fireworks.ai/pricing  
+2026-11-12: Mistral AI: watch page changed: https://mistral.ai/pricing  
+2026-11-12: Together AI: watch page changed: https://www.together.ai/pricing
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 
