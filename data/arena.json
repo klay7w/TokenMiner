@@ -1,6 +1,6 @@
 {
   "source": "https://llmarena.ai/leaderboard/text",
-  "fetched": "2026-11-11",
+  "fetched": "2026-11-12",
   "models": [
     {
       "name": "Gemini 4 Carbon (High)",
@@ -48,12 +48,12 @@
       "rank": 9
     },
     {
-      "name": "Claude Opus 4.6",
+      "name": "Muse Spark 1.3 (Max)",
       "organization": null,
       "rank": 10
     },
     {
-      "name": "Muse Spark 1.3 (Max)",
+      "name": "Claude Opus 4.6",
       "organization": null,
       "rank": 11
     },
@@ -113,12 +113,12 @@
       "rank": 22
     },
     {
-      "name": "Qwen3.8-Max",
+      "name": "Kimi K3.1 Pro (Max)",
       "organization": null,
       "rank": 23
     },
     {
-      "name": "Kimi K3.1 Pro (Max)",
+      "name": "Qwen3.8-Max",
       "organization": null,
       "rank": 24
     },
@@ -128,22 +128,22 @@
       "rank": 25
     },
     {
-      "name": "GLM-5.3 (Max)",
+      "name": "Claude Opus 4.8 (High)",
       "organization": null,
       "rank": 26
     },
     {
-      "name": "GPT-6.1 Sol (Max)",
+      "name": "GLM-5.3 (Max)",
       "organization": null,
       "rank": 27
     },
     {
-      "name": "Claude Opus 4.8 (High)",
+      "name": "GPT-5.5 (High)",
       "organization": null,
       "rank": 28
     },
     {
-      "name": "GPT-5.5 (High)",
+      "name": "GPT-6.1 Sol (Max)",
       "organization": null,
       "rank": 29
     },
@@ -158,12 +158,12 @@
       "rank": 31
     },
     {
-      "name": "Gemini 3.5 Flash (Medium)",
+      "name": "GPT-5.5",
       "organization": null,
       "rank": 32
     },
     {
-      "name": "GPT-5.5",
+      "name": "Gemini 3.5 Flash (Medium)",
       "organization": null,
       "rank": 33
     },
@@ -173,12 +173,12 @@
       "rank": 34
     },
     {
-      "name": "GPT-5.4 (High)",
+      "name": "GLM-5.3-Flash",
       "organization": null,
       "rank": 35
     },
     {
-      "name": "GLM-5.2 (Max)",
+      "name": "GPT-5.4 (High)",
       "organization": null,
       "rank": 36
     },
@@ -188,17 +188,17 @@
       "rank": 37
     },
     {
-      "name": "Grok 4.20 Beta 1",
+      "name": "GLM-5.2 (Max)",
       "organization": null,
       "rank": 38
     },
     {
-      "name": "Claude Opus 4.8",
+      "name": "Grok 4.20 Beta 1",
       "organization": null,
       "rank": 39
     },
     {
-      "name": "GLM-5.3-Flash",
+      "name": "Claude Opus 4.8",
       "organization": null,
       "rank": 40
     },
@@ -233,12 +233,12 @@
       "rank": 46
     },
     {
-      "name": "Grok 4.20 Beta (Reasoning, 0309)",
+      "name": "Claude Sonnet 4.6",
       "organization": null,
       "rank": 47
     },
     {
-      "name": "Claude Sonnet 4.6",
+      "name": "Grok 4.20 Beta (Reasoning, 0309)",
       "organization": null,
       "rank": 48
     },
@@ -278,7 +278,7 @@
       "rank": 55
     },
     {
-      "name": "GLM-5.1",
+      "name": "GPT-5.4",
       "organization": null,
       "rank": 56
     },
@@ -288,7 +288,7 @@
       "rank": 57
     },
     {
-      "name": "GPT-5.4",
+      "name": "GLM-5.1",
       "organization": null,
       "rank": 58
     },
@@ -298,12 +298,12 @@
       "rank": 59
     },
     {
-      "name": "Claude Sonnet 5 (High)",
+      "name": "Kimi K2.6",
       "organization": null,
       "rank": 60
     },
     {
-      "name": "Kimi K2.6",
+      "name": "Claude Sonnet 5 (High)",
       "organization": null,
       "rank": 61
     },
@@ -338,12 +338,12 @@
       "rank": 67
     },
     {
-      "name": "Dola Seed 2.0 Pro",
+      "name": "Grok 4.6 (High)",
       "organization": null,
       "rank": 68
     },
     {
-      "name": "Grok 4.6 (High)",
+      "name": "Dola Seed 2.0 Pro",
       "organization": null,
       "rank": 69
     },
@@ -418,17 +418,17 @@
       "rank": 83
     },
     {
-      "name": "MiMo-V2-Pro",
+      "name": "MiMo-V2.6-Flash",
       "organization": null,
       "rank": 84
     },
     {
-      "name": "Claude Opus 4.1 (20250805)",
+      "name": "MiMo-V2-Pro",
       "organization": null,
       "rank": 85
     },
     {
-      "name": "MiMo-V2.6-Flash",
+      "name": "Claude Opus 4.1 (20250805)",
       "organization": null,
       "rank": 86
     },
@@ -453,7 +453,7 @@
       "rank": 90
     },
     {
-      "name": "Inkling",
+      "name": "Grok 4.7 (xHigh)",
       "organization": null,
       "rank": 91
     },
@@ -468,7 +468,7 @@
       "rank": 93
     },
     {
-      "name": "Grok 4.7 (xHigh)",
+      "name": "Inkling",
       "organization": null,
       "rank": 94
     },
@@ -518,12 +518,12 @@
       "rank": 103
     },
     {
-      "name": "MiniMax-M3",
+      "name": "DeepSeek-V4-Flash",
       "organization": null,
       "rank": 104
     },
     {
-      "name": "DeepSeek-V4-Flash",
+      "name": "MiniMax-M3",
       "organization": null,
       "rank": 105
     },
@@ -553,12 +553,12 @@
       "rank": 110
     },
     {
-      "name": "MiMo-V2.5",
+      "name": "Qwen3.8-27B",
       "organization": null,
       "rank": 111
     },
     {
-      "name": "Qwen3.8-27B",
+      "name": "MiMo-V2.5",
       "organization": null,
       "rank": 112
     },
@@ -608,12 +608,12 @@
       "rank": 121
     },
     {
-      "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
+      "name": "Claude Opus 4 (Thinking 16K, 20250514)",
       "organization": null,
       "rank": 122
     },
     {
-      "name": "Claude Opus 4 (Thinking 16K, 20250514)",
+      "name": "NVIDIA-Nemotron-3-Ultra-550B-A55B (NVFP4)",
       "organization": null,
       "rank": 123
     },
@@ -643,32 +643,32 @@
       "rank": 128
     },
     {
-      "name": "Mistral Large 4",
+      "name": "DeepSeek-V3.2 (Thinking)",
       "organization": null,
       "rank": 129
     },
     {
-      "name": "DeepSeek-V3.2 (Thinking)",
+      "name": "Qwen3-235B-A22B-Instruct (2507)",
       "organization": null,
       "rank": 130
     },
     {
-      "name": "Claude Haiku 5.5 (High)",
+      "name": "DeepSeek-V3.2-Exp",
       "organization": null,
       "rank": 131
     },
     {
-      "name": "Qwen3-235B-A22B-Instruct (2507)",
+      "name": "DeepSeek-R1 (0528)",
       "organization": null,
       "rank": 132
     },
     {
-      "name": "DeepSeek-V3.2-Exp",
+      "name": "Claude Haiku 5.5 (High)",
       "organization": null,
       "rank": 133
     },
     {
-      "name": "DeepSeek-R1 (0528)",
+      "name": "Mistral Large 4",
       "organization": null,
       "rank": 134
     },
@@ -683,12 +683,12 @@
       "rank": 136
     },
     {
-      "name": "ERNIE-5.0-Preview (1022)",
+      "name": "Kimi K2 Preview (0711)",
       "organization": null,
       "rank": 137
     },
     {
-      "name": "Kimi K2 Preview (0711)",
+      "name": "ERNIE-5.0-Preview (1022)",
       "organization": null,
       "rank": 138
     },
@@ -713,32 +713,32 @@
       "rank": 142
     },
     {
-      "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+      "name": "MiniMax-M2.7",
       "organization": null,
       "rank": 143
     },
     {
-      "name": "MiniMax-M2.7",
+      "name": "DeepSeek-V3.1-Terminus",
       "organization": null,
       "rank": 144
     },
     {
-      "name": "DeepSeek-V3.1-Terminus",
+      "name": "Mistral Large 3",
       "organization": null,
       "rank": 145
     },
     {
-      "name": "Mistral Large 3",
+      "name": "GPT-4.1 (2025-04-14)",
       "organization": null,
       "rank": 146
     },
     {
-      "name": "GPT-4.1 (2025-04-14)",
+      "name": "Claude Opus 4 (20250514)",
       "organization": null,
       "rank": 147
     },
     {
-      "name": "Claude Opus 4 (20250514)",
+      "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
       "organization": null,
       "rank": 148
     },
@@ -753,12 +753,12 @@
       "rank": 150
     },
     {
-      "name": "Inkling 2 Small",
+      "name": "amazon-nova-experimental-chat (26-01-10)",
       "organization": null,
       "rank": 151
     },
     {
-      "name": "amazon-nova-experimental-chat (26-01-10)",
+      "name": "Inkling 2 Small",
       "organization": null,
       "rank": 152
     },
@@ -768,12 +768,12 @@
       "rank": 153
     },
     {
-      "name": "GLM-4.5",
+      "name": "Grok 4 (0709)",
       "organization": null,
       "rank": 154
     },
     {
-      "name": "Grok 4 (0709)",
+      "name": "GLM-4.5",
       "organization": null,
       "rank": 155
     },
@@ -923,22 +923,22 @@
       "rank": 184
     },
     {
-      "name": "Qwen3-Coder-480B-A35B-Instruct",
+      "name": "Solar Pro 4",
       "organization": null,
       "rank": 185
     },
     {
-      "name": "Solar Pro 4",
+      "name": "Qwen3-Coder-480B-A35B-Instruct",
       "organization": null,
       "rank": 186
     },
     {
-      "name": "Hunyuan T1 (20250711)",
+      "name": "Mistral Medium 3 (2505)",
       "organization": null,
       "rank": 187
     },
     {
-      "name": "Mistral Medium 3 (2505)",
+      "name": "Hunyuan T1 (20250711)",
       "organization": null,
       "rank": 188
     },
@@ -983,12 +983,12 @@
       "rank": 196
     },
     {
-      "name": "Gemini 2.5 Flash-Lite Preview (Thinking, 06-17)",
+      "name": "Qwen3-235B-A22B",
       "organization": null,
       "rank": 197
     },
     {
-      "name": "Qwen3-235B-A22B",
+      "name": "Gemini 2.5 Flash-Lite Preview (Thinking, 06-17)",
       "organization": null,
       "rank": 198
     },
@@ -1033,12 +1033,12 @@
       "rank": 206
     },
     {
-      "name": "MiniMax-M1",
+      "name": "Grok 3 Mini (High)",
       "organization": null,
       "rank": 207
     },
     {
-      "name": "Grok 3 Mini (High)",
+      "name": "MiniMax-M1",
       "organization": null,
       "rank": 208
     },
@@ -1123,12 +1123,12 @@
       "rank": 224
     },
     {
-      "name": "amazon-nova-experimental-chat (10-20)",
+      "name": "o3-mini",
       "organization": null,
       "rank": 225
     },
     {
-      "name": "o3-mini",
+      "name": "amazon-nova-experimental-chat (10-20)",
       "organization": null,
       "rank": 226
     },
@@ -1163,22 +1163,22 @@
       "rank": 232
     },
     {
-      "name": "Claude 3.5 Sonnet (20240620)",
+      "name": "Mercury 2",
       "organization": null,
       "rank": 233
     },
     {
-      "name": "Llama 3.3 Nemotron Super 49B v1.5",
+      "name": "Claude 3.5 Sonnet (20240620)",
       "organization": null,
       "rank": 234
     },
     {
-      "name": "Ling-flash-2.0",
+      "name": "Llama 3.3 Nemotron Super 49B v1.5",
       "organization": null,
       "rank": 235
     },
     {
-      "name": "Mercury 2",
+      "name": "Ling-flash-2.0",
       "organization": null,
       "rank": 236
     },
@@ -1228,12 +1228,12 @@
       "rank": 245
     },
     {
-      "name": "QwQ-32B",
+      "name": "Llama 3.1 405B Instruct (BF16)",
       "organization": null,
       "rank": 246
     },
     {
-      "name": "Llama 3.1 405B Instruct (BF16)",
+      "name": "QwQ-32B",
       "organization": null,
       "rank": 247
     },
@@ -1303,17 +1303,17 @@
       "rank": 260
     },
     {
-      "name": "Ring-flash-2.0",
+      "name": "GPT-4.1 nano (2025-04-14)",
       "organization": null,
       "rank": 261
     },
     {
-      "name": "GPT-4.1 nano (2025-04-14)",
+      "name": "Claude 3 Opus (20240229)",
       "organization": null,
       "rank": 262
     },
     {
-      "name": "Claude 3 Opus (20240229)",
+      "name": "Ring-flash-2.0",
       "organization": null,
       "rank": 263
     },
@@ -1353,12 +1353,12 @@
       "rank": 270
     },
     {
-      "name": "gpt-oss-20b",
+      "name": "Gemma 3n E4B IT",
       "organization": null,
       "rank": 271
     },
     {
-      "name": "Gemma 3n E4B IT",
+      "name": "gpt-oss-20b",
       "organization": null,
       "rank": 272
     },
@@ -1483,12 +1483,12 @@
       "rank": 296
     },
     {
-      "name": "Granite 4.2 8B",
+      "name": "Jamba 1.5 Large",
       "organization": null,
       "rank": 297
     },
     {
-      "name": "Jamba 1.5 Large",
+      "name": "Granite 4.2 8B",
       "organization": null,
       "rank": 298
     },
@@ -1553,12 +1553,12 @@
       "rank": 310
     },
     {
-      "name": "GPT-4 (0613)",
+      "name": "Command R+ (08-2024)",
       "organization": null,
       "rank": 311
     },
     {
-      "name": "Command R+ (08-2024)",
+      "name": "GPT-4 (0613)",
       "organization": null,
       "rank": 312
     },
