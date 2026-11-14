@@ -1,14 +1,21 @@
-date: 2026-11-12
+date: 2026-11-14
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 634
-free_models: 16
-changes: 6
-change: New free model: baidu/ernie-5.5-flash-preview:free (openrouter)
+models: 614
+free_models: 17
+changes: 13
+change: New free model: inclusionai/ling-3.2-flash:free (openrouter)
+change: New free model: particle-ai/particle-1:free (openrouter)
+change: Free model removed: liquid/lfm-2.5-2.6b:free (openrouter)
 change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
 change: DeepInfra: watch page changed: https://deepinfra.com
+change: DeepSeek: watch page changed: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
-change: Mistral AI: watch page changed: https://mistral.ai/pricing
+change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
+change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+change: Requesty: watch page changed: https://requesty.ai
 change: Together AI: watch page changed: https://www.together.ai/pricing
+change: Zhipu AI (BigModel): watch page changed: https://docs.z.ai/guides/overview/pricing
+change: Zhipu AI (BigModel): watch page changed: https://docs.bigmodel.cn/cn/update/promotion

@@ -79,5 +79,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-11-12
+- Provider: 2026-11-14
 - Offer `tencent-hunyuan-signup-pack`: 2026-09-21 ⚠️ stale
