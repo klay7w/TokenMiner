@@ -77,5 +77,5 @@ Risk tags: ♾️ Permanent Free Tier
 
 ## Last Verified
 
-- Provider: 2026-11-12
-- Offer `tokenrouter-free-models`: 2026-11-12
+- Provider: 2026-11-15
+- Offer `tokenrouter-free-models`: 2026-11-15
