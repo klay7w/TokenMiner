@@ -87,7 +87,7 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-11-15
-- Offer `zhipu-free-flash-models`: 2026-11-15
-- Offer `zhipu-new-user-token-package`: 2026-11-15
-- Offer `zhipu-referral-tokens`: 2026-11-15
+- Provider: 2026-11-16
+- Offer `zhipu-free-flash-models`: 2026-11-16
+- Offer `zhipu-new-user-token-package`: 2026-11-16
+- Offer `zhipu-referral-tokens`: 2026-11-16
