@@ -1,12 +1,15 @@
-date: 2026-11-17
+date: 2026-11-18
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 620
+models: 631
 free_models: 17
-changes: 4
+changes: 7
+change: Cerebras Inference: watch page changed: https://inference-docs.cerebras.ai/support/pricing
 change: DeepInfra: watch page changed: https://deepinfra.com
-change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
+change: DeepSeek: watch page changed: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
+change: Mistral AI: watch page changed: https://mistral.ai/pricing
 change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
 change: Together AI: watch page changed: https://www.together.ai/pricing
