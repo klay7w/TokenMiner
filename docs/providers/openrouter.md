@@ -17,8 +17,8 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 
 | Model | Rank | Ctx | Caps | Link |
 |---|---|---|---|---|
-| Gemma 4 31B | #80 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
-| Gemma 4 26B A4B | #103 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
+| Gemma 4 31B | #84 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
+| Gemma 4 26B A4B | #107 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
 | Ling 3.2 Flash | #14 🔥 | 1M | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.2-flash-20261113) |
 | ERNIE-5.5-Flash-Preview | #17 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/baidu/ernie-5.5-flash-preview-20261110) |
 | LiquidAI: LFM3-1.7B | #27 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-3-1.7b-20261106) |

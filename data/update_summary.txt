@@ -5,12 +5,5 @@ offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
 models: 632
 free_models: 15
-changes: 8
-change: Free model removed: cohere/north-mini-code:free (openrouter)
-change: Free model removed: thinkingmachines/inkling-2-small:free (openrouter)
+changes: 1
 change: DeepInfra: watch page changed: https://deepinfra.com
-change: DeepSeek: watch page changed: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
-change: Mistral AI: watch page changed: https://mistral.ai/pricing
-change: Moonshot AI (Kimi Open Platform): watch page changed: https://platform.kimi.com/docs/guide/account-and-payments
-change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
-change: Together AI: watch page changed: https://www.together.ai/pricing
