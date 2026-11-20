@@ -5,6 +5,5 @@ offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
 models: 632
 free_models: 15
-changes: 2
-change: DeepInfra: watch page changed: https://deepinfra.com
-change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+changes: 1
+change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
