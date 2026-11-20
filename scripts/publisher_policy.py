@@ -95,8 +95,10 @@ def documents(base, head, stamp, providers, offers, models, notes, paths):
                 require(blob(head, 'CHANGELOG.md') == generate_changelog(directory), 'changelog differs from generated data')
                 if not notes:
                     snaps = sorted(directory.glob('*.json'))
-                    old = load_snapshot(snaps[-2]) if len(snaps) > 1 else ([], [], [])
-                    notes = diff_data(*old, *load_snapshot(snaps[-1])) if snaps else []
+                    if snaps:
+                        old_p, old_o, old_m = load_snapshot(snaps[-2]) if len(snaps) > 1 else ([], [], [])
+                        new_p, new_o, new_m = load_snapshot(snaps[-1])
+                        notes = diff_data(old_p, new_p, old_o, new_o, old_m, new_m)
         scores = {p.id: score_provider(p, [o for o in os_ if o.provider_id == p.id], [m for m in ms if m.provider_id == p.id]) for p in ps}
         require(blob(head, 'README.md') == generate_readme(ps, os_, ms, scores, notes, on), 'README does not match trusted generator')
         for p in ps:

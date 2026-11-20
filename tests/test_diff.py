@@ -2,6 +2,10 @@
 
 from __future__ import annotations
 
+import importlib.util
+import json
+from pathlib import Path
+
 from tokenminer.diffing import diff_data
 from tokenminer.models import Model, Offer, Provider
 
@@ -26,6 +30,29 @@ def _run(old_offers, new_offers, old_models=(), new_models=(),
                         list(old_offers), list(new_offers),
                         list(old_models), list(new_models))
     return [c.text for c in changes], changes
+
+
+def test_publisher_documents_reconstructs_notes_from_history(monkeypatch):
+    path = Path(__file__).resolve().parents[1] / "scripts" / "publisher_policy.py"
+    spec = importlib.util.spec_from_file_location("publisher_policy", path)
+    publisher_policy = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(publisher_policy)
+
+    old, new = "data/history/2026-09-01.json", "data/history/2026-09-02.json"
+    stamp = "2026-09-03"
+    snapshot = {"providers": [_provider().model_dump()], "offers": [_offer("a").model_dump()]}
+    blobs = {
+        old: json.dumps(snapshot),
+        new: json.dumps({**snapshot, "free_models": [_model("m1").model_dump()]}),
+        "CHANGELOG.md": "changelog",
+        "README.md": f"{stamp}: New free model: m1 (p)",
+    }
+    monkeypatch.setattr(publisher_policy, "git", lambda *args: f"{old}\n{new}\n".encode())
+    monkeypatch.setattr(publisher_policy, "blob", lambda rev, path: blobs[path])
+    monkeypatch.setattr(publisher_policy, "generate_changelog", lambda directory: "changelog")
+    monkeypatch.setattr(publisher_policy, "generate_readme", lambda ps, os, ms, scores, notes, on:
+                        "\n".join(note.render() for note in notes))
+    publisher_policy.documents("base", "head", stamp, [], [], [], [], ["README.md"])
 
 
 def test_new_offer():
