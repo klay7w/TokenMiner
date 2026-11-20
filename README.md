@@ -27,8 +27,8 @@ Auto-updated **2026-11-20** · 19 providers · 18 offers · 15 free models track
 
 | Provider | Rank | Model | Ctx | Caps | Link |
 |---|---|---|---|---|---|
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #80 🏆 | Gemma 4 31B | 262K | 📝🖼️🎬 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
-| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #103 🏆 | Gemma 4 26B A4B | 262K | 📝🖼️🎬 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #84 🏆 | Gemma 4 31B | 262K | 📝🖼️🎬 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
+| <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #107 🏆 | Gemma 4 26B A4B | 262K | 📝🖼️🎬 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #14 🔥 | Ling 3.2 Flash | 1M | 📝🖼️ | [↗](https://openrouter.ai/inclusionai/ling-3.2-flash-20261113) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #17 🔥 | ERNIE-5.5-Flash-Preview | 1M | 📝 | [↗](https://openrouter.ai/baidu/ernie-5.5-flash-preview-20261110) |
 | <img src="https://www.google.com/s2/favicons?domain=openrouter.ai&sz=32" width="16" valign="middle"> [OpenRouter](docs/providers/openrouter.md) | #27 🔥 | LiquidAI: LFM3-1.7B | 262K | 📝 | [↗](https://openrouter.ai/liquid/lfm-3-1.7b-20261106) |
@@ -69,8 +69,8 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 > ℹ️ Free models that support tool calling — the practical proxy for coding agents. **Not a formal benchmark.**
 
-🥇 **[Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #80 🏆 · OpenRouter  
-🥈 **[Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #103 🏆 · OpenRouter  
+🥇 **[Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #84 🏆 · OpenRouter  
+🥈 **[Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #107 🏆 · OpenRouter  
 🥉 **[Ling 3.2 Flash](https://openrouter.ai/inclusionai/ling-3.2-flash-20261113)** · 1M ctx · 📝🖼️🛠️👁️🧠 · #14 🔥 · OpenRouter
 
 <details>
@@ -95,8 +95,8 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 > ℹ️ Free models exposing a reasoning parameter — the practical proxy for reasoning. **Not a formal benchmark.**
 
-🥇 **[Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #80 🏆 · OpenRouter  
-🥈 **[Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #103 🏆 · OpenRouter  
+🥇 **[Gemma 4 31B](https://openrouter.ai/google/gemma-4-31b-it-20260402)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #84 🏆 · OpenRouter  
+🥈 **[Gemma 4 26B A4B](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403)** · 262K ctx · 📝🖼️🎬🛠️👁️🧠 · #107 🏆 · OpenRouter  
 🥉 **[Ling 3.2 Flash](https://openrouter.ai/inclusionai/ling-3.2-flash-20261113)** · 1M ctx · 📝🖼️🛠️👁️🧠 · #14 🔥 · OpenRouter
 
 <details>
@@ -119,14 +119,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-11-20: Free model removed: cohere/north-mini-code:free (openrouter)  
-2026-11-20: Free model removed: thinkingmachines/inkling-2-small:free (openrouter)  
-2026-11-20: DeepInfra: watch page changed: https://deepinfra.com  
-2026-11-20: DeepSeek: watch page changed: https://api-docs.deepseek.com/zh-cn/quick_start/pricing  
-2026-11-20: Mistral AI: watch page changed: https://mistral.ai/pricing  
-2026-11-20: Moonshot AI (Kimi Open Platform): watch page changed: https://platform.kimi.com/docs/guide/account-and-payments  
-2026-11-20: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/  
-2026-11-20: Together AI: watch page changed: https://www.together.ai/pricing
+2026-11-20: DeepInfra: watch page changed: https://deepinfra.com
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 
