@@ -119,7 +119,8 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-11-20: DeepInfra: watch page changed: https://deepinfra.com
+2026-11-20: DeepInfra: watch page changed: https://deepinfra.com  
+2026-11-20: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 
