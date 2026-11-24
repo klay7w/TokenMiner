@@ -1,6 +1,6 @@
 {
   "source": "https://llmarena.ai/leaderboard/text",
-  "fetched": "2026-11-20",
+  "fetched": "2026-11-24",
   "models": [
     {
       "name": "Gemini 4 Carbon (High)",
@@ -13,7 +13,7 @@
       "rank": 2
     },
     {
-      "name": "Gemini 4 Neon (High)",
+      "name": "Gemini 4 Neon (xHigh)",
       "organization": null,
       "rank": 3
     },
@@ -33,12 +33,12 @@
       "rank": 6
     },
     {
-      "name": "Claude Fable 5.2 (Max)",
+      "name": "Claude Opus 4.6 (High)",
       "organization": null,
       "rank": 7
     },
     {
-      "name": "Claude Opus 4.6 (High)",
+      "name": "Claude Fable 5.2 (Max)",
       "organization": null,
       "rank": 8
     },
@@ -53,12 +53,12 @@
       "rank": 10
     },
     {
-      "name": "Muse Spark 1.3 (Max)",
+      "name": "Gemini 3.8 Flash (High)",
       "organization": null,
       "rank": 11
     },
     {
-      "name": "Gemini 3.8 Flash (High)",
+      "name": "Muse Spark 1.3 (Max)",
       "organization": null,
       "rank": 12
     },
@@ -83,12 +83,12 @@
       "rank": 16
     },
     {
-      "name": "Gemini 3.7 Flash (High)",
+      "name": "Gemini 4 Hydrogen (xHigh)",
       "organization": null,
       "rank": 17
     },
     {
-      "name": "Gemini 4 Hydrogen (High)",
+      "name": "Gemini 3.7 Flash (High)",
       "organization": null,
       "rank": 18
     },
@@ -133,27 +133,27 @@
       "rank": 26
     },
     {
-      "name": "Gemini 3.6 Flash (High)",
+      "name": "Kimi K3.1 Pro (Max)",
       "organization": null,
       "rank": 27
     },
     {
-      "name": "GPT-6.1 Sol (Max)",
+      "name": "Gemini 3.6 Flash (High)",
       "organization": null,
       "rank": 28
     },
     {
-      "name": "Kimi K3.1 Pro (Max)",
+      "name": "GPT-6.1 Sol (Max)",
       "organization": null,
       "rank": 29
     },
     {
-      "name": "GLM-5.3 (Max)",
+      "name": "Claude Opus 4.8 (High)",
       "organization": null,
       "rank": 30
     },
     {
-      "name": "Claude Opus 4.8 (High)",
+      "name": "MiMo-V2.6-Pro",
       "organization": null,
       "rank": 31
     },
@@ -163,7 +163,7 @@
       "rank": 32
     },
     {
-      "name": "MiMo-V2.6-Pro",
+      "name": "GLM-5.3 (Max)",
       "organization": null,
       "rank": 33
     },
@@ -183,17 +183,17 @@
       "rank": 36
     },
     {
-      "name": "GPT-6 Astra (Max)",
+      "name": "GLM-5.3-Flash",
       "organization": null,
       "rank": 37
     },
     {
-      "name": "GPT-5.2 Chat (20260210)",
+      "name": "GPT-6 Astra (Max)",
       "organization": null,
       "rank": 38
     },
     {
-      "name": "GLM-5.3-Flash",
+      "name": "GPT-5.2 Chat (20260210)",
       "organization": null,
       "rank": 39
     },
@@ -208,22 +208,22 @@
       "rank": 41
     },
     {
-      "name": "DeepSeek-V4.1-Flash-20260910 (Max)",
+      "name": "Grok 4.20 Beta 1",
       "organization": null,
       "rank": 42
     },
     {
-      "name": "Grok 4.20 Beta 1",
+      "name": "DeepSeek-V4.1-Flash-20260910 (Max)",
       "organization": null,
       "rank": 43
     },
     {
-      "name": "GPT-6.1 Terra (Max)",
+      "name": "Claude Opus 4.8",
       "organization": null,
       "rank": 44
     },
     {
-      "name": "Claude Opus 4.8",
+      "name": "GPT-6.1 Terra (Max)",
       "organization": null,
       "rank": 45
     },
@@ -233,12 +233,12 @@
       "rank": 46
     },
     {
-      "name": "GPT-5.5 Instant",
+      "name": "Claude Opus 4.5 (High, 32K, 20251101)",
       "organization": null,
       "rank": 47
     },
     {
-      "name": "Claude Opus 4.5 (High, 32K, 20251101)",
+      "name": "GPT-5.5 Instant",
       "organization": null,
       "rank": 48
     },
@@ -273,17 +273,17 @@
       "rank": 54
     },
     {
-      "name": "GPT-6.2 Astra (Max)",
+      "name": "GPT-5.6 Terra (xHigh)",
       "organization": null,
       "rank": 55
     },
     {
-      "name": "GPT-5.6 Terra (xHigh)",
+      "name": "ERNIE 5.1",
       "organization": null,
       "rank": 56
     },
     {
-      "name": "ERNIE 5.1",
+      "name": "GPT-6.2 Astra (Max)",
       "organization": null,
       "rank": 57
     },
@@ -353,12 +353,12 @@
       "rank": 70
     },
     {
-      "name": "GPT-6 Sol (Max)",
+      "name": "DeepSeek-V4-Pro",
       "organization": null,
       "rank": 71
     },
     {
-      "name": "DeepSeek-V4-Pro",
+      "name": "GPT-6 Sol (Max)",
       "organization": null,
       "rank": 72
     },
@@ -383,32 +383,32 @@
       "rank": 76
     },
     {
-      "name": "GPT-5.1 (High)",
+      "name": "Hy3",
       "organization": null,
       "rank": 77
     },
     {
-      "name": "Gemini 3.5 Flash-Lite",
+      "name": "Qwen3.7-Plus",
       "organization": null,
       "rank": 78
     },
     {
-      "name": "Qwen3.7-Plus",
+      "name": "GPT-5.1 (High)",
       "organization": null,
       "rank": 79
     },
     {
-      "name": "Claude Sonnet 4.5 (20250929)",
+      "name": "Gemini 3.5 Flash-Lite",
       "organization": null,
       "rank": 80
     },
     {
-      "name": "DeepSeek-V4-Pro Preview (High)",
+      "name": "Claude Sonnet 4.5 (20250929)",
       "organization": null,
       "rank": 81
     },
     {
-      "name": "Hy3",
+      "name": "DeepSeek-V4-Pro Preview (High)",
       "organization": null,
       "rank": 82
     },
@@ -448,17 +448,17 @@
       "rank": 89
     },
     {
-      "name": "MiMo-V2-Pro",
+      "name": "MiMo-V2.6-Flash",
       "organization": null,
       "rank": 90
     },
     {
-      "name": "Claude Opus 4.1 (20250805)",
+      "name": "MiMo-V2-Pro",
       "organization": null,
       "rank": 91
     },
     {
-      "name": "MiMo-V2.6-Flash",
+      "name": "Claude Opus 4.1 (20250805)",
       "organization": null,
       "rank": 92
     },
@@ -488,22 +488,22 @@
       "rank": 97
     },
     {
-      "name": "Qwen3.6-Plus",
+      "name": "Inkling",
       "organization": null,
       "rank": 98
     },
     {
-      "name": "ChatGPT-4o Latest (20250326)",
+      "name": "GPT-6 Luna (Max)",
       "organization": null,
       "rank": 99
     },
     {
-      "name": "GPT-6 Luna (Max)",
+      "name": "Qwen3.6-Plus",
       "organization": null,
       "rank": 100
     },
     {
-      "name": "Inkling",
+      "name": "ChatGPT-4o Latest (20250326)",
       "organization": null,
       "rank": 101
     },
@@ -558,12 +558,12 @@
       "rank": 111
     },
     {
-      "name": "GPT-5 (High)",
+      "name": "Qwen3.8-27B",
       "organization": null,
       "rank": 112
     },
     {
-      "name": "Qwen3.8-27B",
+      "name": "GPT-5 (High)",
       "organization": null,
       "rank": 113
     },
@@ -578,12 +578,12 @@
       "rank": 115
     },
     {
-      "name": "Beam 1.0 501B A23B",
+      "name": "MiMo-V2.5",
       "organization": null,
       "rank": 116
     },
     {
-      "name": "MiMo-V2.5",
+      "name": "Beam 1.0 501B A23B",
       "organization": null,
       "rank": 117
     },
@@ -598,12 +598,12 @@
       "rank": 119
     },
     {
-      "name": "Kimi K2.5 (Instant)",
+      "name": "Grok 4.1 Fast (Reasoning)",
       "organization": null,
       "rank": 120
     },
     {
-      "name": "Grok 4.1 Fast (Reasoning)",
+      "name": "Kimi K2.5 (Instant)",
       "organization": null,
       "rank": 121
     },
@@ -643,12 +643,12 @@
       "rank": 128
     },
     {
-      "name": "Muse Glimmer",
+      "name": "DeepSeek-V3.2-Exp (Thinking)",
       "organization": null,
       "rank": 129
     },
     {
-      "name": "DeepSeek-V3.2-Exp (Thinking)",
+      "name": "Muse Glimmer",
       "organization": null,
       "rank": 130
     },
@@ -663,12 +663,12 @@
       "rank": 132
     },
     {
-      "name": "Qwen3-Max (2025-09-23)",
+      "name": "Mistral Large 4",
       "organization": null,
       "rank": 133
     },
     {
-      "name": "Mistral Large 4",
+      "name": "Qwen3-Max (2025-09-23)",
       "organization": null,
       "rank": 134
     },
@@ -698,12 +698,12 @@
       "rank": 139
     },
     {
-      "name": "Grok 4 Fast (Non-Reasoning)",
+      "name": "Kimi K2 Preview (0905)",
       "organization": null,
       "rank": 140
     },
     {
-      "name": "Kimi K2 Preview (0905)",
+      "name": "Grok 4 Fast (Non-Reasoning)",
       "organization": null,
       "rank": 141
     },
@@ -738,22 +738,22 @@
       "rank": 147
     },
     {
-      "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
+      "name": "DeepSeek-V3.1-Terminus",
       "organization": null,
       "rank": 148
     },
     {
-      "name": "DeepSeek-V3.1-Terminus",
+      "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
       "organization": null,
       "rank": 149
     },
     {
-      "name": "Mistral Large 3",
+      "name": "MiniMax-M2.7",
       "organization": null,
       "rank": 150
     },
     {
-      "name": "MiniMax-M2.7",
+      "name": "Mistral Large 3",
       "organization": null,
       "rank": 151
     },
@@ -823,12 +823,12 @@
       "rank": 164
     },
     {
-      "name": "Inkling-Small",
+      "name": "Grok 4 Fast (Reasoning)",
       "organization": null,
       "rank": 165
     },
     {
-      "name": "Grok 4 Fast (Reasoning)",
+      "name": "Inkling-Small",
       "organization": null,
       "rank": 166
     },
@@ -918,7 +918,7 @@
       "rank": 183
     },
     {
-      "name": "Claude Sonnet 4 (20250514)",
+      "name": "MiniMax-M2.5",
       "organization": null,
       "rank": 184
     },
@@ -928,7 +928,7 @@
       "rank": 185
     },
     {
-      "name": "MiniMax-M2.5",
+      "name": "Claude Sonnet 4 (20250514)",
       "organization": null,
       "rank": 186
     },
@@ -958,12 +958,12 @@
       "rank": 191
     },
     {
-      "name": "Mistral Medium 3 (2505)",
+      "name": "Hunyuan T1 (20250711)",
       "organization": null,
       "rank": 192
     },
     {
-      "name": "Hunyuan T1 (20250711)",
+      "name": "Mistral Medium 3 (2505)",
       "organization": null,
       "rank": 193
     },
@@ -1048,17 +1048,17 @@
       "rank": 209
     },
     {
-      "name": "Gemma 3 27B IT",
+      "name": "Inkling 2 Mini",
       "organization": null,
       "rank": 210
     },
     {
-      "name": "GLM-4.7-Flash",
+      "name": "Gemma 3 27B IT",
       "organization": null,
       "rank": 211
     },
     {
-      "name": "MiniMax-M1",
+      "name": "GLM-4.7-Flash",
       "organization": null,
       "rank": 212
     },
@@ -1068,132 +1068,132 @@
       "rank": 213
     },
     {
-      "name": "o3-mini (High)",
+      "name": "MiniMax-M1",
       "organization": null,
       "rank": 214
     },
     {
-      "name": "amazon-nova-experimental-chat (11-10)",
+      "name": "o3-mini (High)",
       "organization": null,
       "rank": 215
     },
     {
-      "name": "Gemini 2.0 Flash (001)",
+      "name": "amazon-nova-experimental-chat (11-10)",
       "organization": null,
       "rank": 216
     },
     {
-      "name": "NVIDIA-Nemotron-3-Super-120B-A12B",
+      "name": "Gemini 2.0 Flash (001)",
       "organization": null,
       "rank": 217
     },
     {
-      "name": "DeepSeek-V3",
+      "name": "NVIDIA-Nemotron-3-Super-120B-A12B",
       "organization": null,
       "rank": 218
     },
     {
-      "name": "Grok 3 Mini Beta",
+      "name": "DeepSeek-V3",
       "organization": null,
       "rank": 219
     },
     {
-      "name": "Mistral Small 3.2 (2506)",
+      "name": "Grok 3 Mini Beta",
       "organization": null,
       "rank": 220
     },
     {
-      "name": "INTELLECT-3",
+      "name": "Mistral Small 3.2 (2506)",
       "organization": null,
       "rank": 221
     },
     {
-      "name": "Gemini 2.0 Flash-Lite Preview (02-05)",
+      "name": "INTELLECT-3",
       "organization": null,
       "rank": 222
     },
     {
-      "name": "Command A (03-2025)",
+      "name": "Gemini 2.0 Flash-Lite Preview (02-05)",
       "organization": null,
       "rank": 223
     },
     {
-      "name": "GLM-4.5V",
+      "name": "Command A (03-2025)",
       "organization": null,
       "rank": 224
     },
     {
-      "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4)",
+      "name": "GLM-4.5V",
       "organization": null,
       "rank": 225
     },
     {
-      "name": "gpt-oss-120b",
+      "name": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B (NVFP4)",
       "organization": null,
       "rank": 226
     },
     {
-      "name": "Gemini 1.5 Pro (002)",
+      "name": "gpt-oss-120b",
       "organization": null,
       "rank": 227
     },
     {
-      "name": "Step-3",
+      "name": "Gemini 1.5 Pro (002)",
       "organization": null,
       "rank": 228
     },
     {
-      "name": "Hunyuan TurboS (20250226)",
+      "name": "Step-3",
       "organization": null,
       "rank": 229
     },
     {
-      "name": "o3-mini",
+      "name": "Hunyuan TurboS (20250226)",
       "organization": null,
       "rank": 230
     },
     {
-      "name": "amazon-nova-experimental-chat (10-20)",
+      "name": "o3-mini",
       "organization": null,
       "rank": 231
     },
     {
-      "name": "Llama 3.1 Nemotron Ultra 253B v1",
+      "name": "amazon-nova-experimental-chat (10-20)",
       "organization": null,
       "rank": 232
     },
     {
-      "name": "Qwen3-32B",
+      "name": "Llama 3.1 Nemotron Ultra 253B v1",
       "organization": null,
       "rank": 233
     },
     {
-      "name": "amazon-nova-experimental-chat (10-09)",
+      "name": "Qwen3-32B",
       "organization": null,
       "rank": 234
     },
     {
-      "name": "GPT-4o (2024-05-13)",
+      "name": "amazon-nova-experimental-chat (10-09)",
       "organization": null,
       "rank": 235
     },
     {
-      "name": "Qwen-Plus (0125)",
+      "name": "GPT-4o (2024-05-13)",
       "organization": null,
       "rank": 236
     },
     {
-      "name": "MiniMax-M2",
+      "name": "Qwen-Plus (0125)",
       "organization": null,
       "rank": 237
     },
     {
-      "name": "Claude 3.5 Sonnet (20240620)",
+      "name": "MiniMax-M2",
       "organization": null,
       "rank": 238
     },
     {
-      "name": "Llama 3.3 Nemotron Super 49B v1.5",
+      "name": "Claude 3.5 Sonnet (20240620)",
       "organization": null,
       "rank": 239
     },
@@ -1203,312 +1203,312 @@
       "rank": 240
     },
     {
-      "name": "Mercury 2",
+      "name": "Llama 3.3 Nemotron Super 49B v1.5",
       "organization": null,
       "rank": 241
     },
     {
-      "name": "GLM-4-Plus (0111)",
+      "name": "Mercury 2",
       "organization": null,
       "rank": 242
     },
     {
-      "name": "Gemma 3 12B IT",
+      "name": "GLM-4-Plus (0111)",
       "organization": null,
       "rank": 243
     },
     {
-      "name": "Hunyuan Turbo (0110)",
+      "name": "Gemma 3 12B IT",
       "organization": null,
       "rank": 244
     },
     {
-      "name": "Granite 4.2 30B",
+      "name": "Hunyuan Turbo (0110)",
       "organization": null,
       "rank": 245
     },
     {
-      "name": "GPT-5 nano (High)",
+      "name": "Granite 4.2 30B",
       "organization": null,
       "rank": 246
     },
     {
-      "name": "o1-mini",
+      "name": "GPT-5 nano (High)",
       "organization": null,
       "rank": 247
     },
     {
-      "name": "Gemini Advanced (0514)",
+      "name": "o1-mini",
       "organization": null,
       "rank": 248
     },
     {
-      "name": "Grok 2 (2024-08-13)",
+      "name": "Gemini Advanced (0514)",
       "organization": null,
       "rank": 249
     },
     {
-      "name": "GPT-4o (2024-08-06)",
+      "name": "Grok 2 (2024-08-13)",
       "organization": null,
       "rank": 250
     },
     {
-      "name": "Llama 3.1 405B Instruct (BF16)",
+      "name": "GPT-4o (2024-08-06)",
       "organization": null,
       "rank": 251
     },
     {
-      "name": "QwQ-32B",
+      "name": "Llama 3.1 405B Instruct (BF16)",
       "organization": null,
       "rank": 252
     },
     {
-      "name": "Amazon Nova 2 Lite",
+      "name": "QwQ-32B",
       "organization": null,
       "rank": 253
     },
     {
-      "name": "Llama 3.1 405B Instruct (FP8)",
+      "name": "Amazon Nova 2 Lite",
       "organization": null,
       "rank": 254
     },
     {
-      "name": "Step-2 16K Exp (202412)",
+      "name": "Llama 3.1 405B Instruct (FP8)",
       "organization": null,
       "rank": 255
     },
     {
-      "name": "Olmo 3.1 32B Instruct",
+      "name": "Step-2 16K Exp (202412)",
       "organization": null,
       "rank": 256
     },
     {
-      "name": "Yi Lightning",
+      "name": "Olmo 3.1 32B Instruct",
       "organization": null,
       "rank": 257
     },
     {
-      "name": "Llama 3.3 Nemotron Super 49B v1",
+      "name": "Yi Lightning",
       "organization": null,
       "rank": 258
     },
     {
-      "name": "Llama 4 Maverick 17B 128E Instruct",
+      "name": "Llama 3.3 Nemotron Super 49B v1",
       "organization": null,
       "rank": 259
     },
     {
-      "name": "Qwen3-30B-A3B",
+      "name": "Llama 4 Maverick 17B 128E Instruct",
       "organization": null,
       "rank": 260
     },
     {
-      "name": "Hunyuan Large (2025-02-10)",
+      "name": "Qwen3-30B-A3B",
       "organization": null,
       "rank": 261
     },
     {
-      "name": "Claude 3.5 Haiku (20241022)",
+      "name": "Hunyuan Large (2025-02-10)",
       "organization": null,
       "rank": 262
     },
     {
-      "name": "GPT-4 Turbo (2024-04-09)",
+      "name": "Claude 3.5 Haiku (20241022)",
       "organization": null,
       "rank": 263
     },
     {
-      "name": "Gemini 1.5 Pro (001)",
+      "name": "GPT-4 Turbo (2024-04-09)",
       "organization": null,
       "rank": 264
     },
     {
-      "name": "DeepSeek-V2.5 (1210)",
+      "name": "Gemini 1.5 Pro (001)",
       "organization": null,
       "rank": 265
     },
     {
-      "name": "Ring-flash-2.0",
+      "name": "DeepSeek-V2.5 (1210)",
       "organization": null,
       "rank": 266
     },
     {
-      "name": "Claude 3 Opus (20240229)",
+      "name": "Ring-flash-2.0",
       "organization": null,
       "rank": 267
     },
     {
-      "name": "GPT-4.1 nano (2025-04-14)",
+      "name": "Claude 3 Opus (20240229)",
       "organization": null,
       "rank": 268
     },
     {
-      "name": "Llama 4 Scout 17B 16E Instruct",
+      "name": "GPT-4.1 nano (2025-04-14)",
       "organization": null,
       "rank": 269
     },
     {
-      "name": "Molmo 2 8B",
+      "name": "Llama 4 Scout 17B 16E Instruct",
       "organization": null,
       "rank": 270
     },
     {
-      "name": "Step-1o Turbo (202506)",
+      "name": "Molmo 2 8B",
       "organization": null,
       "rank": 271
     },
     {
-      "name": "GLM-4-Plus",
+      "name": "Step-1o Turbo (202506)",
       "organization": null,
       "rank": 272
     },
     {
-      "name": "Llama 3.3 70B Instruct",
+      "name": "GLM-4-Plus",
       "organization": null,
       "rank": 273
     },
     {
-      "name": "Qwen-Max (0919)",
+      "name": "Llama 3.3 70B Instruct",
       "organization": null,
       "rank": 274
     },
     {
-      "name": "Gemma 3n E4B IT",
+      "name": "Qwen-Max (0919)",
       "organization": null,
       "rank": 275
     },
     {
-      "name": "GPT-4o mini (2024-07-18)",
+      "name": "Gemma 3n E4B IT",
       "organization": null,
       "rank": 276
     },
     {
-      "name": "gpt-oss-20b",
+      "name": "GPT-4o mini (2024-07-18)",
       "organization": null,
       "rank": 277
     },
     {
-      "name": "Qwen2.5-Plus (1127)",
+      "name": "gpt-oss-20b",
       "organization": null,
       "rank": 278
     },
     {
-      "name": "Mistral Large 2 (2407)",
+      "name": "Qwen2.5-Plus (1127)",
       "organization": null,
       "rank": 279
     },
     {
-      "name": "Athene V2 Chat",
+      "name": "Mistral Large 2 (2407)",
       "organization": null,
       "rank": 280
     },
     {
-      "name": "NVIDIA-Nemotron-3-Nano-30B-A3B (BF16)",
+      "name": "Athene V2 Chat",
       "organization": null,
       "rank": 281
     },
     {
-      "name": "GPT-4 Turbo Preview (0125)",
+      "name": "NVIDIA-Nemotron-3-Nano-30B-A3B (BF16)",
       "organization": null,
       "rank": 282
     },
     {
-      "name": "GPT-4 Turbo Preview (1106)",
+      "name": "GPT-4 Turbo Preview (0125)",
       "organization": null,
       "rank": 283
     },
     {
-      "name": "Hunyuan Standard (2025-02-10)",
+      "name": "GPT-4 Turbo Preview (1106)",
       "organization": null,
       "rank": 284
     },
     {
-      "name": "Gemini 1.5 Flash (002)",
+      "name": "Hunyuan Standard (2025-02-10)",
       "organization": null,
       "rank": 285
     },
     {
-      "name": "Grok 2 mini (2024-08-13)",
+      "name": "Gemini 1.5 Flash (002)",
       "organization": null,
       "rank": 286
     },
     {
-      "name": "DeepSeek-V2.5",
+      "name": "Grok 2 mini (2024-08-13)",
       "organization": null,
       "rank": 287
     },
     {
-      "name": "Athene 70B (0725)",
+      "name": "DeepSeek-V2.5",
       "organization": null,
       "rank": 288
     },
     {
-      "name": "Olmo 3 32B Think",
+      "name": "Athene 70B (0725)",
       "organization": null,
       "rank": 289
     },
     {
-      "name": "Mistral Large (2411)",
+      "name": "Olmo 3 32B Think",
       "organization": null,
       "rank": 290
     },
     {
-      "name": "Mercury",
+      "name": "Mistral Large (2411)",
       "organization": null,
       "rank": 291
     },
     {
-      "name": "Magistral Medium (2506)",
+      "name": "Mercury",
       "organization": null,
       "rank": 292
     },
     {
-      "name": "Granite 4.1 8B",
+      "name": "Magistral Medium (2506)",
       "organization": null,
       "rank": 293
     },
     {
-      "name": "Gemma 3 4B IT",
+      "name": "Granite 4.1 8B",
       "organization": null,
       "rank": 294
     },
     {
-      "name": "Qwen2.5-72B-Instruct",
+      "name": "Gemma 3 4B IT",
       "organization": null,
       "rank": 295
     },
     {
-      "name": "Mistral Small 3.1 24B Instruct (2503)",
+      "name": "Qwen2.5-72B-Instruct",
       "organization": null,
       "rank": 296
     },
     {
-      "name": "Llama 3.1 Nemotron 70B Instruct",
+      "name": "Mistral Small 3.1 24B Instruct (2503)",
       "organization": null,
       "rank": 297
     },
     {
-      "name": "Hunyuan Large Vision",
+      "name": "Llama 3.1 Nemotron 70B Instruct",
       "organization": null,
       "rank": 298
     },
     {
-      "name": "Llama 3.1 70B Instruct",
+      "name": "Hunyuan Large Vision",
       "organization": null,
       "rank": 299
     },
     {
-      "name": "Amazon Nova Pro 1.0",
+      "name": "Llama 3.1 70B Instruct",
       "organization": null,
       "rank": 300
     },
     {
-      "name": "Gemma 2 27B IT",
+      "name": "Amazon Nova Pro 1.0",
       "organization": null,
       "rank": 301
     },
     {
-      "name": "Granite 4.2 8B",
+      "name": "Gemma 2 27B IT",
       "organization": null,
       "rank": 302
     },
@@ -1518,217 +1518,217 @@
       "rank": 303
     },
     {
-      "name": "Granite 4.2 3B",
+      "name": "Granite 4.2 8B",
       "organization": null,
       "rank": 304
     },
     {
-      "name": "Reka Core (20240904)",
+      "name": "Granite 4.2 3B",
       "organization": null,
       "rank": 305
     },
     {
-      "name": "GPT-4 (0314)",
+      "name": "Reka Core (20240904)",
       "organization": null,
       "rank": 306
     },
     {
-      "name": "Granite-4.0-H-Small",
+      "name": "GPT-4 (0314)",
       "organization": null,
       "rank": 307
     },
     {
-      "name": "Llama 3.1 Nemotron 51B Instruct",
+      "name": "Granite-4.0-H-Small",
       "organization": null,
       "rank": 308
     },
     {
-      "name": "Gemini 1.5 Flash (001)",
+      "name": "Llama 3.1 Nemotron 51B Instruct",
       "organization": null,
       "rank": 309
     },
     {
-      "name": "Llama 3.1 Tulu 3 70B",
+      "name": "Gemini 1.5 Flash (001)",
       "organization": null,
       "rank": 310
     },
     {
-      "name": "Olmo 3.1 32B Think",
+      "name": "Llama 3.1 Tulu 3 70B",
       "organization": null,
       "rank": 311
     },
     {
-      "name": "Claude 3 Sonnet (20240229)",
+      "name": "Olmo 3.1 32B Think",
       "organization": null,
       "rank": 312
     },
     {
-      "name": "Gemma 2 9B IT SimPO",
+      "name": "Claude 3 Sonnet (20240229)",
       "organization": null,
       "rank": 313
     },
     {
-      "name": "Nemotron-4 340B Instruct",
+      "name": "Gemma 2 9B IT SimPO",
       "organization": null,
       "rank": 314
     },
     {
-      "name": "Llama 3 70B Instruct",
+      "name": "Nemotron-4 340B Instruct",
       "organization": null,
       "rank": 315
     },
     {
-      "name": "Command R+ (08-2024)",
+      "name": "Llama 3 70B Instruct",
       "organization": null,
       "rank": 316
     },
     {
-      "name": "GPT-4 (0613)",
+      "name": "Command R+ (08-2024)",
       "organization": null,
       "rank": 317
     },
     {
-      "name": "Mistral Small 24B Instruct (2501)",
+      "name": "GPT-4 (0613)",
       "organization": null,
       "rank": 318
     },
     {
-      "name": "GLM-4 (0520)",
+      "name": "Mistral Small 24B Instruct (2501)",
       "organization": null,
       "rank": 319
     },
     {
-      "name": "Reka Flash (20240904)",
+      "name": "GLM-4 (0520)",
       "organization": null,
       "rank": 320
     },
     {
-      "name": "Qwen2.5-Coder-32B-Instruct",
+      "name": "Reka Flash (20240904)",
       "organization": null,
       "rank": 321
     },
     {
-      "name": "Aya Expanse 32B",
+      "name": "Qwen2.5-Coder-32B-Instruct",
       "organization": null,
       "rank": 322
     },
     {
-      "name": "Gemma 2 9B IT",
+      "name": "Aya Expanse 32B",
       "organization": null,
       "rank": 323
     },
     {
-      "name": "DeepSeek-Coder-V2",
+      "name": "Gemma 2 9B IT",
       "organization": null,
       "rank": 324
     },
     {
-      "name": "Qwen2-72B-Instruct",
+      "name": "DeepSeek-Coder-V2",
       "organization": null,
       "rank": 325
     },
     {
-      "name": "Command R+",
+      "name": "Qwen2-72B-Instruct",
       "organization": null,
       "rank": 326
     },
     {
-      "name": "Claude 3 Haiku (20240307)",
+      "name": "Command R+",
       "organization": null,
       "rank": 327
     },
     {
-      "name": "Amazon Nova Lite 1.0",
+      "name": "Claude 3 Haiku (20240307)",
       "organization": null,
       "rank": 328
     },
     {
-      "name": "Gemini 1.5 Flash-8B (001)",
+      "name": "Amazon Nova Lite 1.0",
       "organization": null,
       "rank": 329
     },
     {
-      "name": "Phi-4",
+      "name": "Gemini 1.5 Flash-8B (001)",
       "organization": null,
       "rank": 330
     },
     {
-      "name": "OLMo 2 32B Instruct (0325)",
+      "name": "Phi-4",
       "organization": null,
       "rank": 331
     },
     {
-      "name": "Command R (08-2024)",
+      "name": "OLMo 2 32B Instruct (0325)",
       "organization": null,
       "rank": 332
     },
     {
-      "name": "Mistral Large (2402)",
+      "name": "Command R (08-2024)",
       "organization": null,
       "rank": 333
     },
     {
-      "name": "Amazon Nova Micro 1.0",
+      "name": "Mistral Large (2402)",
       "organization": null,
       "rank": 334
     },
     {
-      "name": "Jamba 1.5 Mini",
+      "name": "Amazon Nova Micro 1.0",
       "organization": null,
       "rank": 335
     },
     {
-      "name": "Ministral 8B (2410)",
+      "name": "Jamba 1.5 Mini",
       "organization": null,
       "rank": 336
     },
     {
-      "name": "Gemini Pro (Dev API)",
+      "name": "Ministral 8B (2410)",
       "organization": null,
       "rank": 337
     },
     {
-      "name": "Qwen1.5-110B-Chat",
+      "name": "Gemini Pro (Dev API)",
       "organization": null,
       "rank": 338
     },
     {
-      "name": "Reka Flash 21B (Online, 20240226)",
+      "name": "Qwen1.5-110B-Chat",
       "organization": null,
       "rank": 339
     },
     {
-      "name": "Qwen1.5-72B-Chat",
+      "name": "Reka Flash 21B (Online, 20240226)",
       "organization": null,
       "rank": 340
     },
     {
-      "name": "Hunyuan Standard 256K",
+      "name": "Qwen1.5-72B-Chat",
       "organization": null,
       "rank": 341
     },
     {
-      "name": "Mixtral 8x22B Instruct v0.1",
+      "name": "Hunyuan Standard 256K",
       "organization": null,
       "rank": 342
     },
     {
-      "name": "Command R",
+      "name": "Mixtral 8x22B Instruct v0.1",
       "organization": null,
       "rank": 343
     },
     {
-      "name": "Reka Flash 21B (20240226)",
+      "name": "Command R",
       "organization": null,
       "rank": 344
     },
     {
-      "name": "GPT-3.5 Turbo (0125)",
+      "name": "Reka Flash 21B (20240226)",
       "organization": null,
       "rank": 345
     },
     {
-      "name": "Gemini Pro",
+      "name": "GPT-3.5 Turbo (0125)",
       "organization": null,
       "rank": 346
     },
@@ -1738,399 +1738,404 @@
       "rank": 347
     },
     {
-      "name": "Aya Expanse 8B",
+      "name": "Gemini Pro",
       "organization": null,
       "rank": 348
     },
     {
-      "name": "Mistral Medium",
+      "name": "Aya Expanse 8B",
       "organization": null,
       "rank": 349
     },
     {
-      "name": "Llama 3.1 Tulu 3 8B",
+      "name": "Mistral Medium",
       "organization": null,
       "rank": 350
     },
     {
-      "name": "Zephyr ORPO 141B A35B v0.1",
+      "name": "Llama 3.1 Tulu 3 8B",
       "organization": null,
       "rank": 351
     },
     {
-      "name": "Yi 1.5 34B Chat",
+      "name": "Zephyr ORPO 141B A35B v0.1",
       "organization": null,
       "rank": 352
     },
     {
-      "name": "Llama 3.1 8B Instruct",
+      "name": "Yi 1.5 34B Chat",
       "organization": null,
       "rank": 353
     },
     {
-      "name": "Granite 3.1 8B Instruct",
+      "name": "Llama 3.1 8B Instruct",
       "organization": null,
       "rank": 354
     },
     {
-      "name": "GPT-3.5 Turbo (1106)",
+      "name": "Granite 3.1 8B Instruct",
       "organization": null,
       "rank": 355
     },
     {
-      "name": "Qwen1.5-32B-Chat",
+      "name": "GPT-3.5 Turbo (1106)",
       "organization": null,
       "rank": 356
     },
     {
-      "name": "Gemma 2 2B IT",
+      "name": "Qwen1.5-32B-Chat",
       "organization": null,
       "rank": 357
     },
     {
-      "name": "Phi-3 Medium 4K Instruct",
+      "name": "Gemma 2 2B IT",
       "organization": null,
       "rank": 358
     },
     {
-      "name": "Mixtral 8x7B Instruct v0.1",
+      "name": "Phi-3 Medium 4K Instruct",
       "organization": null,
       "rank": 359
     },
     {
-      "name": "DBRX Instruct Preview",
+      "name": "Mixtral 8x7B Instruct v0.1",
       "organization": null,
       "rank": 360
     },
     {
-      "name": "Qwen1.5-14B-Chat",
+      "name": "DBRX Instruct Preview",
       "organization": null,
       "rank": 361
     },
     {
-      "name": "InternLM2.5 20B Chat",
+      "name": "Qwen1.5-14B-Chat",
       "organization": null,
       "rank": 362
     },
     {
-      "name": "DeepSeek LLM 67B Chat",
+      "name": "InternLM2.5 20B Chat",
       "organization": null,
       "rank": 363
     },
     {
-      "name": "WizardLM 70B",
+      "name": "DeepSeek LLM 67B Chat",
       "organization": null,
       "rank": 364
     },
     {
-      "name": "Yi 34B Chat",
+      "name": "WizardLM 70B",
       "organization": null,
       "rank": 365
     },
     {
-      "name": "Granite 3.0 8B Instruct",
+      "name": "Yi 34B Chat",
       "organization": null,
       "rank": 366
     },
     {
-      "name": "OpenChat 3.5",
+      "name": "Granite 3.0 8B Instruct",
       "organization": null,
       "rank": 367
     },
     {
-      "name": "OpenChat 3.5 (0106)",
+      "name": "OpenChat 3.5",
       "organization": null,
       "rank": 368
     },
     {
-      "name": "Gemma 1.1 7B IT",
+      "name": "OpenChat 3.5 (0106)",
       "organization": null,
       "rank": 369
     },
     {
-      "name": "Snowflake Arctic Instruct",
+      "name": "Gemma 1.1 7B IT",
       "organization": null,
       "rank": 370
     },
     {
-      "name": "Granite 3.1 2B Instruct",
+      "name": "Snowflake Arctic Instruct",
       "organization": null,
       "rank": 371
     },
     {
-      "name": "Tulu 2 DPO 70B",
+      "name": "Granite 3.1 2B Instruct",
       "organization": null,
       "rank": 372
     },
     {
-      "name": "OpenHermes 2.5 Mistral 7B",
+      "name": "Tulu 2 DPO 70B",
       "organization": null,
       "rank": 373
     },
     {
-      "name": "Vicuna 33B",
+      "name": "OpenHermes 2.5 Mistral 7B",
       "organization": null,
       "rank": 374
     },
     {
-      "name": "Phi-3 Small 8K Instruct",
+      "name": "Vicuna 33B",
       "organization": null,
       "rank": 375
     },
     {
-      "name": "Starling LM 7B Beta",
+      "name": "Phi-3 Small 8K Instruct",
       "organization": null,
       "rank": 376
     },
     {
-      "name": "Llama 2 70B Chat",
+      "name": "Starling LM 7B Beta",
       "organization": null,
       "rank": 377
     },
     {
-      "name": "Starling LM 7B Alpha",
+      "name": "Llama 2 70B Chat",
       "organization": null,
       "rank": 378
     },
     {
-      "name": "Llama 3.2 3B Instruct",
+      "name": "Starling LM 7B Alpha",
       "organization": null,
       "rank": 379
     },
     {
-      "name": "Nous Hermes 2 Mixtral 8x7B DPO",
+      "name": "Llama 3.2 3B Instruct",
       "organization": null,
       "rank": 380
     },
     {
-      "name": "Granite 3.0 2B Instruct",
+      "name": "Nous Hermes 2 Mixtral 8x7B DPO",
       "organization": null,
       "rank": 381
     },
     {
-      "name": "Llama 2 70B SteerLM Chat",
+      "name": "Granite 3.0 2B Instruct",
       "organization": null,
       "rank": 382
     },
     {
-      "name": "QwQ-32B-Preview",
+      "name": "Llama 2 70B SteerLM Chat",
       "organization": null,
       "rank": 383
     },
     {
-      "name": "SOLAR 10.7B Instruct v1.0",
+      "name": "QwQ-32B-Preview",
       "organization": null,
       "rank": 384
     },
     {
-      "name": "Dolphin 2.2.1 Mistral 7B",
+      "name": "SOLAR 10.7B Instruct v1.0",
       "organization": null,
       "rank": 385
     },
     {
-      "name": "MPT 30B Chat",
+      "name": "Dolphin 2.2.1 Mistral 7B",
       "organization": null,
       "rank": 386
     },
     {
-      "name": "WizardLM 13B",
+      "name": "MPT 30B Chat",
       "organization": null,
       "rank": 387
     },
     {
-      "name": "Mistral 7B Instruct v0.2",
+      "name": "WizardLM 13B",
       "organization": null,
       "rank": 388
     },
     {
-      "name": "Falcon 180B Chat",
+      "name": "Mistral 7B Instruct v0.2",
       "organization": null,
       "rank": 389
     },
     {
-      "name": "Qwen1.5-7B-Chat",
+      "name": "Falcon 180B Chat",
       "organization": null,
       "rank": 390
     },
     {
-      "name": "Phi-3 Mini 4K Instruct (June 2024)",
+      "name": "Qwen1.5-7B-Chat",
       "organization": null,
       "rank": 391
     },
     {
-      "name": "Vicuna 13B",
+      "name": "Phi-3 Mini 4K Instruct (June 2024)",
       "organization": null,
       "rank": 392
     },
     {
-      "name": "Llama 2 13B Chat",
+      "name": "Vicuna 13B",
       "organization": null,
       "rank": 393
     },
     {
-      "name": "Qwen-14B-Chat",
+      "name": "Llama 2 13B Chat",
       "organization": null,
       "rank": 394
     },
     {
-      "name": "PaLM 2",
+      "name": "Qwen-14B-Chat",
       "organization": null,
       "rank": 395
     },
     {
-      "name": "Gemma 7B IT",
+      "name": "PaLM 2",
       "organization": null,
       "rank": 396
     },
     {
-      "name": "Code Llama 34B Instruct",
+      "name": "Gemma 7B IT",
       "organization": null,
       "rank": 397
     },
     {
-      "name": "Zephyr 7B Beta",
+      "name": "Code Llama 34B Instruct",
       "organization": null,
       "rank": 398
     },
     {
-      "name": "Phi-3 Mini 128K Instruct",
+      "name": "Zephyr 7B Beta",
       "organization": null,
       "rank": 399
     },
     {
-      "name": "Phi-3 Mini 4K Instruct",
+      "name": "Phi-3 Mini 128K Instruct",
       "organization": null,
       "rank": 400
     },
     {
-      "name": "Guanaco 33B",
+      "name": "Phi-3 Mini 4K Instruct",
       "organization": null,
       "rank": 401
     },
     {
-      "name": "Zephyr 7B Alpha",
+      "name": "Guanaco 33B",
       "organization": null,
       "rank": 402
     },
     {
-      "name": "StripedHyena Nous 7B",
+      "name": "Zephyr 7B Alpha",
       "organization": null,
       "rank": 403
     },
     {
-      "name": "Code Llama 70B Instruct",
+      "name": "StripedHyena Nous 7B",
       "organization": null,
       "rank": 404
     },
     {
-      "name": "Gemma 1.1 2B IT",
+      "name": "Code Llama 70B Instruct",
       "organization": null,
       "rank": 405
     },
     {
-      "name": "Vicuna 7B",
+      "name": "Gemma 1.1 2B IT",
       "organization": null,
       "rank": 406
     },
     {
-      "name": "SmolLM2 1.7B Instruct",
+      "name": "Vicuna 7B",
       "organization": null,
       "rank": 407
     },
     {
-      "name": "Llama 3.2 1B Instruct",
+      "name": "SmolLM2 1.7B Instruct",
       "organization": null,
       "rank": 408
     },
     {
-      "name": "Mistral 7B Instruct",
+      "name": "Llama 3.2 1B Instruct",
       "organization": null,
       "rank": 409
     },
     {
-      "name": "Llama 2 7B Chat",
+      "name": "Mistral 7B Instruct",
       "organization": null,
       "rank": 410
     },
     {
-      "name": "Gemma 2B IT",
+      "name": "Llama 2 7B Chat",
       "organization": null,
       "rank": 411
     },
     {
-      "name": "Qwen1.5-4B-Chat",
+      "name": "Gemma 2B IT",
       "organization": null,
       "rank": 412
     },
     {
-      "name": "OLMo 7B Instruct",
+      "name": "Qwen1.5-4B-Chat",
       "organization": null,
       "rank": 413
     },
     {
-      "name": "Koala 13B",
+      "name": "OLMo 7B Instruct",
       "organization": null,
       "rank": 414
     },
     {
-      "name": "Alpaca 13B",
+      "name": "Koala 13B",
       "organization": null,
       "rank": 415
     },
     {
-      "name": "GPT4All 13B Snoozy",
+      "name": "Alpaca 13B",
       "organization": null,
       "rank": 416
     },
     {
-      "name": "MPT 7B Chat",
+      "name": "GPT4All 13B Snoozy",
       "organization": null,
       "rank": 417
     },
     {
-      "name": "ChatGLM3 6B",
+      "name": "MPT 7B Chat",
       "organization": null,
       "rank": 418
     },
     {
-      "name": "RWKV-4 Raven 14B",
+      "name": "ChatGLM3 6B",
       "organization": null,
       "rank": 419
     },
     {
-      "name": "ChatGLM2 6B",
+      "name": "RWKV-4 Raven 14B",
       "organization": null,
       "rank": 420
     },
     {
-      "name": "OpenAssistant Pythia 12B",
+      "name": "ChatGLM2 6B",
       "organization": null,
       "rank": 421
     },
     {
-      "name": "ChatGLM 6B",
+      "name": "OpenAssistant Pythia 12B",
       "organization": null,
       "rank": 422
     },
     {
-      "name": "FastChat-T5 3B",
+      "name": "ChatGLM 6B",
       "organization": null,
       "rank": 423
     },
     {
-      "name": "Dolly 2.0 12B",
+      "name": "FastChat-T5 3B",
       "organization": null,
       "rank": 424
     },
     {
-      "name": "LLaMA 13B",
+      "name": "Dolly 2.0 12B",
       "organization": null,
       "rank": 425
     },
     {
-      "name": "StableLM Tuned Alpha 7B",
+      "name": "LLaMA 13B",
       "organization": null,
       "rank": 426
+    },
+    {
+      "name": "StableLM Tuned Alpha 7B",
+      "organization": null,
+      "rank": 427
     }
   ]
 }
