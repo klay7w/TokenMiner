@@ -1,16 +1,18 @@
-date: 2026-11-24
+date: 2026-11-26
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 629
+models: 634
 free_models: 15
-changes: 8
+changes: 10
+change: New free model: deepseek/deepseek-v4.1-flash-1017-free (tokenrouter)
+change: Free model removed: dots-studio/dots-3-note-preview:free (openrouter)
 change: DeepInfra: watch page changed: https://deepinfra.com
 change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
-change: Mistral AI: watch page changed: https://mistral.ai/pricing
+change: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing
 change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
 change: Requesty: watch page changed: https://requesty.ai
 change: SiliconFlow: watch page changed: https://siliconflow.com
+change: Tencent Hunyuan: watch page changed: https://cloud.tencent.com/document/product/1729/97731
 change: Together AI: watch page changed: https://www.together.ai/pricing
-change: Zhipu AI (BigModel): watch page changed: https://docs.z.ai/guides/overview/pricing

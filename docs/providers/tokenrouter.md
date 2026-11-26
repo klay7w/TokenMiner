@@ -9,13 +9,19 @@ AI model router (tokenrouter.com) exposing OpenAI-, Anthropic- and Gemini-compat
 ## Current Free Offers
 
 - **TokenRouter Free Models (1 model)** — type `free_tier`, value —, status `active`, confidence `official`
-  - 1 model with '-free' suffix in the id (e.g. z-ai/glm-5.3-free) listed on the official models page. Context length and pricing are not published on that page and remain unknown.
+  - 1 model with '-free' suffix in the id (e.g. deepseek/deepseek-v4.1-flash-1017-free) listed on the official models page. Context length and pricing are not published on that page and remain unknown.
   - Claim: https://tokenrouter.com/models
   - Source: https://tokenrouter.com/models
 
 ## Free Models
 
-_No free models tracked for this provider (yet)._
+| Model | Rank | Ctx | Caps | Link |
+|---|---|---|---|---|
+| deepseek-v4.1-flash-1017-free | — | — | 📝 | [↗](https://tokenrouter.com/models/deepseek/deepseek-v4.1-flash-1017-free/) |
+
+Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRouter](https://openrouter.ai) weekly usage rank · — unranked
+
+*📝 text · 🖼️ image I/O · 👁️ image input (vision) · 🎬 video · 🔊 audio · 🧩 embedding · 🛠️ tools · 🧠 reasoning*
 
 ## API
 
@@ -36,22 +42,23 @@ _No officially published rate-limit numbers recorded for free usage._
 
 ## Pros
 
+- 1 free model(s) available
 - multi-format API (openai, anthropic, gemini)
 
 ## Cons
 
-_No notable drawbacks derived from current data._
+- free-model context windows not officially published
 
 ## TokenMiner Score
 
-**25/100 — grade D**
+**65/100 — grade C**
 
 | Component | Points | Max |
 |---|---|---|
-| Free Value | 0 | 30 |
-| Model Quality | 0 | 20 |
-| Quota & Rate Limit | 0 | 15 |
-| Context Window | 0 | 10 |
+| Free Value | 24 | 30 |
+| Model Quality | 6 | 20 |
+| Quota & Rate Limit | 8 | 15 |
+| Context Window | 2 | 10 |
 | API Compatibility | 10 | 10 |
 | Ease of Claim | 5 | 5 |
 | Platform Reliability | 5 | 5 |
@@ -77,5 +84,5 @@ Risk tags: ♾️ Permanent Free Tier
 
 ## Last Verified
 
-- Provider: 2026-11-24
-- Offer `tokenrouter-free-models`: 2026-11-24
+- Provider: 2026-11-26
+- Offer `tokenrouter-free-models`: 2026-11-26
