@@ -117,16 +117,7 @@ Rate limits are rarely published; see provider pages. API compatibility: OpenRou
 
 # 🕒 Recently Changed
 
-2026-11-26: New free model: deepseek/deepseek-v4.1-flash-1017-free (tokenrouter)  
-2026-11-26: Free model removed: dots-studio/dots-3-note-preview:free (openrouter)  
-2026-11-26: DeepInfra: watch page changed: https://deepinfra.com  
-2026-11-26: Fireworks AI: watch page changed: https://fireworks.ai/pricing  
-2026-11-26: Hugging Face Inference Providers: watch page changed: https://huggingface.co/docs/inference-providers/pricing  
-2026-11-26: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/  
-2026-11-26: Requesty: watch page changed: https://requesty.ai  
-2026-11-26: SiliconFlow: watch page changed: https://siliconflow.com  
-2026-11-26: Tencent Hunyuan: watch page changed: https://cloud.tencent.com/document/product/1729/97731  
-2026-11-26: Together AI: watch page changed: https://www.together.ai/pricing
+2026-11-26: Fireworks AI: watch page changed: https://fireworks.ai/pricing
 
 Full history in [CHANGELOG.md](CHANGELOG.md).
 
