@@ -1,9 +1,12 @@
-date: 2026-11-26
+date: 2026-11-27
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 634
+models: 638
 free_models: 15
-changes: 1
-change: Fireworks AI: watch page changed: https://fireworks.ai/pricing
+changes: 4
+change: DeepInfra: watch page changed: https://deepinfra.com
+change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
+change: Together AI: watch page changed: https://www.together.ai/pricing
+change: Zhipu AI (BigModel): watch page changed: https://docs.bigmodel.cn/cn/update/promotion

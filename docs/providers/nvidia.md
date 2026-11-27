@@ -77,5 +77,5 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-11-26
-- Offer `nvidia-free-inference`: 2026-11-26
+- Provider: 2026-11-27
+- Offer `nvidia-free-inference`: 2026-11-27

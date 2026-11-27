@@ -19,18 +19,18 @@ Multi-provider LLM API router. Aggregates hundreds of models behind an OpenAI-co
 |---|---|---|---|---|
 | Gemma 4 31B | #84 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-31b-it-20260402) |
 | Gemma 4 26B A4B | #107 🏆 | 262K | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/google/gemma-4-26b-a4b-it-20260403) |
-| Ling 3.2 Flash | #19 🔥 | 1M | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.2-flash-20261113) |
-| ERNIE-5.5-Flash-Preview | #22 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/baidu/ernie-5.5-flash-preview-20261110) |
-| LiquidAI: LFM3-1.7B | #32 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-3-1.7b-20261106) |
-| Particle AI: Particle-1 | #41 🔥 | 1M | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/particle-ai/particle-1-20261027) |
-| Flint | #48 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/recursive/flint-v1.0-20261021) |
-| Nemotron 3.5 Super VL | #59 🔥 | 1M | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) |
-| Nemotron 3.5 Lightning | #156 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
-| Nemotron 3 Ultra | #211 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
-| Nemotron 3 Nano Omni | #230 🔥 | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
-| Lyria 3 Pro Preview | #261 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
-| Lyria 3 Clip Preview | #262 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
-| Free Models Router | #473 🔥 | 200K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/openrouter/free) |
+| Ling 3.2 Flash | #20 🔥 | 1M | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/inclusionai/ling-3.2-flash-20261113) |
+| ERNIE-5.5-Flash-Preview | #23 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/baidu/ernie-5.5-flash-preview-20261110) |
+| LiquidAI: LFM3-1.7B | #33 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/liquid/lfm-3-1.7b-20261106) |
+| Particle AI: Particle-1 | #42 🔥 | 1M | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/particle-ai/particle-1-20261027) |
+| Flint | #49 🔥 | 262K | 📝🛠️🧠 | [↗](https://openrouter.ai/recursive/flint-v1.0-20261021) |
+| Nemotron 3.5 Super VL | #60 🔥 | 1M | 📝🖼️🎬🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-super-vl-20261015) |
+| Nemotron 3.5 Lightning | #157 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3.5-lightning-20260807) |
+| Nemotron 3 Ultra | #212 🔥 | 1M | 📝🛠️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b-20260604) |
+| Nemotron 3 Nano Omni | #231 🔥 | 256K | 📝🖼️🎬🔊🛠️👁️🧠 | [↗](https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428) |
+| Lyria 3 Pro Preview | #262 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-pro-preview-20260330) |
+| Lyria 3 Clip Preview | #263 🔥 | 1M | 📝🖼️🔊👁️ | [↗](https://openrouter.ai/google/lyria-3-clip-preview-20260330) |
+| Free Models Router | #476 🔥 | 200K | 📝🖼️🛠️👁️🧠 | [↗](https://openrouter.ai/openrouter/free) |
 
 Rank: 🏆 [LMArena](https://llmarena.ai) text-leaderboard rank · 🔥 [OpenRouter](https://openrouter.ai) weekly usage rank · — unranked
 
@@ -107,5 +107,5 @@ Risk tags: ♾️ Permanent Free Tier
 
 ## Last Verified
 
-- Provider: 2026-11-26
+- Provider: 2026-11-27
 - Offer `openrouter-free-models`: 2026-10-20 ⚠️ stale
