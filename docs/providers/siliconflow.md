@@ -86,7 +86,7 @@ _Insufficient evidence to recommend._
 
 ## Last Verified
 
-- Provider: 2026-11-27
-- Offer `siliconflow-free-models`: 2026-11-27
+- Provider: 2026-11-28
+- Offer `siliconflow-free-models`: 2026-11-28
 - Offer `siliconflow-realname-referral-voucher`: 2026-09-21 ⚠️ stale
 - Offer `siliconflow-signup-credit`: 2026-11-24

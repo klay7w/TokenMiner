@@ -1,12 +1,13 @@
-date: 2026-11-27
+date: 2026-11-28
 providers: 19
 offers: 18
 offers_by_status: {'active': 14, 'expired': 1, 'uncertain': 3}
 offers_by_confidence: {'official': 18}
-models: 638
-free_models: 15
-changes: 4
+models: 637
+free_models: 14
+changes: 5
+change: Free model removed: inclusionai/ling-3.2-flash:free (openrouter)
 change: DeepInfra: watch page changed: https://deepinfra.com
+change: Mistral AI: watch page changed: https://mistral.ai/pricing
 change: NVIDIA Build (NIM APIs): watch page changed: https://build.nvidia.com/
-change: Together AI: watch page changed: https://www.together.ai/pricing
-change: Zhipu AI (BigModel): watch page changed: https://docs.bigmodel.cn/cn/update/promotion
+change: Requesty: watch page changed: https://requesty.ai
